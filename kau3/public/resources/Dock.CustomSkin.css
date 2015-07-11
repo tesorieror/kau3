@@ -1,0 +1,36 @@
+.RadDock_CustomSkin .rdMiddle .rdLeft,
+.RadDock_CustomSkin .rdMiddle .rdRight
+{
+	/*background-image: url('Dock/VerticalSprite.gif');*/
+}
+
+.RadDock_CustomSkin .rdTop .rdLeft,
+.RadDock_CustomSkin .rdTop .rdRight,
+.RadDock_CustomSkin .rdTop .rdCenter,
+.RadDock_CustomSkin .rdBottom .rdLeft,
+.RadDock_CustomSkin .rdBottom .rdRight,
+.RadDock_CustomSkin .rdBottom .rdCenter
+{
+	/*background-image: url('Dock/HorizontalSprite.gif');*/
+}
+
+.RadDock_CustomSkin .rdCenter .rdCommands a span
+{
+	background-image: url('Dock/CommandSprite.gif');
+}
+
+.RadDock_CustomSkin .rdMiddle .rdCenter,
+.RadDock_CustomSkin .rdBottom .rdCenter
+{
+	background-color: #fff;
+}
+
+.RadDock_CustomSkin .rdContent
+{
+	color: black;
+}
+
+.RadDock_CustomSkin em
+{
+	color: #000;
+}

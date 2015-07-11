@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BellezaRegular';
+    src: url('belleza.eot');
+    src: url('belleza.eot') format('embedded-opentype'),
+         url('belleza.woff') format('woff'),
+         url('belleza.ttf') format('truetype'),
+         url('belleza.svg#BellezaRegular') format('svg');
+}

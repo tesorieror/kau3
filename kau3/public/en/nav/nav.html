@@ -1,0 +1,62 @@
+<div class="kau-main">
+	<ul class="nav nav-pills kau">
+		<li role="presentation" ng-class="{active: activePath == '/main'}">
+			<a href="#/main">Presentation</a>
+		</li>
+		<li role="presentation" class="dropdown" ng-class="{active: activePath == '/goalOfUnit', active: activePath == '/aboutUnit'}">
+			<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+				About
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li role="presentation" ng-class="{active: activePath == '/aboutUnit'}">
+					<a href="#/aboutUnit">About Unit</a>
+				</li>
+				<li role="presentation" ng-class="{active: activePath == '/goalOfUnit'}">
+					<a href="#/goalOfUnit">Goal of the Unit</a>
+				</li>
+			</ul>
+		</li>
+		<li role="presentation" class="disabled">
+			<a href="">KAU Rankings</a>
+		</li>		
+		<li role="presentation" class="dropdown" ng-class="{active: activePath.indexOf('/data')==0}">
+			<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+				Data
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li role="presentation">
+					<a href="#/indicator">Indicator</a>
+				</li>
+				<li role="presentation" class="disabled">
+					<a href="">University</a>
+				</li>
+				<li role="presentation" class="disabled">
+					<a href="">Campuses</a>
+				</li>
+				<li role="presentation" class="disabled">
+					<a href="">Faculties</a>
+				</li>
+				<li role="presentation" class="disabled">
+					<a href="">Departments</a>
+				</li>
+				<li role="presentation" ng-class="{active: activePath.indexOf('/data/category/Students')==0}">
+					<a href="#/data/category/Students/subcategory/Freshmen">Students</a>
+				</li>
+				<li role="presentation" class="disabled">
+					<a href="">Spending on Education</a>
+				</li>
+				<li role="presentation" ng-class="{active: activePath.indexOf('/data/category/QSR')==0}">
+					<a href="#/data/category/QSR/subcategory/WoK/subsubcategory2/Publications">Quality and Scientific Research</a>
+				</li>
+			</ul>
+		</li>
+		<li role="presentation" class="disabled">
+			<a href="">Indicators</a>
+		</li>
+		<li role="presentation" class="disabled">
+			<a href="">Comparisons</a>
+		</li>
+	</ul>
+</div>

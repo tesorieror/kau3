@@ -1,0 +1,87 @@
+﻿a, a:link, a:active, a:visited {
+				
+				text-decoration:none;
+
+}
+			
+					.list_carousel li a.title:hover {
+				color:#b0ad27;
+			}
+
+			
+			.list_carousel {
+
+				
+				width: 600px;
+			
+                  direction:rtl;
+   
+			}
+			.list_carousel ul 
+			{
+				right:10px;
+				margin: 0 auto;
+				padding: 0;
+				list-style: none;
+				display: block;
+				width:600px;
+
+}
+			.list_carousel li {
+				font-size: 20px;
+				color: #999;
+				height:100px;
+				width: 130px;
+				text-align: center;
+				font-size:14px;
+				padding: 0;
+				
+				display: block;
+				float:right;
+			}
+			
+			.list_carousel li .title { color:#ffffff;height:45px; width:152px; font-size:18px;font-family:Arial, Helvetica, sans-serif;  display:block; padding-bottom:0px;
+	text-align: center;
+}
+			.list_carousel li span{font-family:Tahoma, Times New Roman; color:#666 ;font-size:12px; font-weight:bold; cursor:default;text-align:center;}
+
+         
+         .list_carousel li.line{width:8px; height:50px}
+			
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 7px;position:relative; top:-145px;
+				
+				
+
+			}
+			.next {
+				float: right;
+				margin-right: 0px;position:relative; top:-150px
+
+			}
+			.prev img ,.next img { border:none}
+			.pagination  {
+				
+				text-align: center;margin: auto  ;
+
+			}
+			.pagination a {
+	    background: url(../images/point.png)  no-repeat transparent;
+	    width: 17px;
+	    height: 21px;
+	    margin:0 0px 0 0;
+	    display: inline-block;
+	}
+	.pagination a.selected {
+	       background: url(../images/pointOver.png)  no-repeat transparent;
+	    cursor: default;
+	}
+	.pagination a span {
+	    display: none;
+	}
+			

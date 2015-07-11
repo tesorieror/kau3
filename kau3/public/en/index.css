@@ -1,0 +1,792 @@
+/**
+* Aboid button focus
+*/
+.btn:focus {
+	outline: none;
+}
+
+/**
+* KAU form
+*/
+form.kau {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-bottom: 1px SOLID LIGHTGREY;
+	background-color: rgb(245, 245, 245);
+}
+
+/**
+* KAU Check only
+*/
+div.kau-check {
+	background-color: rgb(245, 245, 245);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px SOLID LIGHTGREY;
+}
+
+div.kau-check-accordeon {
+	padding: 0px;
+	margin: -15px;
+}
+
+div.kau-check-accordeon div {
+	display: inline-block;
+	padding: 5px;
+}
+
+/**
+* KAU Filter Accordeon
+*/
+div.kau-filter-accordeon {
+	margin-bottom: -20px;
+}
+
+div.kau-filter-accordeon div div div.panel-heading {
+	background-attachment: inherit;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-color: none;
+	border: 0px;
+	border-radius: 0px;
+	padding: 15px 10px 15px 10px;
+	border-bottom: 1px SOLID rgb(211, 211, 211);
+}
+
+div.kau-filter-accordeon div div div.in div.panel-body {
+	border-top: 0px !important;
+	border-bottom: 1px SOLID rgb(211, 211, 211);
+}
+
+div.kau-filter-accordeon div div div.collapsing div.panel-body {
+	border-top: 0px !important;
+	border-bottom: 1px SOLID rgb(211, 211, 211);
+}
+
+div.kau-filter-accordeon div div div.panel-heading h4 a span {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+div.kau-filter-accordeon div div div.panel-heading h4 a {
+	text-decoration: none;
+}
+
+div.kau-filter-accordeon div div div.panel-heading h4 a:HOVER {
+	text-decoration: none;
+	color: #060;
+}
+
+div.kau-filter-accordeon div div.panel-default {
+	border: 0px;
+}
+
+div.kau-check div {
+	display: inline-block;
+	padding: 10px 15px 10px 15px;
+}
+
+div.kau-check div a {
+	color: #060;
+}
+
+div.kau-check div a:hover {
+	color: black;
+	text-decoration: none;
+	/*background-color: #060;*/
+}
+
+div.kau-check div input {
+	color: #060;
+	background-color: #060;
+}
+
+/**
+* KAU nav-tabs
+*/
+ul.nav-tabs li.active a {
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: rgb(245, 245, 245);
+	color: #060;
+}
+
+ul.nav-tabs li a {
+	color: #060;
+}
+
+/**
+* KAU panel 
+*/
+div.kau-panel {
+	border-top: 0px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+/**
+* KAU panel nav-pills
+*/
+div.kau-panel div.panel-header ul.nav-pills {
+	background-color: rgb(245, 245, 245);
+	border-bottom: 1px SOLID LIGHTGREY;
+}
+
+div.kau-panel div.panel-header ul.nav-pills li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+div.kau-panel div.panel-header ul.nav-pills li a {
+	color: #060;
+}
+
+div.kau-panel div.panel-header ul.nav-pills li.active a {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-panel div.panel-header ul.nav-pills li a:hover {
+	background-color: #060;
+	color: white;
+}
+
+/**
+* KAU Main nav-pills
+*/
+div.kau-main ul.nav-pills.kau {
+	/*background-color: rgb(245, 245, 245);*/
+	background-color: rgb(245, 245, 245);
+	
+/*	border: 1px SOLID LIGHTGREY;
+	margin-bottom: 5px;*/
+}
+
+div.kau-main ul.nav-pills.kau li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+div.kau-main ul.nav-pills.kau li a {
+	color: #060;
+}
+
+div.kau-main ul.nav-pills.kau li.active a {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-main ul.nav-pills.kau li a:hover {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-main ul.nav-pills.kau li.disabled a:hover {
+	background-color: lightgrey;
+	color: grey;
+}
+
+/**
+* Main nav
+*/
+ul.nav-pills.kau li.dropdown ul.dropdown-menu {
+	color: #060;
+	background-color: rgb(245, 245, 245);
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li a {
+	color: #060;
+	background-color: rgb(245, 245, 245);
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li.active a {
+	color: white;
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: #060;
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li a:hover {
+	color: white;
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: #060;
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li.disabled a:hover {
+	color: grey;
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: lightgrey;
+}
+
+/**
+* DD patch
+*/
+dd {
+	margin-bottom: 10px;
+}
+
+/**
+* Carousel right
+*/
+div.carousel-caption-right {
+	/*background-color: rgba(80, 80, 80, 0.5) !important;*/
+	background-color: #f0ab3f !important;
+	text-shadow: none;
+	color: black;
+	left: 500px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+
+div.carousel-caption-right p {
+	text-align: left;
+}
+
+/**
+* Patch Bootstrap Angular
+*/
+.nav, .pagination, .carousel, .panel-title a {
+	cursor: pointer;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: #990000;
+	padding: 10px;
+	color: #efefef;
+}
+
+/**
+* Main header
+*/
+div.main-header {
+	/*background-color: #669999;*/
+	background-color: #37a846; /*#0f5934;*/
+	color: white;
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+}
+
+div.main-header h1 {
+	/*font-family: 'Lato', sans-serif;*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/**
+* Main header panel
+
+div.main-header-panel {	
+	background-color: #669999;
+	color: white;
+	text-align: right;
+	padding: 2em 1em 2em 1em;
+}
+
+div.main-header-panel h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	text-align: right;
+	color: white;
+	font-size: 1.8em;
+	line-height: 1.6em;
+	display: block;
+}
+
+div.main-header-panel p {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-align: right;
+	color: white;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	display: block;
+}
+*/
+
+/**
+* Highlight panel
+*/
+div.highlights {
+	margin: 0px 0px 0px 0px;
+	padding: 0em 1em 1em 1em;
+	background-color: #FFC386;
+}
+
+div.highlights h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/**
+* r-highlight
+*/
+div.r-highlight {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	background-color: #FFE0C0;
+}
+
+div.r-highlight h3 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	color: black;
+	padding-top: 1em;
+}
+
+div.r-highlight h4 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	color: grey;
+}
+
+div.r-highlight p {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-align: left;
+	padding: 0em 1em 1em 1em;
+}
+
+/**
+* Highlight panel link
+*/
+div.r-highlight  a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+div.r-highlight  a:link {
+	text-decoration: none;
+	color: black;
+}
+
+div.r-highlight  a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+div.r-highlight  a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+div.r-highlight  a:active {
+	text-decoration: none;
+	color: black;
+}
+
+/**
+* Freshmen panel
+*/
+div.freshmen {
+	margin: 0px 0px 0px 0px;
+	padding: 0em 1em 1em 1em;
+	/*	background-color: #81adfe;*/
+	background-color: #DCE5FA;
+}
+
+div.freshmen h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+div.freshmen h5 {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+div.freshmen h5:hover {
+	cursor: pointer;
+}
+
+.freshmen-tooltip+.tooltip>.tooltip-inner {
+	background-color: #fff;
+	border: 1px solid lightgrey;
+	color: black;
+	font-size: 8pt;
+	line-height: 0.5;
+}
+
+div.freshmen div {
+	display: block;
+	margin: 0 auto;
+}
+
+/**
+* Description panel
+*/
+div.description {
+	margin: 0px 0px 0px 0px;
+	padding: 0em 1em 1em 1em;
+}
+
+div.description h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/**
+* About Unit
+*/
+div.about-unit {
+	
+}
+
+div.about-unit div blockquote {
+	/*border-left-color: #61210B;*/
+	border-left-color: #060;
+}
+
+div.about-unit h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	/*color: #61210B;*/
+	color: #060;
+	text-align: center;
+}
+
+div.about-unit h3 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	/*color: #61210B;*/
+	color: #060;
+	text-align: center;
+}
+
+div.about-unit p {
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 10px;
+}
+
+/**
+* Goal of the Unit
+*/
+div.goal-unit {
+	
+}
+
+div.goal-unit div blockquote {
+	/*border-left-color: #61210B;*/
+	border-left-color: #060;
+}
+
+div.goal-unit h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	/*color: #61210B;*/
+	color: #060;
+	text-align: center;
+}
+
+div.goal-unit h3 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	/*color: #61210B;*/
+	color: #060;
+	text-align: center;
+}
+
+div.goal-unit p {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 10px;
+}
+
+/**
+* Data Table
+*/
+div.data-table {
+	margin: 0px 0px 0px 0px;
+	/*padding: 0em 1em 1em 1em;*/
+	/*background-color: #FFC386;*/
+}
+
+div.data-table h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/**
+* Data Bar
+*/
+div.data-bar {
+	margin: 0px 0px 0px 0px;
+	padding: 0em 1em 1em 1em;
+	/*background-color: #FFC386;*/
+}
+
+div.data-bar h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/**
+* R Hierarchical Filter Four
+*/
+div.rHierarchicalFilterFour {
+	
+}
+
+div.rHierarchicalFilterFour {
+	border: 1px lightgrey SOLID;
+	margin: 5px;
+}
+
+/**
+* Data Bar
+*/
+div.data-line {
+	margin: 0px 0px 0px 0px;
+	padding: 0em 1em 1em 1em;
+	/*background-color: #FFC386;*/
+}
+
+div.data-line h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/**
+* Filter
+*/
+form.r-multiple-selection div {
+	margin-bottom: 2px;
+}
+
+input.r-multiple-selection-filter {
+	/*	width: 100%;*/
+	
+}
+
+div.r-multiple-selection-container {
+	height: 150px;
+	overflow: auto;
+	border: 2px INSET lightgrey;
+	border-radius: 3px;
+	/*padding: 5px;*/
+}
+
+div.r-multiple-selection-container div {
+	margin: 1px 2px 0px 2px;
+}
+
+/**
+* Single Selection
+*/
+form.r-single-selection div {
+	margin-bottom: 2px;
+}
+
+input.r-single-selection-filter {
+	/*	width: 100%;*/
+	
+}
+
+div.r-single-selection-container {
+	height: 150px;
+	overflow: auto;
+	border: 2px INSET lightgrey;
+	border-radius: 3px;
+	/*padding: 5px;*/
+}
+
+div.r-single-selection-container div {
+	margin: 1px 2px 0px 2px;
+}
+
+/**
+* Students panel
+*/
+div.students {
+	margin: 0px 0px 0px 0px;
+	padding: 0em 1em 1em 1em;
+	background-color: white;
+}
+
+div.students h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/**
+* Data
+*/
+div.data {
+	
+}
+
+div.data h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	/*color: rgb(51, 122, 183);*/
+	color: #060;
+	text-align: center;
+}
+
+div.data h3 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+div.data p {
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 10px;
+}
+
+/**
+* Thumbnail
+*/
+div.thumbnail.data {
+	background-color: beige;
+	border: 0px NONE black;
+}
+
+div.thumbnail.data h3 {
+	margin: 0px;
+}
+
+div.thumbnail.data p {
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	text-align: left;
+	margin: 5px;
+}
+
+div.thumbnail.data a img {
+	padding: 20px;
+	opacity: .5;
+}
+
+div.thumbnail.data a img:hover {
+	padding: 20px;
+	opacity: 1;
+}
+
+/**
+* thumbnail-image
+*/
+div.thumbnail.thumbnail-image {
+	background-color: beige;
+	/* border: 0px NONE black;
+	box-shadow: NONE;*/
+}
+
+div.thumbnail.thumbnail-image h3 {
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	font-weight: 900;
+	margin: 0px;
+	color: black;
+	text-align: center;
+}
+
+div.thumbnail.thumbnail-image p {
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	text-align: left;
+	margin: 5px;
+}
+
+div.thumbnail.thumbnail-image a img {
+	padding: 20px;
+	opacity: .5;
+}
+
+div.thumbnail.thumbnail-image a img:hover {
+	padding: 20px;
+	opacity: 1;
+}
+
+div.thumbnail.thumbnail-image div.caption {
+	/*background-color: green;*/
+	height: 100px;
+}

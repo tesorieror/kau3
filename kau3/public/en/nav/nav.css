@@ -1,0 +1,73 @@
+/**
+* KAU Main
+*/
+div.kau-main ul.nav-pills.kau {
+	/*background-color: rgb(245, 245, 245);*/
+	background-color: rgb(245, 245, 245);
+
+	/*	border: 1px SOLID LIGHTGREY;
+	margin-bottom: 5px;*/
+}
+
+div.kau-main ul.nav-pills.kau li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.kau-main ul.nav-pills.kau li a {
+	color: #060;
+}
+
+div.kau-main ul.nav-pills.kau li.active a {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-main ul.nav-pills.kau li a:hover {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-main ul.nav-pills.kau li.disabled a:hover {
+	background-color: lightgrey;
+	color: grey;
+}
+
+/**
+* Main nav
+*/
+ul.nav-pills.kau li.dropdown ul.dropdown-menu {
+	color: #060;
+	background-color: rgb(245, 245, 245);
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li a {
+	color: #060;
+	background-color: rgb(245, 245, 245);
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li.active a {
+	color: white;
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: #060;
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li a:hover {
+	color: white;
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: #060;
+}
+
+ul.nav-pills.kau li.dropdown ul.dropdown-menu li.disabled a:hover {
+	color: grey;
+	background-repeat: no-repeat;
+	background-image: none;
+	background-attachment: inherit;
+	background-color: lightgrey;
+}
