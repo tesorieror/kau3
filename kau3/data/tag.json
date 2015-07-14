@@ -1,0 +1,23 @@
+[
+{"name":"PU","description":"Public Universities","category":"IT","order":"2"},
+{"name":"PUC","description":"Private Universities and Colleges","category":"IT","order":"3"},
+{"name":"OI","description":"Other Institutions in Higher Education","category":"IT","order":"4"},
+{"name":"TO","description":"All","category":"IT","order":"1"},
+{"name":"DA","description":"Diploma Average","category":"GR","order":"3"},
+{"name":"BA","description":"Bachelor","category":"GR","order":"2"},
+{"name":"HD","description":"Higher Diploma","category":"GR","order":"4"},
+{"name":"MA","description":"Master","category":"GR","order":"6"},
+{"name":"FE","description":"Fellowship","category":"GR","order":"5"},
+{"name":"DO","description":"Doctorate","category":"GR","order":"7"},
+{"name":"TO","description":"All","category":"GR","order":"1"},
+{"name":"MA","description":"Male","category":"GE","order":"2"},
+{"name":"FE","description":"Female","category":"GE","order":"3"},
+{"name":"TO","description":"All","category":"GE","order":"1"},
+{"name":"SA","description":"Saudi","category":"NA","order":"2"},
+{"name":"NS","description":"Non-Saudi","category":"NA","order":"3"},
+{"name":"TO","description":"All","category":"NA","order":"1"},
+{"name":"FR","description":"Freshmen","category":"SS","order":"1"},
+{"name":"EN","description":"Enrolled","category":"SS","order":"2"},
+{"name":"GR","description":"Graduates of Previous Years","category":"SS","order":"3"},
+{"name":"1434-1435","description":"2013/14-1434/35","category":"YR","order":"1"}
+]

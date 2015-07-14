@@ -4,11 +4,27 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+
+var database = require('./config/database');
+
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var initialize = require('./routes/initialize');
+var tagCategoryName = require('./routes/tag-category/name');
+var tagCategory = require('./routes/tag/category');
+var indicatorTag = require('./routes/indicator/tag');
+
 var app = express();
+
+//Database conneciton
+mongoose.connect(database.url);
+var db = mongoose.connection;
+//app.set('db', db);
+db.on('error', console.error.bind(console, 'connection error:'));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -24,6 +40,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/initialize', initialize);
+app.use('/tagCategory/name', tagCategoryName);
+app.use('/tag/category', tagCategory);
+app.use('/indicator/tag', indicatorTag);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

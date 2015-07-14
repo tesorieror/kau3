@@ -18,6 +18,9 @@ app.config(function($routeProvider, $locationProvider) {
 	}).when('/goalOfUnit', {
 		templateUrl : './goal-of-unit/goal-of-unit.html',
 		controller : 'GoalOfUnitCtrl'
+	}).when('/students-academic-level', {
+		templateUrl : './students-academic-level/students-academic-level.html',
+		controller : 'StudentsAcademicLevelCtrl'
 	}).when('/informationNotAvailable', {
 		templateUrl : './information-not-available/information-not-available.html',
 		controller : 'InformationNotAvailableCtrl'

@@ -1,0 +1,19 @@
+[ {
+	"name" : "IT",
+	"description" : "Institution Type"
+}, {
+	"name" : "GR",
+	"description" : "Grade"
+}, {
+	"name" : "GE",
+	"description" : "Gender"
+}, {
+	"name" : "NA",
+	"description" : "Nationality"
+}, {
+	"name" : "YR",
+	"description" : "Year"
+}, {
+	"name" : "SS",
+	"description" : "Student State"
+} ]

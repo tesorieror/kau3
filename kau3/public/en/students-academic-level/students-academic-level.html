@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col-xs-12">
+		<div ng-include="'./nav/nav.html'"></div>
+	</div>
+</div>
+<div class="row students-academic-level">
+	<div class="col-xs-12">
+		<h2>{{title}}</h2>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<accordion> <accordion-group is-open="tagFilter.open"> <accordion-heading> {{tagFilter.title}} <i
+			class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': tagFilter.open, 'glyphicon-chevron-right': !tagFilter.open}"
+		></i> </accordion-heading>
+		<dl>
+			<span ng-repeat="cat in tagCategories">
+				<dt>{{cat.description}}</dt>
+				<dd>
+					<div class="btn-group">
+						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox>{{tag.description}}</label>
+					</div>
+				</dd>
+			</span>
+		</dl>
+		<p style="text-align: right">
+			<button type="button" class="btn btn-default" ng-click="applyFilter()">Apply</button>
+		</p>
+		</accordion-group></accordion>
+		<div class="row">
+			<div class="col-xs-12">
+				<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
+					on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
+				></div>
+			</div>
+		</div>
+	</div>
+</div>
