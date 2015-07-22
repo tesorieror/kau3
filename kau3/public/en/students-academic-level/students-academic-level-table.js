@@ -30,11 +30,11 @@ app.factory('indicatorTable', function($http, $q, $log) {
 				// "height" : "450",
 				"width" : '100%',
 				"height" : '100%',
-				"pageSize" : "10",
+				"pageSize" : "20",
 				"page" : "enable",
 				"showRowNumber" : false,
 				"sort" : "enable",
-				"allowHtml" : "true",
+				"allowHtml" : "true",				
 			}
 		// ,
 		// "formatters" : {
@@ -77,45 +77,29 @@ app.factory('indicatorTable', function($http, $q, $log) {
 	}
 
 	function buildRows(data) {
-
-		var tagsById = _.indexBy(data.tags, '_id');
-		// var categoriesById = _.indexBy(data.categories, '_id');
-
 		var categoryIdOrder = _.pluck(data.categories, '_id');
-
-		// console.log("tagsById", tagsById);
-		// console.log("categoryIdOrder", categoryIdOrder);
-		console.log("data.indicators", data.indicators);
-
 		return _.map(data.indicators, function(indicator) {
-
 			var tags = _.sortBy(indicator._tags, function(tag) {
-				return categoryIdOrder.indexOf(tagsById[tag]._category);
+				return categoryIdOrder.indexOf(tag._category);
 			});
-
-			// console.log("tags", tags);
-
-			var values = _.map(indicator._tags, function(tagId) {
+			var values = _.map(tags, function(tag) {
 				return {
-					"v" : tagsById[tagId].description,
+					"v" : tag.description,
 					"p" : {
 						"style" : "font-size:11px"
 					}
 				}
 			});
-
 			values.push({
 				"v" : indicator.value,
 				"p" : {
 					"style" : "font-size:11px"
 				}
 			});
-
 			return {
 				"c" : values
 			}
 		});
 	}
-
 	return factory;
 });

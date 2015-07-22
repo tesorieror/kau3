@@ -15,7 +15,7 @@ router.get('/', function(req, res) {
 
 	var plainTagCategories;
 	var plainTags;
-	var plainIndicators;
+	var plainIndicators = [];
 
 	function setPlainTagCategories(categories) {
 		plainTagCategories = categories;
@@ -27,8 +27,8 @@ router.get('/', function(req, res) {
 		return tags;
 	}
 
-	function setPlainIndicators(indicators) {
-		plainIndicators = indicators;
+	function addPlainIndicators(indicators) {
+		plainIndicators = plainIndicators.concat(indicators);
 		return indicators;
 	}
 
@@ -65,7 +65,10 @@ router.get('/', function(req, res) {
 						.then(JSON.parse).then(setPlainTags),
 				q.nfbind(fs.readFile)(
 						path.join(__dirname, '../data/1434-1435-indicator.json'), 'utf-8')
-						.then(JSON.parse).then(setPlainIndicators) ]);
+						.then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1433-1434-indicator.json'), 'utf-8')
+						.then(JSON.parse).then(addPlainIndicators) ]);
 	}
 
 	function insertTagCategories(data) {
@@ -117,19 +120,28 @@ router.get('/', function(req, res) {
 			return tagDictionary;
 		})//
 		.then(function(mydic) {
+			
 			return _.map(plainIndicators, function(indicator) {
 				indicator._tags = _.map(indicator.tags, function(tag) {
+					
+					console.log(tag.category);
+					console.log(tag.name);
+					console.log(mydic[tag.category][tag.name]);
 					return mydic[tag.category][tag.name]._id;
 				});
 				delete indicator.tags;
 				return indicator;
 			});
 		})//
-		.then(
-				function(indicators) {
-					return q.nbind(Indicator.collection.insert, Indicator.collection)(
-							indicators);
-				});
+		.then(function(indicators) {
+			var arrays = [];
+			while (indicators.length > 0) {
+				arrays.push(indicators.splice(0, 1000));
+			}
+			return (q.all(_.map(arrays, function(a) {
+				return q.nbind(Indicator.collection.insert, Indicator.collection)(a);
+			})));
+		});
 	}
 
 	removeAll()//

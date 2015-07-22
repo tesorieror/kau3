@@ -15,7 +15,19 @@
 		></i> </accordion-heading>
 		<dl>
 			<span ng-repeat="cat in tagCategories">
-				<dt>{{cat.description}}</dt>
+				<dt>
+					<p>
+					<div class="btn-group" role="group" aria-label="...">
+						<button type="button" class="btn btn-default btn-xs" ng-click="check(cat)">
+							<span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
+						</button>
+						<button type="button" class="btn btn-default btn-xs" ng-click="uncheck(cat)">
+							<span class="glyphicon glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+						</button>
+					</div>
+					{{cat.description}}
+					</p>
+				</dt>
 				<dd>
 					<div class="btn-group">
 						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox>{{tag.description}}</label>
@@ -27,12 +39,27 @@
 			<button type="button" class="btn btn-default" ng-click="applyFilter()">Apply</button>
 		</p>
 		</accordion-group></accordion>
-		<div class="row">
-			<div class="col-xs-12">
-				<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
-					on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
-				></div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<form style="margin-bottom: 10px">
+			<div class="btn-group">
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'FullTable'" ng-click="setFullTableChart()" uncheckable>Full Table</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'SummaryTable'" ng-click="setSummaryTableChart()" uncheckable>Summary Table</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'DescriptionTable'" ng-click="setDescriptionTableChart()" uncheckable>Description
+					Table</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Bar'" ng-click="setBarChart()" uncheckable>Bar</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Line'" ng-click="setLineChart()" uncheckable>Line</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Pie'" ng-click="setPieChart()" uncheckable>Pie</label>
 			</div>
-		</div>
+		</form>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
+			on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
+		></div>
 	</div>
 </div>
