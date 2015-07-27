@@ -39,6 +39,8 @@ app
 								// "sort" : "enable",
 								"allowHtml" : "true",
 								"legend" : "bottom",
+								"legendMaxLines" : "10",
+								"title" : buildTitle(data),
 							}
 						// ,
 						// "formatters" : {
@@ -187,6 +189,29 @@ app
 						}, [ [] ]);
 
 					}
+					function buildTitle(data) {
+						var tagCollections = calculateTagCollections(data.categories,
+								data.tagFilterModel);
 
+						var notYearTagCollectionByLevels = tagCollections.slice(1);
+
+						var tagCollectionsOneTagOnly = _.filter(
+								notYearTagCollectionByLevels, function(tagCollection) {
+									return tagCollection.length == 1;
+								});
+
+						var tagCollectionsOneTagOnlyNotTotal = _.filter(
+								tagCollectionsOneTagOnly, function(tagCollection) {
+									return tagCollection[0].name != 'TO';
+								});
+
+						var yearTagCollection = tagCollections[0];
+
+						var yearTitle = _.pluck(yearTagCollection, 'name').join(',');
+						var titleTagCollection = _.flatten(
+								tagCollectionsOneTagOnlyNotTotal, true);
+						return _.pluck(titleTagCollection, 'description').join(' ').concat(
+								' Students in ').concat(yearTitle);
+					}
 					return factory;
 				});

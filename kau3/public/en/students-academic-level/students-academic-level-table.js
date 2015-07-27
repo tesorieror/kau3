@@ -34,7 +34,7 @@ app.factory('indicatorTable', function($http, $q, $log) {
 				"page" : "enable",
 				"showRowNumber" : false,
 				"sort" : "enable",
-				"allowHtml" : "true",				
+				"allowHtml" : "true",
 			}
 		// ,
 		// "formatters" : {
@@ -77,6 +77,9 @@ app.factory('indicatorTable', function($http, $q, $log) {
 	}
 
 	function buildRows(data) {
+
+		console.log("data.categories", data.categories);
+
 		var categoryIdOrder = _.pluck(data.categories, '_id');
 		return _.map(data.indicators, function(indicator) {
 			var tags = _.sortBy(indicator._tags, function(tag) {

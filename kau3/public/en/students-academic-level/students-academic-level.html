@@ -30,7 +30,9 @@
 				</dt>
 				<dd>
 					<div class="btn-group">
-						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox>{{tag.description}}</label>
+						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
+							ng-change="filterChanged()"
+						>{{tag.description}}</label>
 					</div>
 				</dd>
 			</span>
@@ -45,13 +47,16 @@
 	<div class="col-xs-12">
 		<form style="margin-bottom: 10px">
 			<div class="btn-group">
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'FullTable'" ng-click="setFullTableChart()" uncheckable>Full Table</label>
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'SummaryTable'" ng-click="setSummaryTableChart()" uncheckable>Summary Table</label>
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'DescriptionTable'" ng-click="setDescriptionTableChart()" uncheckable>Description
-					Table</label>
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Bar'" ng-click="setBarChart()" uncheckable>Bar</label>
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Line'" ng-click="setLineChart()" uncheckable>Line</label>
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Pie'" ng-click="setPieChart()" uncheckable>Pie</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'FullTable'" ng-click="setFullTableChart()" uncheckable>Full Table</label> <label
+					class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'SummaryTable'" ng-click="setSummaryTableChart()" uncheckable
+				>Summary Table</label> <label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'DescriptionTable'" ng-click="setDescriptionTableChart()"
+					uncheckable
+				>Description Table</label> <label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Column'" ng-click="setColumnChart()" uncheckable>Bar</label>
+				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Line'" ng-click="setLineChart()" uncheckable>Line</label> <label
+					class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Pie'" ng-click="setPieChart()" uncheckable
+				>Pie </label>
+				<!-- ng-show="isOneYearOnly"
+					ng-hide="!isOneYearOnly" -->
 			</div>
 		</form>
 	</div>

@@ -1,19 +1,29 @@
 [ {
 	"name" : "IT",
-	"description" : "Institution Type"
+	"description" : "Institution Type",
+	"order" : "2"
 }, {
 	"name" : "GR",
-	"description" : "Grade"
+	"description" : "Grade",
+	"order" : "5"
 }, {
 	"name" : "GE",
-	"description" : "Gender"
+	"description" : "Gender",
+	"order" : "7"
 }, {
 	"name" : "NA",
-	"description" : "Nationality"
+	"description" : "Nationality",
+	"order" : "6"
 }, {
 	"name" : "YR",
-	"description" : "Year"
+	"description" : "Year",
+	"order" : "1"
 }, {
 	"name" : "SS",
-	"description" : "Student State"
+	"description" : "Student State",
+	"order" : "4"
+}, {
+	"name" : "IN",
+	"description" : "Institution",
+	"order" : "3"
 } ]
