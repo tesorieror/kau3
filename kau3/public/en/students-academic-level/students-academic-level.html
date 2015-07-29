@@ -10,6 +10,21 @@
 </div>
 <div class="row">
 	<div class="col-xs-12">
+		<ul class="nav nav-pills">
+			<li role="presentation" class="active">
+				<a href="#">by Level</a>
+			</li>
+			<li role="presentation">
+				<a href="#">by Education</a>
+			</li>
+			<li role="presentation">
+				<a href="#">Messages</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
 		<accordion> <accordion-group is-open="tagFilter.open"> <accordion-heading> {{tagFilter.title}} <i
 			class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': tagFilter.open, 'glyphicon-chevron-right': !tagFilter.open}"
 		></i> </accordion-heading>
@@ -31,7 +46,7 @@
 				<dd>
 					<div class="btn-group">
 						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
-							ng-change="filterChanged()"
+							ng-change="filterChanged(tag)"
 						>{{tag.description}}</label>
 					</div>
 				</dd>

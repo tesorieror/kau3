@@ -17,6 +17,9 @@ router.get('/', function(req, res) {
 	var plainTags;
 	var plainIndicators = [];
 
+	// keys [category.name][tag.name]
+	var tagDictionary = [];
+
 	function setPlainTagCategories(categories) {
 		plainTagCategories = categories;
 		return categories;
@@ -81,9 +84,13 @@ router.get('/', function(req, res) {
 			return q.nbind(TagCategory.findOne, TagCategory)({
 				name : tag.category
 			}).then(function(category) {
-				tag._category = category._id;
-				delete tag.category;
-				return tag;
+				return {
+					name : tag.name,
+					description : tag.description,
+					order : tag.order,
+					_tags : [],
+					_category : category._id
+				};
 			});
 		});
 		return q.all(tags).then(function(tags) {
@@ -91,8 +98,23 @@ router.get('/', function(req, res) {
 		});
 	}
 
+	function updateTags(data) {
+		return q.all(_.map(plainTags, function(plainTag) {
+			// console.log(plainTag.category);
+			// console.log(plainTag.name);
+			// console.log(tagDictionary[plainTag.category]);
+
+			tagDictionary[plainTag.category][plainTag.name]._tags = _.map(
+					plainTag.tags, function(t) {
+						return tagDictionary[t.category][t.tag];
+					});
+			return tagDictionary[plainTag.category][plainTag.name].save();
+		}));
+	}
+
 	function updateTagCategoryTags(data) {
-		return q.all(TagCategory.find().then(function(categoryTags) {
+		return q.all(TagCategory.find()//
+		.then(function(categoryTags) {
 			return _.map(categoryTags, function(categoryTag) {
 				return q.nbind(Tag.find, Tag)({
 					_category : categoryTag._id
@@ -105,7 +127,7 @@ router.get('/', function(req, res) {
 		}));
 	}
 
-	function insertIndicators() {
+	function createTagDictionary() {
 		return q.nbind(TagCategory.find, TagCategory)()//
 		.then(function(tagCategories) {
 			return q.nbind(Tag.populate, Tag)(tagCategories, {
@@ -113,42 +135,40 @@ router.get('/', function(req, res) {
 			});
 		})//
 		.then(function(tagCategories) {
-			var tagDictionary = [];
 			_.each(tagCategories, function(tc) {
 				tagDictionary[tc.name] = _.indexBy(tc._tags, 'name');
 			});
 			return tagDictionary;
-		})//
-		.then(function(mydic) {
-			
-			return _.map(plainIndicators, function(indicator) {
-				indicator._tags = _.map(indicator.tags, function(tag) {
-					
-					console.log(tag.category);
-					console.log(tag.name);
-					console.log(mydic[tag.category][tag.name]);
-					return mydic[tag.category][tag.name]._id;
-				});
-				delete indicator.tags;
-				return indicator;
-			});
-		})//
-		.then(function(indicators) {
-			var arrays = [];
-			while (indicators.length > 0) {
-				arrays.push(indicators.splice(0, 1000));
-			}
-			return (q.all(_.map(arrays, function(a) {
-				return q.nbind(Indicator.collection.insert, Indicator.collection)(a);
-			})));
 		});
+	}
+
+	function insertIndicators() {
+		var indicators = _.map(plainIndicators, function(indicator) {
+			return {
+				value : indicator.value,
+				_tags : _.map(indicator.tags, function(tag) {
+					return tagDictionary[tag.category][tag.name]._id;
+				})
+			};
+		});
+
+		var arrays = [];
+		while (indicators.length > 0) {
+			arrays.push(indicators.splice(0, 1000));
+		}
+		return (q.all(_.map(arrays, function(a) {
+			return q.nbind(Indicator.collection.insert, Indicator.collection)(a);
+		})));
+
 	}
 
 	removeAll()//
 	.then(loadData)//
 	.then(insertTagCategories)//
-	.then(insertTags)//
+	.then(insertTags)//	
 	.then(updateTagCategoryTags)//
+	.then(createTagDictionary)//	
+	.then(updateTags)//
 	.then(insertIndicators)//
 	.then(function(data) {
 		// console.log("DATA", data);

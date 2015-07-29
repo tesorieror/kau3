@@ -18,14 +18,15 @@ function processParams(params) {
 }
 
 /* GET tag category by name */
-router.get('/:ys/:it/:ins/:ss/:gr/:na/:ge', function(req, res) {
+// router.get('/:ys/:it/:ins/:ss/:gr/:na/:ge', function(req, res) {
+router.get('/:ys/:it/:ss/:gr/:na/:ge', function(req, res) {
 	var idCollections = processParams(req.params);
 	idCollections = _.filter(idCollections, function(idCollection) {
 		return idCollection.length > 0;
 	});
 
-	console.log("idCollections",idCollections);
-	
+	console.log("idCollections", idCollections);
+
 	Indicator.find({
 		$and : _.map(idCollections, function(idCollection) {
 			return {

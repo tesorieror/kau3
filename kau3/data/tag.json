@@ -2,430 +2,132 @@
 	"name" : "PU",
 	"description" : "Public Universities",
 	"category" : "IT",
-	"order" : "2"
+	"order" : "2",
+	"tags" : []
 }, {
 	"name" : "PUC",
 	"description" : "Private Universities and Colleges",
 	"category" : "IT",
-	"order" : "3"
+	"order" : "3",
+	"tags" : []
 }, {
 	"name" : "OI",
 	"description" : "Other Institutions in Higher Education",
 	"category" : "IT",
-	"order" : "4"
+	"order" : "4",
+	"tags" : []
 }, {
 	"name" : "TO",
-	"description" : "All Institutions",
+	"description" : "Any Type",
 	"category" : "IT",
-	"order" : "1"
+	"order" : "1",
+	"tags" : []
 }, {
 	"name" : "DA",
 	"description" : "Diploma Average",
 	"category" : "GR",
-	"order" : "3"
+	"order" : "3",
+	"tags" : []
 }, {
 	"name" : "BA",
 	"description" : "Bachelor",
 	"category" : "GR",
-	"order" : "2"
+	"order" : "2",
+	"tags" : []
 }, {
 	"name" : "HD",
 	"description" : "Higher Diploma",
 	"category" : "GR",
-	"order" : "4"
+	"order" : "4",
+	"tags" : []
 }, {
 	"name" : "MA",
 	"description" : "Master",
 	"category" : "GR",
-	"order" : "6"
+	"order" : "6",
+	"tags" : []
 }, {
 	"name" : "FE",
 	"description" : "Fellowship",
 	"category" : "GR",
-	"order" : "5"
+	"order" : "5",
+	"tags" : []
 }, {
 	"name" : "DO",
 	"description" : "Doctorate",
 	"category" : "GR",
-	"order" : "7"
-}, {
-	"name" : "GR",
-	"description" : "Graduated",
-	"category" : "GR",
-	"order" : "8"
+	"order" : "7",
+	"tags" : []
 }, {
 	"name" : "TO",
-	"description" : "Total",
+	"description" : "Any Level",
 	"category" : "GR",
-	"order" : "1"
+	"order" : "1",
+	"tags" : []
 }, {
 	"name" : "MA",
 	"description" : "Male",
 	"category" : "GE",
-	"order" : "2"
+	"order" : "2",
+	"tags" : []
 }, {
 	"name" : "FE",
 	"description" : "Female",
 	"category" : "GE",
-	"order" : "3"
+	"order" : "3",
+	"tags" : []
 }, {
 	"name" : "TO",
-	"description" : "Total",
+	"description" : "Any Gender",
 	"category" : "GE",
-	"order" : "1"
+	"order" : "1",
+	"tags" : []
 }, {
 	"name" : "SA",
 	"description" : "Saudi",
 	"category" : "NA",
-	"order" : "2"
+	"order" : "2",
+	"tags" : []
 }, {
 	"name" : "NS",
 	"description" : "Non-Saudi",
 	"category" : "NA",
-	"order" : "3"
+	"order" : "3",
+	"tags" : []
 }, {
 	"name" : "TO",
-	"description" : "Total",
+	"description" : "Any Nationality",
 	"category" : "NA",
-	"order" : "1"
+	"order" : "1",
+	"tags" : []
 }, {
 	"name" : "FR",
 	"description" : "Freshmen",
 	"category" : "SS",
-	"order" : "1"
+	"order" : "1",
+	"tags" : []
 }, {
 	"name" : "EN",
 	"description" : "Enrolled",
 	"category" : "SS",
-	"order" : "2"
+	"order" : "2",
+	"tags" : []
 }, {
 	"name" : "GR",
 	"description" : "Graduates of Previous Years",
 	"category" : "SS",
-	"order" : "3"
+	"order" : "3",
+	"tags" : []
 }, {
 	"name" : "1434-1435",
 	"description" : "2013/14-1434/35",
 	"category" : "YR",
-	"order" : "1"
+	"order" : "1",
+	"tags" : []
 }, {
 	"name" : "1433-1434",
 	"description" : "2012/13-1433/34",
 	"category" : "YR",
-	"order" : "2"
-}, {
-	"name" : "UAQU",
-	"description" : "Umm Al-Qura University",
-	"category" : "IN",
-	"order" : "2"
-}, {
-	"name" : "IU",
-	"description" : "Islamic University",
-	"category" : "IN",
-	"order" : "3"
-}, {
-	"name" : "UMISIU",
-	"description" : "Imam Muhammad Ibn Saud Islamic University",
-	"category" : "IN",
-	"order" : "4"
-}, {
-	"name" : "KSU",
-	"description" : "King Saud University",
-	"category" : "IN",
-	"order" : "5"
-}, {
-	"name" : "KAU",
-	"description" : "King Abdulaziz University",
-	"category" : "IN",
-	"order" : "6"
-}, {
-	"name" : "KFUPM",
-	"description" : "King Fahd University of Petroleum and Minerals",
-	"category" : "IN",
-	"order" : "7"
-}, {
-	"name" : "KFU",
-	"description" : "King Faisal University",
-	"category" : "IN",
-	"order" : "8"
-}, {
-	"name" : "KKU",
-	"description" : "King Khalid University",
-	"category" : "IN",
-	"order" : "9"
-}, {
-	"name" : "QU",
-	"description" : "Qassim University",
-	"category" : "IN",
-	"order" : "10"
-}, {
-	"name" : "TU",
-	"description" : "Taibah University",
-	"category" : "IN",
-	"order" : "11"
-}, {
-	"name" : "TaU",
-	"description" : "Taif University",
-	"category" : "IN",
-	"order" : "12"
-}, {
-	"name" : "KSAUHS",
-	"description" : "King Saud bin Abdulaziz University for Health Sciences",
-	"category" : "IN",
-	"order" : "13"
-}, {
-	"name" : "GU",
-	"description" : "Gazan University",
-	"category" : "IN",
-	"order" : "14"
-}, {
-	"name" : "HU",
-	"description" : "Hael University",
-	"category" : "IN",
-	"order" : "15"
-}, {
-	"name" : "AJU",
-	"description" : "Al-Jouf University",
-	"category" : "IN",
-	"order" : "16"
-}, {
-	"name" : "TabU",
-	"description" : "Tabouk University",
-	"category" : "IN",
-	"order" : "17"
-}, {
-	"name" : "BU",
-	"description" : "Baha University",
-	"category" : "IN",
-	"order" : "18"
-}, {
-	"name" : "UN",
-	"description" : "Najran University",
-	"category" : "IN",
-	"order" : "19"
-}, {
-	"name" : "PNBARU",
-	"description" : "Princess Nora Bint Abdul Rahman University",
-	"category" : "IN",
-	"order" : "20"
-}, {
-	"name" : "NU",
-	"description" : "Northern University",
-	"category" : "IN",
-	"order" : "21"
-}, {
-	"name" : "UB",
-	"description" : "University Blonde",
-	"category" : "IN",
-	"order" : "22"
-}, {
-	"name" : "SAU",
-	"description" : "Salman bin Abdulaziz University",
-	"category" : "IN",
-	"order" : "23"
-}, {
-	"name" : "UD",
-	"description" : "University of Dammam",
-	"category" : "IN",
-	"order" : "24"
-}, {
-	"name" : "UC",
-	"description" : "University collected",
-	"category" : "IN",
-	"order" : "25"
-}, {
-	"name" : "SAUE",
-	"description" : "Saudi Arabia University of electronic",
-	"category" : "IN",
-	"order" : "26"
-}, {
-	"name" : "PSU",
-	"description" : "Prince Sultan University",
-	"category" : "IN",
-	"order" : "27"
-}, {
-	"name" : "AOU",
-	"description" : "Arabic Open University",
-	"category" : "IN",
-	"order" : "28"
-}, {
-	"name" : "PMBFU",
-	"description" : "Prince Mohammed Bin Fahd University",
-	"category" : "IN",
-	"order" : "29"
-}, {
-	"name" : "FU",
-	"description" : "Faisal University",
-	"category" : "IN",
-	"order" : "30"
-}, {
-	"name" : "AYU",
-	"description" : "Al-Yamamah University",
-	"category" : "IN",
-	"order" : "31"
-}, {
-	"name" : "EU",
-	"description" : "Effat University",
-	"category" : "IN",
-	"order" : "32"
-}, {
-	"name" : "DAUU",
-	"description" : "Dar Al Uloom University",
-	"category" : "IN",
-	"order" : "33"
-}, {
-	"name" : "FSU",
-	"description" : "Fahad bin Sultan University",
-	"category" : "IN",
-	"order" : "34"
-}, {
-	"name" : "QPU",
-	"description" : "Qassim Private Colleges",
-	"category" : "IN",
-	"order" : "35"
-}, {
-	"name" : "DAHC",
-	"description" : "Dar Al-Hekma College",
-	"category" : "IN",
-	"order" : "36"
-}, {
-	"name" : "IRCAS",
-	"description" : "IBN Rushd College of Administrative Sciences",
-	"category" : "IN",
-	"order" : "37"
-}, {
-	"name" : "ABPCS",
-	"description" : "Al-Baha Private College of Sciences",
-	"category" : "IN",
-	"order" : "38"
-}, {
-	"name" : "UBT",
-	"description" : "University of Business and Technology",
-	"category" : "IN",
-	"order" : "39"
-}, {
-	"name" : "SFCMS",
-	"description" : "Dr. Suleiman Fakeeh College of Medical Sciences",
-	"category" : "IN",
-	"order" : "40"
-}, {
-	"name" : "RCDP",
-	"description" : "Riyadh Colleges of Dentistry and Pharmacy",
-	"category" : "IN",
-	"order" : "41"
-}, {
-	"name" : "ISPCMS",
-	"description" : "IBN Sina Private College of Medical Sciences",
-	"category" : "IN",
-	"order" : "42"
-}, {
-	"name" : "ISNCMS",
-	"description" : "Ibn Sina National College for Medical Studies",
-	"category" : "IN",
-	"order" : "43"
-}, {
-	"name" : "BMC",
-	"description" : "Batterjee Medical College",
-	"category" : "IN",
-	"order" : "44"
-}, {
-	"name" : "SCNAHS",
-	"description" : "Saad College of Nursing & Allied Health Sciences",
-	"category" : "IN",
-	"order" : "45"
-}, {
-	"name" : "ARCHS",
-	"description" : "AL-Riyada College for Health Sciences",
-	"category" : "IN",
-	"order" : "46"
-}, {
-	"name" : "AMCST",
-	"description" : "Al Maarefa College for Science & Technology",
-	"category" : "IN",
-	"order" : "47"
-}, {
-	"name" : "BC",
-	"description" : "Buraydah Colleges",
-	"category" : "IN",
-	"order" : "48"
-}, {
-	"name" : "MMPSMS",
-	"description" : "Mohammed Mana Private College for Medical Sciences",
-	"category" : "IN",
-	"order" : "49"
-}, {
-	"name" : "AFCDN",
-	"description" : "Al- Farabi College for Dentistry and Nursing",
-	"category" : "IN",
-	"order" : "50"
-}, {
-	"name" : "AGICHS",
-	"description" : "Al-Ghad International Colleges for Health Sciences",
-	"category" : "IN",
-	"order" : "51"
-}, {
-	"name" : "SARC",
-	"description" : "Sulaiman Al Rajhi Colleges",
-	"category" : "IN",
-	"order" : "52"
-}, {
-	"name" : "AEC",
-	"description" : "Arab East College",
-	"category" : "IN",
-	"order" : "53"
-}, {
-	"name" : "IMC",
-	"description" : "INAYA Medical College",
-	"category" : "IN",
-	"order" : "54"
-}, {
-	"name" : "JIC",
-	"description" : "Jubail Industrial College",
-	"category" : "IN",
-	"order" : "55"
-}, {
-	"name" : "JUC",
-	"description" : "Jubail University College - Female Branch",
-	"category" : "IN",
-	"order" : "56"
-}, {
-	"name" : "YES",
-	"description" : "Yanbu educational sector",
-	"category" : "IN",
-	"order" : "57"
-}, {
-	"name" : "YIC",
-	"description" : "Yanbu Industrial College",
-	"category" : "IN",
-	"order" : "58"
-}, {
-	"name" : "YUC",
-	"description" : "Yanbu University College",
-	"category" : "IN",
-	"order" : "59"
-}, {
-	"name" : "GAI",
-	"description" : "General Administration Institute",
-	"category" : "IN",
-	"order" : "60"
-}, {
-	"name" : "PSCHSD",
-	"description" : "Prince Sultan College for Health Sciences in Dhahran",
-	"category" : "IN",
-	"order" : "61"
-}, {
-	"name" : "JTI",
-	"description" : "Jubail Technical Institute",
-	"category" : "IN",
-	"order" : "62"
-}, {
-	"name" : "TVTC",
-	"description" : "Technical and Vocational Training Corporation",
-	"category" : "IN",
-	"order" : "63"
-}, {
-	"name" : "TO",
-	"description" : "Total",
-	"category" : "IN",
-	"order" : "1"
+	"order" : "2",
+	"tags" : []
 } ]

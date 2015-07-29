@@ -4,7 +4,7 @@ app
 				function($scope, $http, $q, $log, indicatorTable, indicatorTable2, indicatorTable3, studentAcademicLevelLines, studentAcademicLevelColumn, studentAcademicLevelPie, $timeout) {
 					$log.info("Students Academic Level controller loaded...");
 
-					$scope.title = "Students Academic Level";
+					$scope.title = "Students by Academic Level";
 
 					$scope.tagCategories = [];
 
@@ -16,8 +16,10 @@ app
 
 					$scope.isOneYearOnly = false;
 
-					var tagCategoryNames = [ 'YR', 'IT', 'IN', 'SS', 'GR', 'NA', 'GE' ];
+					//var tagCategoryNames = [ 'YR', 'IT', 'IN', 'SS', 'GR', 'NA', 'GE' ];
 
+					var tagCategoryNames = [ 'YR', 'IT', 'SS', 'GR', 'NA', 'GE' ];
+					
 					var chartBuilder = indicatorTable;
 					$scope.chartTypeModel = 'FullTable';
 
@@ -52,7 +54,7 @@ app
 
 						$http.get('/indicator/tag/' + filter)//
 						.then(function(res) {
-
+//							console.log("Indicators", res);
 							var tagCategories = _.filter($scope.tagCategories, function(cat) {
 
 								return _.filter(cat._tags, function(tag) {
@@ -117,8 +119,8 @@ app
 						$scope.applyFilter();
 					}
 
-					$scope.filterChanged = function() {
-						
+					$scope.filterChanged = function(tag) {
+						console.log("Tag", tag);
 					}
 
 				});
