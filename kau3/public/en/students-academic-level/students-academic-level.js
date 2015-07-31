@@ -1,8 +1,10 @@
 app
 		.controller(
 				"StudentsAcademicLevelCtrl",
-				function($scope, $http, $q, $log, indicatorTable, indicatorTable2, indicatorTable3, studentAcademicLevelLines, studentAcademicLevelColumn, studentAcademicLevelPie, $timeout) {
+				function($scope, $http, $q, $log, usSpinnerService, indicatorTable, indicatorTable2, indicatorTable3, studentAcademicLevelLines, studentAcademicLevelColumn, studentAcademicLevelPie, $timeout) {
 					$log.info("Students Academic Level controller loaded...");
+
+					$scope.showTable = false;
 
 					$scope.title = "Students by Academic Level";
 
@@ -10,18 +12,19 @@ app
 
 					$scope.tagFilter = {
 						title : 'Filter',
-						open : true,
+						open : false,
 						model : []
 					};
 
-					$scope.isOneYearOnly = false;
+					$scope.chartFactories = [ indicatorTable, indicatorTable2,
+							indicatorTable3, studentAcademicLevelLines,
+							studentAcademicLevelColumn, studentAcademicLevelPie ];
 
-					//var tagCategoryNames = [ 'YR', 'IT', 'IN', 'SS', 'GR', 'NA', 'GE' ];
+					$scope.chartFactory = $scope.chartFactories[0];
+
+					$scope.radioModel = $scope.chartFactories[0];
 
 					var tagCategoryNames = [ 'YR', 'IT', 'SS', 'GR', 'NA', 'GE' ];
-					
-					var chartBuilder = indicatorTable;
-					$scope.chartTypeModel = 'FullTable';
 
 					$http.get('/tagCategory/name/' + tagCategoryNames.join())//
 					.then(function(data) {
@@ -36,13 +39,23 @@ app
 								return t.order === 1;
 							})._id] = true;
 						});
-						
+
+						// $scope.applyFilter();
+
 					});
 
-					// tagFilter.model[tagCategories[0]._id]
+					/**
+					 * Spinner
+					 */
+
+					/**
+					 * Apply Filter
+					 */
 
 					$scope.applyFilter = function() {
-						$scope.tagFilter.open = false;
+						// $scope.tagFilter.open = false;
+						$scope.showTable = false;
+						usSpinnerService.spin('spinner-1');
 
 						var filter = _.map($scope.tagCategories, function(tc) {
 							return _.pluck(_.filter(tc._tags, function(t) {
@@ -54,73 +67,75 @@ app
 
 						$http.get('/indicator/tag/' + filter)//
 						.then(function(res) {
-//							console.log("Indicators", res);
+							// console.log("Indicators", res);
 							var tagCategories = _.filter($scope.tagCategories, function(cat) {
-
 								return _.filter(cat._tags, function(tag) {
 									return $scope.tagFilter.model[cat._id][tag._id];
 								}).length > 0;
 							});
+							// console.log(res.data.length);
 
-							$scope.chart = chartBuilder.build({
+							console.log("Chart Factory", $scope.chartFactory);
+
+							$scope.chart = $scope.chartFactory.build({
 								indicators : res.data,
 								categories : tagCategories,
 								tagFilterModel : $scope.tagFilter.model
 							});
+							console.log($scope.chart);
 						});
 					};
+
+					$scope.checkFirst = function(cat) {
+						_.each(cat._tags, function(t) {
+							$scope.tagFilter.model[cat._id][t._id] = false;
+						});
+						$scope.tagFilter.model[cat._id][_.first(_
+								.sortBy(cat._tags, 'order'))._id] = true;
+					}
 
 					$scope.uncheck = function(cat) {
 						_.each(cat._tags, function(t) {
 							$scope.tagFilter.model[cat._id][t._id] = false;
 						});
-						// $scope.tagFilter.model[cat._id][_.first(_
-						// .sortBy(cat._tags, 'order'))._id] = true;
-						// console.log(cat);
 					}
 
 					$scope.check = function(cat) {
 						_.each(cat._tags, function(t) {
 							$scope.tagFilter.model[cat._id][t._id] = true;
 						});
-						// $scope.tagFilter.model[cat._id][_.first(_
-						// .sortBy(cat._tags, 'order'))._id] = false;
-						// console.log(cat);
 					}
 
-					$scope.setFullTableChart = function() {
-						chartBuilder = indicatorTable;
-						$scope.applyFilter();
-					}
-
-					$scope.setSummaryTableChart = function() {
-						chartBuilder = indicatorTable2;
-						$scope.applyFilter();
-					}
-
-					$scope.setDescriptionTableChart = function() {
-						chartBuilder = indicatorTable3;
-						$scope.applyFilter();
-					}
-
-					$scope.setColumnChart = function() {
-						chartBuilder = studentAcademicLevelColumn;
-						$scope.applyFilter();
-					}
-
-					$scope.setLineChart = function() {
-						chartBuilder = studentAcademicLevelLines;
-						$scope.applyFilter();
-
-					}
-
-					$scope.setPieChart = function() {
-						chartBuilder = studentAcademicLevelPie;
-						$scope.applyFilter();
+					$scope.setChartFactory = function(factory) {
+						$scope.chartFactory = factory;
+						// $scope.applyFilter();
 					}
 
 					$scope.filterChanged = function(tag) {
-						console.log("Tag", tag);
+						// console.log("Tag", tag);
 					}
 
+					$scope.chartReady = function(chartWrapper) {
+						console.log("ready");
+						usSpinnerService.stop('spinner-1');
+						$scope.showTable = true;
+					}
+
+					$scope.checkFirsts = function() {
+						_.each($scope.tagCategories, function(cat) {
+							$scope.checkFirst(cat);
+						});
+					}
+
+					$scope.checkAll = function() {
+						_.each($scope.tagCategories, function(cat) {
+							$scope.check(cat);
+						});
+					}
+
+					$scope.uncheckAll = function() {
+						_.each($scope.tagCategories, function(cat) {
+							$scope.uncheck(cat);
+						});
+					}
 				});

@@ -13,6 +13,8 @@ app.factory('indicatorTable', function($http, $q, $log) {
 		return buildChart(data);
 	};
 
+	factory.name = 'Full Table';
+	
 	/**
 	 * Private functions
 	 */

@@ -1,0 +1,139 @@
+<div class="row">
+	<div class="col-xs-12">
+		<div ng-include="'./nav/nav.html'"></div>
+	</div>
+</div>
+<div class="row students-academic-level">
+	<div class="col-xs-12">
+		<h2>{{title}}</h2>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div class="btn-group">
+			<!-- Information type -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<!-- {{chartFactory.name}}  -->
+					Students
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#">by Academic Level</a>
+					</li>
+					<li>
+						<a href="#">by University</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Filter -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<!-- {{chartFactory.name}}  -->
+					Filter
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li ng-hide="tagFilter.open">
+						<a ng-click="tagFilter.open=true">Show Options</a>
+					</li>
+					<li ng-show="tagFilter.open">
+						<a ng-click="tagFilter.open=false">Hide Options</a>
+					</li>
+					<li>
+						<a ng-click="applyFilter()">Apply</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Chart type -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<!-- {{chartFactory.name}}  -->
+					Chart Type
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li ng-repeat="factory in chartFactories">
+						<a href="" ng-click="setChartFactory(factory)">{{factory.name}}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-success " ng-click="applyFilter()">Apply Filter</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div collapse="!tagFilter.open">
+			<dl>
+				<span ng-repeat="cat in tagCategories">
+					<dt>
+						<p>
+						<div class="btn-group" role="group" aria-label="...">
+							<label type="button" class="btn btn-success btn-xs" ng-click="checkFirst(cat)"> <span class="glyphicon" aria-hidden="true">
+									<b>1</b>
+								</span>
+							</label> <label type="button" class="btn btn-success btn-xs" ng-click="check(cat)"> <span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
+							</label> <label type="button" class="btn btn-success btn-xs" ng-click="uncheck(cat)"> <span class="glyphicon glyphicon glyphicon-unchecked"
+									aria-hidden="true"
+								></span>
+							</label>
+						</div>
+						{{cat.description}}
+						</p>
+					</dt>
+					<dd>
+						<div class="btn-group">
+							<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
+								ng-change="filterChanged(tag)"
+							>{{tag.description}}</label>
+						</div>
+					</dd>
+				</span>
+			</dl>
+		</div>
+		<!-- 
+		<accordion> <accordion-group is-open="tagFilter.open"> <accordion-heading> {{tagFilter.title}} <i
+			class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': tagFilter.open, 'glyphicon-chevron-right': !tagFilter.open}"
+		></i> </accordion-heading>
+		<dl>
+			<span ng-repeat="cat in tagCategories">
+				<dt>
+					<p>
+					<div class="btn-group" role="group" aria-label="...">
+						<button type="button" class="btn btn-default btn-xs" ng-click="check(cat)">
+							<span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
+						</button>
+						<button type="button" class="btn btn-default btn-xs" ng-click="uncheck(cat)">
+							<span class="glyphicon glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+						</button>
+					</div>
+					{{cat.description}}
+					</p>
+				</dt>
+				<dd>
+					<div class="btn-group">
+						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
+							ng-change="filterChanged(tag)"
+						>{{tag.description}}</label>
+					</div>
+				</dd>
+			</span>
+		</dl>
+		<p style="text-align: right">
+			<button type="button" class="btn btn-default" ng-click="applyFilter()">Apply</button>
+		</p>
+		</accordion-group></accordion>
+		-->
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
+			on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
+		></div>
+	</div>
+</div>

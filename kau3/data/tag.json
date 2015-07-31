@@ -18,7 +18,7 @@
 	"tags" : []
 }, {
 	"name" : "TO",
-	"description" : "Any Type",
+	"description" : "Any Institution Type",
 	"category" : "IT",
 	"order" : "1",
 	"tags" : []
@@ -60,7 +60,7 @@
 	"tags" : []
 }, {
 	"name" : "TO",
-	"description" : "Any Level",
+	"description" : "Any Grade",
 	"category" : "GR",
 	"order" : "1",
 	"tags" : []

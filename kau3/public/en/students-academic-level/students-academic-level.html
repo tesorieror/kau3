@@ -8,23 +8,137 @@
 		<h2>{{title}}</h2>
 	</div>
 </div>
+<!--  
 <div class="row">
 	<div class="col-xs-12">
-		<ul class="nav nav-pills">
-			<li role="presentation" class="active">
-				<a href="#">by Level</a>
-			</li>
-			<li role="presentation">
-				<a href="#">by Education</a>
-			</li>
-			<li role="presentation">
-				<a href="#">Messages</a>
-			</li>
-		</ul>
+		<button ng-click="applyFilter()">Apply filter</button>
 	</div>
 </div>
+ -->
 <div class="row">
 	<div class="col-xs-12">
+		<div class="btn-toolbar">
+			<!-- Information type -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<!-- {{chartFactory.name}} 
+					Students  -->
+					<span class="glyphicon  glyphicon-option-vertical" aria-hidden="true"></span>
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#">by Academic Level</a>
+					</li>
+					<li>
+						<a href="#">by University</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Filter 
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">				
+					Filter
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li ng-hide="tagFilter.open">
+						<a ng-click="tagFilter.open=true">Show Options</a>
+					</li>
+					<li ng-show="tagFilter.open">
+						<a ng-click="tagFilter.open=false">Hide Options</a>
+					</li>
+					<li>
+						<a ng-click="applyFilter()">Apply</a>
+					</li>
+				</ul>
+			</div> -->
+			<!-- Chart type -->
+			<!-- 			
+			<div class="btn-group">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					{{chartFactory.name}}					
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li ng-repeat="factory in chartFactories">
+						<a href="" ng-click="setChartFactory(factory)">{{factory.name}}</a>
+					</li>
+				</ul>
+			</div>
+			 -->
+			<div class="btn-group">
+				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[0]"><span class="glyphicon  glyphicon-list" aria-hidden="true"></span></label>
+				<!--  -->
+				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[1]"><span class="glyphicon  glyphicon-menu-hamburger"
+						aria-hidden="true"
+					></span></label>
+				<!--  -->
+				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[2]"><span class="glyphicon  glyphicon-align-justify"
+						aria-hidden="true"
+					></span></label>
+				<!--  -->
+				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[3]"><span class="glyphicon  glyphicon-object-align-bottom"
+						aria-hidden="true"
+					></span></label>
+				<!--  -->
+				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[4]"><span class="glyphicon  glyphicon-stats" aria-hidden="true"></span></label>
+				<!--  -->
+				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[5]"><span class="glyphicon  glyphicon-cd" aria-hidden="true"></span></label>
+				<!--  -->
+			</div>
+			<div class="btn-group">
+				<label type="button" class="btn btn-success" ng-model="tagFilter.open" btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false"><span
+						class="glyphicon glyphicon-filter" aria-hidden="true"
+					></span></label>
+				<!-- -->
+				<label type="button" class="btn btn-success" ng-click="checkFirsts()"> <span class="glyphicon" aria-hidden="true">
+						<b>1</b>
+					</span>
+				</label>
+				<!-- -->
+				<label type="button" class="btn btn-success" ng-click="checkAll()"> <span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+				</label>
+				<!-- -->
+				<label type="button" class="btn btn-success" ng-click="uncheckAll()"> <span class="glyphicon  glyphicon-unchecked" aria-hidden="true"></span>
+				</label>
+				<!-- -->
+			</div>
+			<div class="btn-group">
+				<label type="button" class="btn btn-success " ng-click="applyFilter()"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></label>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row" ng-show="tagFilter.open">
+	<div class="col-xs-12">
+		<dl>
+			<span ng-repeat="cat in tagCategories">
+				<dt>
+					<p>
+					<div class="btn-group" role="group" aria-label="...">
+						<label type="button" class="btn btn-success btn-xs" ng-click="checkFirst(cat)"> <span class="glyphicon" aria-hidden="true">
+								<b>1</b>
+							</span>
+						</label> <label type="button" class="btn btn-success btn-xs" ng-click="check(cat)"> <span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
+						</label> <label type="button" class="btn btn-success btn-xs" ng-click="uncheck(cat)"> <span class="glyphicon glyphicon glyphicon-unchecked"
+								aria-hidden="true"
+							></span>
+						</label>
+					</div>
+					{{cat.description}}
+					</p>
+				</dt>
+				<dd>
+					<div class="btn-group">
+						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
+							ng-change="filterChanged(tag)"
+						>{{tag.description}}</label>
+					</div>
+				</dd>
+			</span>
+		</dl>
+		<!-- 
 		<accordion> <accordion-group is-open="tagFilter.open"> <accordion-heading> {{tagFilter.title}} <i
 			class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': tagFilter.open, 'glyphicon-chevron-right': !tagFilter.open}"
 		></i> </accordion-heading>
@@ -56,28 +170,12 @@
 			<button type="button" class="btn btn-default" ng-click="applyFilter()">Apply</button>
 		</p>
 		</accordion-group></accordion>
+		-->
 	</div>
 </div>
 <div class="row">
 	<div class="col-xs-12">
-		<form style="margin-bottom: 10px">
-			<div class="btn-group">
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'FullTable'" ng-click="setFullTableChart()" uncheckable>Full Table</label> <label
-					class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'SummaryTable'" ng-click="setSummaryTableChart()" uncheckable
-				>Summary Table</label> <label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'DescriptionTable'" ng-click="setDescriptionTableChart()"
-					uncheckable
-				>Description Table</label> <label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Column'" ng-click="setColumnChart()" uncheckable>Bar</label>
-				<label class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Line'" ng-click="setLineChart()" uncheckable>Line</label> <label
-					class="btn btn-default btn-xs" ng-model="chartTypeModel" btn-radio="'Pie'" ng-click="setPieChart()" uncheckable
-				>Pie </label>
-				<!-- ng-show="isOneYearOnly"
-					ng-hide="!isOneYearOnly" -->
-			</div>
-		</form>
-	</div>
-</div>
-<div class="row">
-	<div class="col-xs-12">
+		<span us-spinner spinner-key="spinner-1"></span>
 		<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
 			on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
 		></div>

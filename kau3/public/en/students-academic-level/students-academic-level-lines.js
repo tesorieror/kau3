@@ -16,6 +16,8 @@ app
 						return buildChart(data);
 					};
 
+					factory.name = 'Line Chart';
+					
 					/**
 					 * Private functions
 					 */

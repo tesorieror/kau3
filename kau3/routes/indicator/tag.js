@@ -25,7 +25,7 @@ router.get('/:ys/:it/:ss/:gr/:na/:ge', function(req, res) {
 		return idCollection.length > 0;
 	});
 
-	console.log("idCollections", idCollections);
+	// console.log("idCollections", idCollections);
 
 	Indicator.find({
 		$and : _.map(idCollections, function(idCollection) {
@@ -42,9 +42,13 @@ router.get('/:ys/:it/:ss/:gr/:na/:ge', function(req, res) {
 	})//
 	.then(function(data) {
 		// console.log(data);
-		console.log(data.length);
-		res.send(data);
-		res.status(200).end();
+		// console.log(data.length);
+		setTimeout(function(res, data) {
+			res.send(data);
+			res.status(200).end();
+		}, 5000, res, data);
+		// res.send(data);
+		// res.status(200).end();
 	});
 });
 

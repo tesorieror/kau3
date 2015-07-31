@@ -16,6 +16,8 @@ app
 						return buildChart(data);
 					};
 
+					factory.name = 'Pie Chart';
+
 					/**
 					 * Private functions
 					 */
@@ -89,12 +91,12 @@ app
 								return categoryIdOrder.indexOf(tag._category);
 							});
 
-							tags = _.filter(tags, function(tag){
+							tags = _.filter(tags, function(tag) {
 								return tagCollections[tags.indexOf(tag)].length > 1;
 							});
-							
-							var descriptor = _.pluck(tags,'description').join(' ');
-							
+
+							var descriptor = _.pluck(tags, 'description').join(' ');
+
 							var value = indicator.value;
 
 							return {
