@@ -8,13 +8,6 @@
 		<h2>{{title}}</h2>
 	</div>
 </div>
-<!--  
-<div class="row">
-	<div class="col-xs-12">
-		<button ng-click="applyFilter()">Apply filter</button>
-	</div>
-</div>
- -->
 <div class="row">
 	<div class="col-xs-12">
 		<div class="btn-toolbar">
@@ -35,38 +28,6 @@
 					</li>
 				</ul>
 			</div>
-			<!-- Filter 
-			<div class="btn-group">
-				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">				
-					Filter
-					<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu">
-					<li ng-hide="tagFilter.open">
-						<a ng-click="tagFilter.open=true">Show Options</a>
-					</li>
-					<li ng-show="tagFilter.open">
-						<a ng-click="tagFilter.open=false">Hide Options</a>
-					</li>
-					<li>
-						<a ng-click="applyFilter()">Apply</a>
-					</li>
-				</ul>
-			</div> -->
-			<!-- Chart type -->
-			<!-- 			
-			<div class="btn-group">
-				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					{{chartFactory.name}}					
-					<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu">
-					<li ng-repeat="factory in chartFactories">
-						<a href="" ng-click="setChartFactory(factory)">{{factory.name}}</a>
-					</li>
-				</ul>
-			</div>
-			 -->
 			<div class="btn-group">
 				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[0]"><span class="glyphicon  glyphicon-list" aria-hidden="true"></span></label>
 				<!--  -->
@@ -110,6 +71,9 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- 
 <div class="row" ng-show="tagFilter.open">
 	<div class="col-xs-12">
 		<dl>
@@ -138,46 +102,28 @@
 				</dd>
 			</span>
 		</dl>
-		<!-- 
-		<accordion> <accordion-group is-open="tagFilter.open"> <accordion-heading> {{tagFilter.title}} <i
-			class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': tagFilter.open, 'glyphicon-chevron-right': !tagFilter.open}"
-		></i> </accordion-heading>
-		<dl>
-			<span ng-repeat="cat in tagCategories">
-				<dt>
-					<p>
-					<div class="btn-group" role="group" aria-label="...">
-						<button type="button" class="btn btn-default btn-xs" ng-click="check(cat)">
-							<span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
-						</button>
-						<button type="button" class="btn btn-default btn-xs" ng-click="uncheck(cat)">
-							<span class="glyphicon glyphicon glyphicon-unchecked" aria-hidden="true"></span>
-						</button>
-					</div>
-					{{cat.description}}
-					</p>
-				</dt>
-				<dd>
-					<div class="btn-group">
-						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-default btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
-							ng-change="filterChanged(tag)"
-						>{{tag.description}}</label>
-					</div>
-				</dd>
-			</span>
-		</dl>
-		<p style="text-align: right">
-			<button type="button" class="btn btn-default" ng-click="applyFilter()">Apply</button>
-		</p>
-		</accordion-group></accordion>
-		-->
 	</div>
 </div>
+ -->
+
+
 <div class="row">
 	<div class="col-xs-12">
-		<span us-spinner spinner-key="spinner-1"></span>
-		<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
-			on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
-		></div>
+		<tag-filter tag-categories={tagCategories} ng-show="showFilter"/>
+	</div>
+</div>
+ 
+ 
+<div class="row">
+	<div class="col-xs-12">
+		<div style="min-height: 300px;">
+			<span
+				us-spinner="{lines: 13, length: 28, width: 14, radius: 42, scale: 1, corners: 1, color: '#060', opacity: 0.25, rotate: 0, direction: 1, speed: 1, trail: 60, fps: 20, zIndex: 2e9, className: 'spinner', top: '50%', left: '50%', shadow: false, hwaccel: false}"
+				spinner-key="spinner-1"
+			></span>
+			<div google-chart chart="chart" on-ready="chartReady(chartWrapper)" on-select="chartSelectedItem(selectedItems, selectedItem, chartWrapper)"
+				on-click="chartClicked(chart)" style="width: 100%; height: 100%;"
+			></div>
+		</div>
 	</div>
 </div>

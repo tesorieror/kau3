@@ -1,0 +1,28 @@
+<div>
+	<dl>
+		<span ng-repeat="cat in tagCategories">
+			<dt>
+				<p>
+				<div class="btn-group" role="group" aria-label="...">
+					<label type="button" class="btn btn-success btn-xs" ng-click="checkFirst(cat)"> <span class="glyphicon" aria-hidden="true">
+							<b>1</b>
+						</span>
+					</label> <label type="button" class="btn btn-success btn-xs" ng-click="check(cat)"> <span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
+					</label> <label type="button" class="btn btn-success btn-xs" ng-click="uncheck(cat)"> <span class="glyphicon glyphicon glyphicon-unchecked"
+							aria-hidden="true"
+						></span>
+					</label>
+				</div>
+				{{cat.description}}
+				</p>
+			</dt>
+			<dd>
+				<div class="btn-group">
+					<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
+						ng-change="filterChanged(tag)"
+					>{{tag.description}}</label>
+				</div>
+			</dd>
+		</span>
+	</dl>
+</div>

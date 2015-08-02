@@ -223,7 +223,7 @@ app.factory('TagFilterFactory', function($http, $q, $log) {
 app
 		.controller(
 				"TableSampleCtrl",
-				function($scope, $http, $q, $log, $timeout, FullTableFactory, TagFilterFactory) {
+				function($scope, $http, $q, $log, $timeout, $document, FullTableFactory, TagFilterFactory) {
 					$log.info("MainCtrl controller loaded!");
 
 					var tagCategoryNames = [ 'YR', 'IT', 'SS', 'GR', 'NA', 'GE' ];
@@ -238,51 +238,59 @@ app
 
 					$scope.applyFilter = function() {
 
-						function buildChart(info) {
-							console.log("BuildChart");
-
-							console.log("Draw table");
-							var data = new google.visualization.DataTable();
-
-							console.log(_.values(info.categories));
-
-							_.each(_.values(info.categories), function(cat) {
-								data.addColumn('string', cat.description);
-							});
-							data.addColumn('number', "Students");
-
-							var categoryIdOrder = _.pluck(info.categories, '_id');
-							data.addRows(_.map(info.indicators, function(indicator) {
-								var tags = _.sortBy(indicator._tags, function(tag) {
-									return categoryIdOrder.indexOf(tag._category);
-								});
-
-								var values = _.map(tags, function(tag) {
-									return {
-										"v" : tag.description,
-										"p" : {
-											"style" : "font-size:11px"
-										}
-									}
-								});
-								values.push({
-									"v" : indicator.value,
-									"p" : {
-										"style" : "font-size:11px"
-									}
-								});
-								return values;
-							}));
-
-							var table = new google.visualization.Table(document
-									.getElementById('table_div'));
-
-							table.draw(data, {
-								showRowNumber : true,
-								width : '100%',
-								height : '100%'
-							});
-						}
+						// function buildChart(info) {
+						// console.info("Loading Google Charts...");
+						// google.load("visualization", "1.1", {
+						// packages : [ "table" ]
+						// });
+						// google.setOnLoadCallback(function() {
+						// console.log("Google Chart loaded!");
+						// var table = new google.visualization.Table(document
+						// .getElementById('table_div'));
+						//
+						// var data = new google.visualization.DataTable();
+						// // Columns
+						// _.each(_.values(info.categories), function(cat) {
+						// data.addColumn('string', cat.description);
+						// });
+						// data.addColumn('number', "Students");
+						//
+						// // Rows
+						// var categoryIdOrder = _.pluck(info.categories, '_id');
+						// data.addRows(_.map(info.indicators, function(indicator) {
+						// var tags = _.sortBy(indicator._tags, function(tag) {
+						// return categoryIdOrder.indexOf(tag._category);
+						// });
+						//
+						// var values = _.map(tags, function(tag) {
+						// return {
+						// "v" : tag.description,
+						// "p" : {
+						// "style" : "font-size:11px"
+						// }
+						// }
+						// });
+						// values.push({
+						// "v" : indicator.value,
+						// "p" : {
+						// "style" : "font-size:11px"
+						// }
+						// });
+						// return values;
+						// }));
+						//
+						// // google.visualization.events.addListener(table, 'ready',
+						// // function() {
+						// // console.log("Google Chart ready!");
+						// // });
+						//
+						// table.draw(data, {
+						// showRowNumber : true,
+						// width : '100%',
+						// height : '100%'
+						// });
+						// });
+						// }
 
 						console.log('Loading Tag Indicators ...');
 						$http.get('/indicator/tag/' + $scope.tagFilter.getFilterPath())//
@@ -295,28 +303,22 @@ app
 							// });
 							// console.log($scope.chart);
 
-							buildChart({
-								indicators : res.data,
-								categories : $scope.tagFilter.getNotEmptyTagCategories(),
-								tagFilterModel : $scope.tagFilter.model
-							});
-							
-							
+							// buildChart({
+							// indicators : res.data,
+							// categories : $scope.tagFilter.getNotEmptyTagCategories(),
+							// tagFilterModel : $scope.tagFilter.model
+							// });
+
 						});
 					};
 
-					/**
-					 * Chart Ready
-					 */
 
-					$scope.chartReady = function(chartWrapper) {
-						console.log("Chart Ready!", chartWrapper);
-					};
 
 					/**
 					 * Initialization
 					 */
 
+//					initChart();					
 					console.log('Loading Tag Categories...');
 					$http.get('/tagCategory/name/' + tagCategoryNames.join())//
 					.then(function(data) {
@@ -326,6 +328,9 @@ app
 					})//
 					.then($scope.tagFilter.selectAll()) //
 					// .then($scope.applyFilter()) //
-					// .done()
+//					.then(initChart)
 					;
+					
+					
+
 				});

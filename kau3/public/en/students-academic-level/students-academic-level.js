@@ -67,22 +67,20 @@ app
 
 						$http.get('/indicator/tag/' + filter)//
 						.then(function(res) {
+							console.info("Data retrieved: ", res.data.length, " indicators");
 							// console.log("Indicators", res);
 							var tagCategories = _.filter($scope.tagCategories, function(cat) {
 								return _.filter(cat._tags, function(tag) {
 									return $scope.tagFilter.model[cat._id][tag._id];
 								}).length > 0;
 							});
-							// console.log(res.data.length);
-
-							console.log("Chart Factory", $scope.chartFactory);
-
+							// console.log("Chart Factory", $scope.chartFactory);
 							$scope.chart = $scope.chartFactory.build({
 								indicators : res.data,
 								categories : tagCategories,
 								tagFilterModel : $scope.tagFilter.model
 							});
-							console.log($scope.chart);
+							// console.log($scope.chart);
 						});
 					};
 

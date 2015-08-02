@@ -14,7 +14,7 @@ app.factory('indicatorTable', function($http, $q, $log) {
 	};
 
 	factory.name = 'Full Table';
-	
+
 	/**
 	 * Private functions
 	 */
@@ -37,6 +37,10 @@ app.factory('indicatorTable', function($http, $q, $log) {
 				"showRowNumber" : false,
 				"sort" : "enable",
 				"allowHtml" : "true",
+				"chartArea" : {
+					"width" : "100%",
+					"height" : "100%",
+				},
 			}
 		// ,
 		// "formatters" : {
@@ -49,6 +53,9 @@ app.factory('indicatorTable', function($http, $q, $log) {
 		};
 		return chart;
 	}
+
+	// Hack to Force refresh
+	var hack = '';
 
 	function buildCols(data) {
 
@@ -66,9 +73,12 @@ app.factory('indicatorTable', function($http, $q, $log) {
 			};
 		});
 
+		// Force refresh
+		hack = hack.length == 0 ? ' ' : '';
+
 		result.push({
 			"id" : "value",
-			"label" : "Students",
+			"label" : "Students" + hack,
 			"type" : "number",
 			"p" : {
 				"style" : "font-size:11px"
@@ -80,7 +90,7 @@ app.factory('indicatorTable', function($http, $q, $log) {
 
 	function buildRows(data) {
 
-//		console.log("data.categories", data.categories);
+		// console.log("data.categories", data.categories);
 
 		var categoryIdOrder = _.pluck(data.categories, '_id');
 		return _.map(data.indicators, function(indicator) {
