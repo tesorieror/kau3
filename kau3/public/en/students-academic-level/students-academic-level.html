@@ -10,12 +10,33 @@
 </div>
 <div class="row">
 	<div class="col-xs-12">
-		<div class="btn-toolbar">
-			<!-- Information type -->
+		<div class="btn-group" role="group" style="margin-bottom: 5px;">
+			<label class="btn btn-success btn-xs" ng-model="filterShow" btn-checkbox> <span
+					ng-class="{'glyphicon':true, 'glyphicon-eye-close':filterShow, 'glyphicon-eye-open':!filterShow}" aria-hidden="true"
+				></span></label>
+			<!--  -->
+			<label type="button" class="btn btn-success btn-xs" ng-click="selectFirsts()"> <span class="glyphicon" aria-hidden="true">
+					<b>1</b>
+				</span>
+			</label>
+			<!--  -->
+			<label type="button" class="btn btn-success btn-xs" ng-click="selectAll()"> <span class="glyphicon  glyphicon-check" aria-hidden="true"></span>
+			</label>
+			<!--  -->
+			<label type="button" class="btn btn-success btn-xs" ng-click="unselectAll()"> <span class="glyphicon  glyphicon-unchecked" aria-hidden="true"></span>
+			</label>
+			<!--  -->
+			<label type="button" class="btn btn-success btn-xs" ng-click="applyFilter()"> <span class="glyphicon  glyphicon-refresh" aria-hidden="true"></span>
+			</label>
+		</div>
+	</div>
+</div>
+<!-- 
+<div class="row">
+	<div class="col-xs-12">
+		<div class="btn-toolbar">			
 			<div class="btn-group">
 				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<!-- {{chartFactory.name}} 
-					Students  -->
 					<span class="glyphicon  glyphicon-option-vertical" aria-hidden="true"></span>
 					<span class="caret"></span>
 				</button>
@@ -28,92 +49,44 @@
 					</li>
 				</ul>
 			</div>
-			<div class="btn-group">
-				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[0]"><span class="glyphicon  glyphicon-list" aria-hidden="true"></span></label>
-				<!--  -->
-				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[1]"><span class="glyphicon  glyphicon-menu-hamburger"
-						aria-hidden="true"
-					></span></label>
-				<!--  -->
-				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[2]"><span class="glyphicon  glyphicon-align-justify"
-						aria-hidden="true"
-					></span></label>
-				<!--  -->
-				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[3]"><span class="glyphicon  glyphicon-object-align-bottom"
-						aria-hidden="true"
-					></span></label>
-				<!--  -->
-				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[4]"><span class="glyphicon  glyphicon-stats" aria-hidden="true"></span></label>
-				<!--  -->
-				<label class="btn btn-success" ng-model="chartFactory" btn-radio="chartFactories[5]"><span class="glyphicon  glyphicon-cd" aria-hidden="true"></span></label>
-				<!--  -->
-			</div>
-			<div class="btn-group">
-				<label type="button" class="btn btn-success" ng-model="tagFilter.open" btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false"><span
-						class="glyphicon glyphicon-filter" aria-hidden="true"
-					></span></label>
-				<!-- -->
-				<label type="button" class="btn btn-success" ng-click="checkFirsts()"> <span class="glyphicon" aria-hidden="true">
-						<b>1</b>
-					</span>
-				</label>
-				<!-- -->
-				<label type="button" class="btn btn-success" ng-click="checkAll()"> <span class="glyphicon glyphicon-check" aria-hidden="true"></span>
-				</label>
-				<!-- -->
-				<label type="button" class="btn btn-success" ng-click="uncheckAll()"> <span class="glyphicon  glyphicon-unchecked" aria-hidden="true"></span>
-				</label>
-				<!-- -->
-			</div>
-			<div class="btn-group">
-				<label type="button" class="btn btn-success " ng-click="applyFilter()"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></label>
-			</div>
+		</div>
+	</div>
+</div> 
+-->
+<div class="row">
+	<div class="col-xs-12">
+		<tag-filter categories="filterCategories" model="filterModel" on-change="filterChanged" ng-show="filterShow"></tag-filter>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div class="btn-group" role="group" style="margin-bottom: 5px;">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Left'"><span class="glyphicon" aria-hidden="true">
+					<b>FT</b>
+				</span></label>
+			<!--  -->
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Middle'"><span class="glyphicon" aria-hidden="true">
+					<b>ST</b>
+				</span></label>
+			<!--  -->
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Right'"><span class="glyphicon" aria-hidden="true">
+					<b>DT</b>
+				</span></label>
+			<!--  -->
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Left'"><span class="glyphicon" aria-hidden="true">
+					<b>CC</b>
+				</span></label>
+			<!--  -->
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Middle'"><span class="glyphicon" aria-hidden="true">
+					<b>LC</b>
+				</span></label>
+			<!--  -->
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Right'"><span class="glyphicon" aria-hidden="true">
+					<b>PC</b>
+				</span></label>
 		</div>
 	</div>
 </div>
-
-
-<!-- 
-<div class="row" ng-show="tagFilter.open">
-	<div class="col-xs-12">
-		<dl>
-			<span ng-repeat="cat in tagCategories">
-				<dt>
-					<p>
-					<div class="btn-group" role="group" aria-label="...">
-						<label type="button" class="btn btn-success btn-xs" ng-click="checkFirst(cat)"> <span class="glyphicon" aria-hidden="true">
-								<b>1</b>
-							</span>
-						</label> <label type="button" class="btn btn-success btn-xs" ng-click="check(cat)"> <span class="glyphicon glyphicon glyphicon-check" aria-hidden="true"></span>
-						</label> <label type="button" class="btn btn-success btn-xs" ng-click="uncheck(cat)"> <span class="glyphicon glyphicon glyphicon-unchecked"
-								aria-hidden="true"
-							></span>
-						</label>
-					</div>
-					{{cat.description}}
-					</p>
-				</dt>
-				<dd>
-					<div class="btn-group">
-						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="tagFilter.model[cat._id][tag._id]" btn-checkbox
-							ng-change="filterChanged(tag)"
-						>{{tag.description}}</label>
-					</div>
-				</dd>
-			</span>
-		</dl>
-	</div>
-</div>
- -->
-
-
-<div class="row">
-	<div class="col-xs-12">
-		<tag-filter tag-categories={tagCategories} ng-show="showFilter"/>
-	</div>
-</div>
- 
- 
 <div class="row">
 	<div class="col-xs-12">
 		<div style="min-height: 300px;">

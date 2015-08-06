@@ -24,9 +24,7 @@ router.get('/:ys/:it/:ss/:gr/:na/:ge', function(req, res) {
 	idCollections = _.filter(idCollections, function(idCollection) {
 		return idCollection.length > 0;
 	});
-
 	// console.log("idCollections", idCollections);
-
 	Indicator.find({
 		$and : _.map(idCollections, function(idCollection) {
 			return {
@@ -41,14 +39,9 @@ router.get('/:ys/:it/:ss/:gr/:na/:ge', function(req, res) {
 		return q.nbind(Tag.populate, Tag)(data, '_tags');
 	})//
 	.then(function(data) {
-		// console.log(data);
-		// console.log(data.length);
-//		setTimeout(function(res, data) {
-//			res.send(data);
-//			res.status(200).end();
-//		}, 5000, res, data);
-		 res.send(data);
-		 res.status(200).end();
+		res.status(200).send(data).end();
+	}, function(err) {
+		res.status(500).send(err).end();
 	});
 });
 

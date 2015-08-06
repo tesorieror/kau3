@@ -3,7 +3,7 @@
  */
 
 var app = angular.module("app", [ "ui.bootstrap", "googlechart", "ngRoute",
-		'angularSpinner', "ngAnimate" ]);
+		'angularSpinner', "ngAnimate", 'TagFilterModule', 'ChartBuilderModule' ]);
 
 /**
  * Avoid cache (review this for optimization)
