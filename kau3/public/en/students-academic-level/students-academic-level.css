@@ -12,3 +12,13 @@ div.students-academic-level div h2 {
 	color: #060;
 	text-align: center;
 }
+
+.tableChart {
+	height: 100%;
+	width: 100%;
+}
+
+.otherChart {
+	height: 350px;
+	width: 100%;
+}

@@ -32,10 +32,6 @@ app
 							return tagCategoryNames.indexOf(cat.name);
 						});
 						$scope.unselectAll();
-						$scope.filterChanged = function(cat, tag) {
-							$log.log("Filter category changed", cat);
-							$log.log("Filter tag changed", tag);
-						};
 						return data;
 					}
 
@@ -49,8 +45,18 @@ app
 									}, []);
 									return result;
 								}, []);
-						$log.log('Filter Model', $scope.filterModel);
+						// $log.log('Filter Model', $scope.filterModel);
 					}
+
+					$scope.allHasSelection = function() {
+						return _.reduce(_.values($scope.filterCategories),
+								function(result, cat) {
+									var hasSelection = _.reduce(cat._tags, function(result, tag) {
+										return $scope.filterModel[cat._id][tag._id] || result;
+									}, false);
+									return hasSelection && result;
+								}, true);
+					};
 
 					$scope.unselectAll = function() {
 						setAll(false);
@@ -73,7 +79,7 @@ app
 					}
 
 					$scope.applyFilter = function() {
-						 usSpinnerService.spin('spinner-1');
+						usSpinnerService.spin('spinner-1');
 						var filterPath = getFilterPath();
 						ModelFactory.getIndicatorsFor(filterPath)//
 						.then(
@@ -93,13 +99,14 @@ app
 										categories : categoriesById,
 										tags : tagsByCategoryBiId
 									};
-									$log.log('indicators ', res.data);
-									$log.log('metadata ', metadata);
+//									$log.log('indicators ', res.data);
+//									$log.log('metadata ', metadata);
 									$scope.chart = $scope.chartBuilder({
 										indicators : res.data,
 										metadata : metadata
 									});
 									usSpinnerService.stop('spinner-1');
+									$scope.filterShow = false;
 								});
 					}
 

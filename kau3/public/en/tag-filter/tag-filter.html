@@ -26,9 +26,7 @@
 				</dt>
 				<dd>
 					<div class="btn-group">
-						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="model[cat._id][tag._id]" btn-checkbox
-							ng-change="filterChanged(cat, tag)"
-						>{{tag.description}}</label>
+						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="model[cat._id][tag._id]" btn-checkbox>{{tag.description}}</label>
 					</div>
 				</dd>
 			</span>
