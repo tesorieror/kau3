@@ -63,31 +63,45 @@
 <div class="row">
 	<div class="col-xs-12">
 		<div class="btn-group" role="group" style="margin-bottom: 5px;">
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Left'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildFullTableChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>FT</b>
 				</span></label>
 			<!--  -->
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Middle'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildSummaryTableChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>ST</b>
 				</span></label>
 			<!--  -->
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Right'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildDescriptionTableChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>DT</b>
 				</span></label>
 			<!--  -->
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Left'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildColumnChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>CC</b>
 				</span></label>
 			<!--  -->
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Middle'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildLineChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>LC</b>
 				</span></label>
 			<!--  -->
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Right'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildAreaChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>AC</b>
 				</span></label>
 			<!--  -->
-			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="'Right'"><span class="glyphicon" aria-hidden="true">
+			<label class="btn btn-default btn-xs" ng-model="chartBuilder" btn-radio="chartBuilderFactory.buildPieChart"><span class="glyphicon"
+					aria-hidden="true"
+				>
 					<b>PC</b>
 				</span></label>
 		</div>

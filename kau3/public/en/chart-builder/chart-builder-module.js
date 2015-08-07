@@ -4,7 +4,7 @@
 
 var ChartBuilderModule = angular.module('ChartBuilderModule', []);
 
-ChartBuilderModule.factory('FullTableBuilder', function($http, $q, $log) {
+ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 
 	var factory = {};
 
@@ -30,9 +30,16 @@ ChartBuilderModule.factory('FullTableBuilder', function($http, $q, $log) {
 	// factory.build = function(data) {
 	// return buildAreaChart(data);
 	// };
-	factory.build = function(data) {
-		return buildPieChart(data);
-	};
+	// factory.build = function(data) {
+	// return buildPieChart(data);
+	// };
+	factory.buildFullTableChart = buildFullTableChart;
+	factory.buildSummaryTableChart = buildSummaryTableChart;
+	factory.buildDescriptionTableChart = buildDescriptionTableChart;
+	factory.buildColumnChart = buildColumnChart;
+	factory.buildLineChart = buildLineChart;
+	factory.buildAreaChart = buildAreaChart;
+	factory.buildPieChart = buildPieChart;
 
 	// Hack to Force refresh
 	var hack = '';

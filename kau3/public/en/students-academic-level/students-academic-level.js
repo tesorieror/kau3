@@ -1,7 +1,7 @@
 app
 		.controller(
 				"StudentsAcademicLevelCtrl",
-				function($scope, $http, $q, $log, $timeout, usSpinnerService, ModelFactory, FullTableBuilder) {
+				function($scope, $http, $q, $log, $timeout, usSpinnerService, ModelFactory, ChartBuilderFactory) {
 					$log.info("Students Academic Level Controller loaded!");
 
 					/**
@@ -99,8 +99,8 @@ app
 										categories : categoriesById,
 										tags : tagsByCategoryBiId
 									};
-//									$log.log('indicators ', res.data);
-//									$log.log('metadata ', metadata);
+									// $log.log('indicators ', res.data);
+									// $log.log('metadata ', metadata);
 									$scope.chart = $scope.chartBuilder({
 										indicators : res.data,
 										metadata : metadata
@@ -132,8 +132,9 @@ app
 					 * Chart Builders
 					 */
 
-					$scope.chartBuilder = FullTableBuilder.build;
+					$scope.chartBuilderFactory = ChartBuilderFactory;
 
+					$scope.chartBuilder = ChartBuilderFactory.buildFullTableChart;
 					//
 					// /**
 					// * Filter
