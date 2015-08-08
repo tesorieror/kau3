@@ -93,6 +93,7 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 		chart.data.cols = buildColumnCols(data);
 		chart.data.rows = buildColumnRows(data);
 		chart.options.title = buildChartTitle(data);
+		cleanInvalidChartData(chart);
 		return chart;
 	}
 
@@ -106,6 +107,7 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 		chart.data.cols = buildColumnCols(data);
 		chart.data.rows = buildColumnRows(data);
 		chart.options.title = buildChartTitle(data);
+		cleanInvalidChartData(chart);
 		return chart;
 	}
 
@@ -119,7 +121,31 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 		chart.data.cols = buildColumnCols(data);
 		chart.data.rows = buildColumnRows(data);
 		chart.options.title = buildChartTitle(data);
+		cleanInvalidChartData(chart);
 		return chart;
+	}
+
+	function cleanInvalidChartData(chart) {
+		var row = chart.data.rows[0]['c'];
+
+		var indexes = _.reduce(chart.data.rows[0]['c'], function(result, o) {
+			if (o['v'] == -10000000) {
+				result.push(chart.data.rows[0]['c'].indexOf(o));
+			}
+			return result;
+		}, []);
+
+		chart.data.rows = _.map(chart.data.rows, function(row) {
+			row['c'] = _.filter(row['c'], function(v) {
+				return !_.contains(indexes, row['c'].indexOf(v));
+			});
+			return row;
+		});
+
+		chart.data.cols = _.filter(chart.data.cols, function(col) {
+			return !_.contains(indexes, chart.data.cols.indexOf(col));
+		});
+
 	}
 
 	function buildColumnCols(data) {
@@ -184,6 +210,11 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 
 	function buildColumnRows(data) {
 
+		// Patch for invalid configuration
+		if (data.indicators.length < 1) {
+			return [];
+		}
+
 		var categories = _.values(data.metadata.categories);
 		// Data categories
 		var dataCategories = categories.slice(1);
@@ -212,17 +243,20 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 			} ];
 
 			result = result.concat(_.map(keys, function(key) {
-				$log.log("yrTag", yrTag, "key", key);
-				$log.log("VbY",valuesByYear);
-				$log.log("VbY Yr Id",valuesByYear[yrTag._id]);
+				// $log.log("yrTag", yrTag, "key", key);
+				// $log.log("VbY", valuesByYear);
+				// $log.log("VbY Yr Id", valuesByYear[yrTag._id]);
 				return {
-					"v" : valuesByYear[yrTag._id][key].value,
+					// "v" :
+					// valuesByYear[yrTag._id][key].value,
+					"v" : (valuesByYear[yrTag._id][key] != null ? // 
+					valuesByYear[yrTag._id][key].value : -10000000),
 					"p" : {
 						"style" : "font-size:11px"
 					}
 				}
 			}));
-			$log.log('Column row', result);
+			// $log.log('Column row', result);
 			return {
 				"c" : result
 			};
@@ -357,7 +391,8 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 					}
 				}
 			}).concat(_.map(yearTags, function(yrTag) {
-				// $log.log("YearTag", yrTag, " value ", yearValues[key][yrTag.name]);
+				// $log.log("YearTag", yrTag, " value ",
+				// yearValues[key][yrTag.name]);
 				return {
 					"v" : yearValues[key][yrTag.name],
 					"p" : {

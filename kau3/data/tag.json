@@ -890,19 +890,19 @@
 	"name" : "DA",
 	"description" : "Diploma Average",
 	"category" : "AL",
-	"order" : "1",
+	"order" : "2",
 	"tags" : []
 }, {
 	"name" : "BA",
 	"description" : "Bachelor",
 	"category" : "AL",
-	"order" : "2",
+	"order" : "3",
 	"tags" : []
 }, {
 	"name" : "GR",
 	"description" : "Graduate",
 	"category" : "AL",
-	"order" : "3",
+	"order" : "4",
 	"tags" : []
 }, {
 	"name" : "TO",
