@@ -12,27 +12,6 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 	 * Public functions
 	 */
 
-	// factory.build = function(data) {
-	// return buildFullTableChart(data);
-	// };
-	// factory.build = function(data) {
-	// return buildSummaryTableChart(data);
-	// };
-	// factory.build = function(data) {
-	// return buildDescriptionTableChart(data);
-	// };
-	// factory.build = function(data) {
-	// return buildColumnChart(data);
-	// };
-	// factory.build = function(data) {
-	// return buildLineChart(data);
-	// };
-	// factory.build = function(data) {
-	// return buildAreaChart(data);
-	// };
-	// factory.build = function(data) {
-	// return buildPieChart(data);
-	// };
 	factory.buildFullTableChart = buildFullTableChart;
 	factory.buildSummaryTableChart = buildSummaryTableChart;
 	factory.buildDescriptionTableChart = buildDescriptionTableChart;
@@ -233,6 +212,9 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 			} ];
 
 			result = result.concat(_.map(keys, function(key) {
+				$log.log("yrTag", yrTag, "key", key);
+				$log.log("VbY",valuesByYear);
+				$log.log("VbY Yr Id",valuesByYear[yrTag._id]);
 				return {
 					"v" : valuesByYear[yrTag._id][key].value,
 					"p" : {

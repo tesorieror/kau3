@@ -67,11 +67,17 @@ router.get('/', function(req, res) {
 						(path.join(__dirname, '../data/tag.json'), 'utf-8')
 						.then(JSON.parse).then(setPlainTags),
 				q.nfbind(fs.readFile)(
-						path.join(__dirname, '../data/1434-1435-indicator.json'), 'utf-8')
-						.then(JSON.parse).then(addPlainIndicators),
+						path.join(__dirname, '../data/1434-1435-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
 				q.nfbind(fs.readFile)(
-						path.join(__dirname, '../data/1433-1434-indicator.json'), 'utf-8')
-						.then(JSON.parse).then(addPlainIndicators) ]);
+						path.join(__dirname, '../data/1433-1434-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1434-1435-indicator_1-2.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1433-1434-indicator_1-2.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators) ]);
 	}
 
 	function insertTagCategories(data) {
@@ -144,9 +150,12 @@ router.get('/', function(req, res) {
 
 	function insertIndicators() {
 		var indicators = _.map(plainIndicators, function(indicator) {
+			//console.log("TD", tagDictionary);
 			return {
 				value : indicator.value,
 				_tags : _.map(indicator.tags, function(tag) {
+					console.log("CAT", tag.category);
+					console.log("TAG", tag);
 					return tagDictionary[tag.category][tag.name]._id;
 				})
 			};

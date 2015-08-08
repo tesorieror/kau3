@@ -22,4 +22,12 @@
 	"name" : "SS",
 	"description" : "Student State",
 	"order" : "2"
+}, {
+	"name" : "IN",
+	"description" : "Institution",
+	"order" : "3,5"
+}, {
+	"name" : "AL",
+	"description" : "Academic Level",
+	"order" : "4"
 } ]
