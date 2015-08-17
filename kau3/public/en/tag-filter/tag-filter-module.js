@@ -19,7 +19,7 @@ TagFilterModule.directive('tagFilter', function() {
 TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 	$log.info('Tag Filter Controller Loaded!');
 	$log.log("TagFilterModule model", $scope.model);
-	
+
 	$scope.test = function(cat, tag) {
 		$log.log(cat, tag);
 	}
@@ -52,5 +52,4 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 			$scope.model[cat._id][t._id] = true;
 		});
 	}
-
 });

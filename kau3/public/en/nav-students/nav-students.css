@@ -1,0 +1,36 @@
+/**
+* KAU Students
+*/
+div.kau-students ul.nav-pills.kau {
+	/*background-color: rgb(245, 245, 245);*/
+	background-color: rgb(245, 245, 245);
+
+	/*	border: 1px SOLID LIGHTGREY;
+	margin-bottom: 5px;*/
+}
+
+div.kau-students ul.nav-pills.kau li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+div.kau-students ul.nav-pills.kau li a {
+	color: #060;
+}
+
+div.kau-students ul.nav-pills.kau li.active a {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-students ul.nav-pills.kau li a:hover {
+	background-color: #060;
+	color: white;
+}
+
+div.kau-students ul.nav-pills.kau li.disabled a:hover {
+	background-color: lightgrey;
+	color: grey;
+}

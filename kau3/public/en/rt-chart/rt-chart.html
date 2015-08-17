@@ -50,6 +50,15 @@
 		<tag-filter categories="filterCategories" model="filterModel" ng-show="filterShow"></tag-filter>
 	</div>
 </div>
+<div class="row" ng-hide="allHasSelection()">
+	<div class="col-xs-12">
+		<div class="alert alert-danger" role="alert" style="margin-bottom: 10px">
+			<span class="glyphicon glyphicon-exclamation-sign"></span>
+			<strong>Filter error</strong>
+			All categories should have at least one item selected <a href="" class="alert-link" ng-click="filterShow = true;">Fix Filter</a>
+		</div>
+	</div>
+</div>
 <div class="row">
 	<div class="col-xs-12">
 		<div class="btn-group" role="group" style="margin-bottom: 5px;">

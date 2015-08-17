@@ -3,8 +3,11 @@
 		<!-- Toolbar -->
 		<dl>
 			<span ng-repeat="cat in categories">
-				<dt>
-					<p>
+				<dt style="margin-top: 2px; margin-bottom: 5px;">
+					<span style="color: red" ng-hide="isSelected(cat)">
+						<span class="glyphicon glyphicon-exclamation-sign"></span>
+					</span>
+					{{cat.description}}
 					<div class="btn-group" role="group">
 						<label type="button" class="btn btn-success btn-xs" ng-click="selectCategoryFirst(cat)"> <span class="glyphicon" aria-hidden="true">
 								<b>1</b>
@@ -17,12 +20,6 @@
 							></span>
 						</label>
 					</div>
-					{{cat.description}}
-					<span style="color: red" ng-hide="isSelected(cat)">
-						<span class="glyphicon glyphicon-exclamation-sign"></span>
-						Tag not selected!
-					</span>
-					</p>
 				</dt>
 				<dd>
 					<div class="btn-group">
