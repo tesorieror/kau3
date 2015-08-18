@@ -95,6 +95,30 @@ router.get('/', function(req, res) {
 						path.join(__dirname, '../data/1433-1434-indicator_1-1.json'),
 						'utf-8').then(JSON.parse).then(addPlainIndicators),
 				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1432-1433-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1431-1432-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1430-1431-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1429-1430-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1428-1429-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1427-1428-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1426-1427-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1425-1426-indicator_1-1.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
 						path.join(__dirname, '../data/1434-1435-indicator_1-2.json'),
 						'utf-8').then(JSON.parse).then(addPlainIndicators),
 				q.nfbind(fs.readFile)(
@@ -115,9 +139,9 @@ router.get('/', function(req, res) {
 		q.nfbind(fs.readFile)(
 				path.join(__dirname, '../data/1434-1435-indicator_1-8.json'), 'utf-8')
 				.then(JSON.parse).then(addPlainIndicators),//
-				q.nfbind(fs.readFile)(
-						path.join(__dirname, '../data/1433-1434-indicator_1-8.json'), 'utf-8')
-						.then(JSON.parse).then(addPlainIndicators);
+		q.nfbind(fs.readFile)(
+				path.join(__dirname, '../data/1433-1434-indicator_1-8.json'), 'utf-8')
+				.then(JSON.parse).then(addPlainIndicators);
 	}
 
 	function insertTagCategories(data) {
@@ -195,7 +219,7 @@ router.get('/', function(req, res) {
 				value : indicator.value,
 				_tags : _.map(indicator.tags, function(tag) {
 					// console.log("CAT", tag.category);
-					//console.log("TAG", tag);
+					// console.log("TAG", tag);
 					return tagDictionary[tag.category][tag.name]._id;
 				})
 			};
