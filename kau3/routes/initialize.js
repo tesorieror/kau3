@@ -114,7 +114,10 @@ router.get('/', function(req, res) {
 				.then(JSON.parse).then(addPlainIndicators),//
 		q.nfbind(fs.readFile)(
 				path.join(__dirname, '../data/1434-1435-indicator_1-8.json'), 'utf-8')
-				.then(JSON.parse).then(addPlainIndicators);
+				.then(JSON.parse).then(addPlainIndicators),//
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1433-1434-indicator_1-8.json'), 'utf-8')
+						.then(JSON.parse).then(addPlainIndicators);
 	}
 
 	function insertTagCategories(data) {
