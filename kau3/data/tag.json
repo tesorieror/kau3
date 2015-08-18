@@ -1,913 +1,1876 @@
-[ {
-	"name" : "PU",
-	"description" : "Public Universities",
-	"category" : "IT",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "PUC",
-	"description" : "Private Universities and Colleges",
-	"category" : "IT",
-	"order" : "3",
-	"tags" : []
-}, {
-	"name" : "OI",
-	"description" : "Other Institutions in Higher Education",
-	"category" : "IT",
-	"order" : "4",
-	"tags" : []
-}, {
-	"name" : "TO",
-	"description" : "Any Institution Type",
-	"category" : "IT",
-	"order" : "1",
-	"tags" : []
-}, {
-	"name" : "DA",
-	"description" : "Diploma Average",
-	"category" : "GR",
-	"order" : "3",
-	"tags" : []
-}, {
-	"name" : "BA",
-	"description" : "Bachelor",
-	"category" : "GR",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "HD",
-	"description" : "Higher Diploma",
-	"category" : "GR",
-	"order" : "4",
-	"tags" : []
-}, {
-	"name" : "MA",
-	"description" : "Master",
-	"category" : "GR",
-	"order" : "6",
-	"tags" : []
-}, {
-	"name" : "FE",
-	"description" : "Fellowship",
-	"category" : "GR",
-	"order" : "5",
-	"tags" : []
-}, {
-	"name" : "DO",
-	"description" : "Doctorate",
-	"category" : "GR",
-	"order" : "7",
-	"tags" : []
-}, {
-	"name" : "TO",
-	"description" : "Any Grade",
-	"category" : "GR",
-	"order" : "1",
-	"tags" : []
-}, {
-	"name" : "MA",
-	"description" : "Male",
-	"category" : "GE",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "FE",
-	"description" : "Female",
-	"category" : "GE",
-	"order" : "3",
-	"tags" : []
-}, {
-	"name" : "TO",
-	"description" : "Any Gender",
-	"category" : "GE",
-	"order" : "1",
-	"tags" : []
-}, {
-	"name" : "SA",
-	"description" : "Saudi",
-	"category" : "NA",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "NS",
-	"description" : "Non-Saudi",
-	"category" : "NA",
-	"order" : "3",
-	"tags" : []
-}, {
-	"name" : "TO",
-	"description" : "Any Nationality",
-	"category" : "NA",
-	"order" : "1",
-	"tags" : []
-}, {
-	"name" : "FR",
-	"description" : "Freshmen",
-	"category" : "SS",
-	"order" : "1",
-	"tags" : []
-}, {
-	"name" : "EN",
-	"description" : "Enrolled",
-	"category" : "SS",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "GR",
-	"description" : "Graduates of Previous Years",
-	"category" : "SS",
-	"order" : "3",
-	"tags" : []
-}, {
-	"name" : "1434-1435",
-	"description" : "2013/14-1434/35",
-	"category" : "YR",
-	"order" : "1",
-	"tags" : []
-}, {
-	"name" : "1433-1434",
-	"description" : "2012/13-1433/34",
-	"category" : "YR",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "UAQU",
-	"description" : "Umm Al-Qura University",
-	"category" : "IN",
-	"order" : "2",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "IU",
-	"description" : "Islamic University",
-	"category" : "IN",
-	"order" : "3",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "UMISIU",
-	"description" : "Imam Muhammad Ibn Saud Islamic University",
-	"category" : "IN",
-	"order" : "4",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "KSU",
-	"description" : "King Saud University",
-	"category" : "IN",
-	"order" : "5",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "KAU",
-	"description" : "King Abdulaziz University",
-	"category" : "IN",
-	"order" : "6",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "KFUPM",
-	"description" : "King Fahd University of Petroleum and Minerals",
-	"category" : "IN",
-	"order" : "7",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "KFU",
-	"description" : "King Faisal University",
-	"category" : "IN",
-	"order" : "8",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "KKU",
-	"description" : "King Khalid University",
-	"category" : "IN",
-	"order" : "9",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "QU",
-	"description" : "Qassim University",
-	"category" : "IN",
-	"order" : "10",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "TU",
-	"description" : "Taibah University",
-	"category" : "IN",
-	"order" : "11",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "TaU",
-	"description" : "Taif University",
-	"category" : "IN",
-	"order" : "12",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "KSAUHS",
-	"description" : "King Saud bin Abdulaziz University for Health Sciences",
-	"category" : "IN",
-	"order" : "13",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "GU",
-	"description" : "Gazan University",
-	"category" : "IN",
-	"order" : "14",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "HU",
-	"description" : "Hael University",
-	"category" : "IN",
-	"order" : "15",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AJU",
-	"description" : "Al-Jouf University",
-	"category" : "IN",
-	"order" : "16",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "TabU",
-	"description" : "Tabouk University",
-	"category" : "IN",
-	"order" : "17",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "BU",
-	"description" : "Baha University",
-	"category" : "IN",
-	"order" : "18",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "UN",
-	"description" : "Najran University",
-	"category" : "IN",
-	"order" : "19",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "PNBARU",
-	"description" : "Princess Nora Bint Abdul Rahman University",
-	"category" : "IN",
-	"order" : "20",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "NU",
-	"description" : "Northern University",
-	"category" : "IN",
-	"order" : "21",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "UB",
-	"description" : "University Blonde",
-	"category" : "IN",
-	"order" : "22",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "SAU",
-	"description" : "Salman bin Abdulaziz University",
-	"category" : "IN",
-	"order" : "23",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "UD",
-	"description" : "University of Dammam",
-	"category" : "IN",
-	"order" : "24",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "UC",
-	"description" : "University collected",
-	"category" : "IN",
-	"order" : "25",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "SAUE",
-	"description" : "Saudi Arabia University of electronic",
-	"category" : "IN",
-	"order" : "26",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PU"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "PSU",
-	"description" : "Prince Sultan University",
-	"category" : "IN",
-	"order" : "27",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AOU",
-	"description" : "Arabic Open University",
-	"category" : "IN",
-	"order" : "28",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "PMBFU",
-	"description" : "Prince Mohammed Bin Fahd University",
-	"category" : "IN",
-	"order" : "29",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "FU",
-	"description" : "Faisal University",
-	"category" : "IN",
-	"order" : "30",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AYU",
-	"description" : "Al-Yamamah University",
-	"category" : "IN",
-	"order" : "31",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "EU",
-	"description" : "Effat University",
-	"category" : "IN",
-	"order" : "32",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "DAUU",
-	"description" : "Dar Al Uloom University",
-	"category" : "IN",
-	"order" : "33",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "FSU",
-	"description" : "Fahad bin Sultan University",
-	"category" : "IN",
-	"order" : "34",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "QPU",
-	"description" : "Qassim Private Colleges",
-	"category" : "IN",
-	"order" : "35",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "DAHC",
-	"description" : "Dar Al-Hekma College",
-	"category" : "IN",
-	"order" : "36",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "IRCAS",
-	"description" : "IBN Rushd College of Administrative Sciences",
-	"category" : "IN",
-	"order" : "37",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "ABPCS",
-	"description" : "Al-Baha Private College of Sciences",
-	"category" : "IN",
-	"order" : "38",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "UBT",
-	"description" : "University of Business and Technology",
-	"category" : "IN",
-	"order" : "39",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "SFCMS",
-	"description" : "Dr. Suleiman Fakeeh College of Medical Sciences",
-	"category" : "IN",
-	"order" : "40",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "RCDP",
-	"description" : "Riyadh Colleges of Dentistry and Pharmacy",
-	"category" : "IN",
-	"order" : "41",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "ISPCMS",
-	"description" : "IBN Sina Private College of Medical Sciences",
-	"category" : "IN",
-	"order" : "42",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "ISNCMS",
-	"description" : "Ibn Sina National College for Medical Studies",
-	"category" : "IN",
-	"order" : "43",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "BMC",
-	"description" : "Batterjee Medical College",
-	"category" : "IN",
-	"order" : "44",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "SCNAHS",
-	"description" : "Saad College of Nursing & Allied Health Sciences",
-	"category" : "IN",
-	"order" : "45",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "ARCHS",
-	"description" : "AL-Riyada College for Health Sciences",
-	"category" : "IN",
-	"order" : "46",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AMCST",
-	"description" : "Al Maarefa College for Science & Technology",
-	"category" : "IN",
-	"order" : "47",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "BC",
-	"description" : "Buraydah Colleges",
-	"category" : "IN",
-	"order" : "48",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "MMPSMS",
-	"description" : "Mohammed Mana Private College for Medical Sciences",
-	"category" : "IN",
-	"order" : "49",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AFCDN",
-	"description" : "Al- Farabi College for Dentistry and Nursing",
-	"category" : "IN",
-	"order" : "50",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AGICHS",
-	"description" : "Al-Ghad International Colleges for Health Sciences",
-	"category" : "IN",
-	"order" : "51",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "SARC",
-	"description" : "Sulaiman Al Rajhi Colleges",
-	"category" : "IN",
-	"order" : "52",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "AEC",
-	"description" : "Arab East College",
-	"category" : "IN",
-	"order" : "53",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "IMC",
-	"description" : "INAYA Medical College",
-	"category" : "IN",
-	"order" : "54",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "PUC"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "JIC",
-	"description" : "Jubail Industrial College",
-	"category" : "IN",
-	"order" : "55",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "JUC",
-	"description" : "Jubail University College",
-	"category" : "IN",
-	"order" : "56",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "YES",
-	"description" : "Yanbu educational sector",
-	"category" : "IN",
-	"order" : "57",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "YIC",
-	"description" : "Yanbu Industrial College",
-	"category" : "IN",
-	"order" : "58",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "YUC",
-	"description" : "Yanbu University College",
-	"category" : "IN",
-	"order" : "59",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "GAI",
-	"description" : "General Administration Institute",
-	"category" : "IN",
-	"order" : "60",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "PSCHSD",
-	"description" : "Prince Sultan College for Health Sciences in Dhahran",
-	"category" : "IN",
-	"order" : "61",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "JTI",
-	"description" : "Jubail Technical Institute",
-	"category" : "IN",
-	"order" : "62",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "TVTC",
-	"description" : "Technical and Vocational Training Corporation",
-	"category" : "IN",
-	"order" : "63",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "TO",
-	"description" : "Total",
-	"category" : "IN",
-	"order" : "1",
-	"tags" : [ {
-		"category" : "IT",
-		"tag" : "OI"
-	}, {
-		"category" : "IT",
-		"tag" : "TO"
-	} ]
-}, {
-	"name" : "DA",
-	"description" : "Diploma Average",
-	"category" : "AL",
-	"order" : "2",
-	"tags" : []
-}, {
-	"name" : "BA",
-	"description" : "Bachelor",
-	"category" : "AL",
-	"order" : "3",
-	"tags" : []
-}, {
-	"name" : "GR",
-	"description" : "Graduate",
-	"category" : "AL",
-	"order" : "4",
-	"tags" : []
-}, {
-	"name" : "TO",
-	"description" : "Total",
-	"category" : "AL",
-	"order" : "1",
-	"tags" : []
-} ]
+[
+		{
+			"name" : "PU",
+			"description" : "Public Universities",
+			"category" : "IT",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "PUC",
+			"description" : "Private Universities and Colleges",
+			"category" : "IT",
+			"order" : "3",
+			"tags" : []
+		},
+		{
+			"name" : "OI",
+			"description" : "Other Institutions in Higher Education",
+			"category" : "IT",
+			"order" : "4",
+			"tags" : []
+		},
+		{
+			"name" : "TO",
+			"description" : "Any Institution Type",
+			"category" : "IT",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "DA",
+			"description" : "Diploma Average",
+			"category" : "GR",
+			"order" : "3",
+			"tags" : []
+		},
+		{
+			"name" : "BA",
+			"description" : "Bachelor",
+			"category" : "GR",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "HD",
+			"description" : "Higher Diploma",
+			"category" : "GR",
+			"order" : "4",
+			"tags" : []
+		},
+		{
+			"name" : "MA",
+			"description" : "Master",
+			"category" : "GR",
+			"order" : "6",
+			"tags" : []
+		},
+		{
+			"name" : "FE",
+			"description" : "Fellowship",
+			"category" : "GR",
+			"order" : "5",
+			"tags" : []
+		},
+		{
+			"name" : "DO",
+			"description" : "Doctorate",
+			"category" : "GR",
+			"order" : "7",
+			"tags" : []
+		},
+		{
+			"name" : "TO",
+			"description" : "Any Grade",
+			"category" : "GR",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "MA",
+			"description" : "Male",
+			"category" : "GE",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "FE",
+			"description" : "Female",
+			"category" : "GE",
+			"order" : "3",
+			"tags" : []
+		},
+		{
+			"name" : "TO",
+			"description" : "Any Gender",
+			"category" : "GE",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "SA",
+			"description" : "Saudi",
+			"category" : "NA",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "NS",
+			"description" : "Non-Saudi",
+			"category" : "NA",
+			"order" : "3",
+			"tags" : []
+		},
+		{
+			"name" : "TO",
+			"description" : "Any Nationality",
+			"category" : "NA",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "FR",
+			"description" : "Freshmen",
+			"category" : "SS",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "EN",
+			"description" : "Enrolled",
+			"category" : "SS",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "GR",
+			"description" : "Graduates of Previous Years",
+			"category" : "SS",
+			"order" : "3",
+			"tags" : []
+		},
+		{
+			"name" : "1434-1435",
+			"description" : "2013/14-1434/35",
+			"category" : "YR",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "1433-1434",
+			"description" : "2012/13-1433/34",
+			"category" : "YR",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "UAQU",
+			"description" : "Umm Al-Qura University",
+			"category" : "IN",
+			"order" : "2",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "IU",
+			"description" : "Islamic University",
+			"category" : "IN",
+			"order" : "3",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "UMISIU",
+			"description" : "Imam Muhammad Ibn Saud Islamic University",
+			"category" : "IN",
+			"order" : "4",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "KSU",
+			"description" : "King Saud University",
+			"category" : "IN",
+			"order" : "5",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "KAU",
+			"description" : "King Abdulaziz University",
+			"category" : "IN",
+			"order" : "6",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "KFUPM",
+			"description" : "King Fahd University of Petroleum and Minerals",
+			"category" : "IN",
+			"order" : "7",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "KFU",
+			"description" : "King Faisal University",
+			"category" : "IN",
+			"order" : "8",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "KKU",
+			"description" : "King Khalid University",
+			"category" : "IN",
+			"order" : "9",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "QU",
+			"description" : "Qassim University",
+			"category" : "IN",
+			"order" : "10",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "TU",
+			"description" : "Taibah University",
+			"category" : "IN",
+			"order" : "11",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "TaU",
+			"description" : "Taif University",
+			"category" : "IN",
+			"order" : "12",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "KSAUHS",
+			"description" : "King Saud bin Abdulaziz University for Health Sciences",
+			"category" : "IN",
+			"order" : "13",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "GU",
+			"description" : "Gazan University",
+			"category" : "IN",
+			"order" : "14",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "HU",
+			"description" : "Hael University",
+			"category" : "IN",
+			"order" : "15",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AJU",
+			"description" : "Al-Jouf University",
+			"category" : "IN",
+			"order" : "16",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "TabU",
+			"description" : "Tabouk University",
+			"category" : "IN",
+			"order" : "17",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "BU",
+			"description" : "Baha University",
+			"category" : "IN",
+			"order" : "18",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "UN",
+			"description" : "Najran University",
+			"category" : "IN",
+			"order" : "19",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "PNBARU",
+			"description" : "Princess Nora Bint Abdul Rahman University",
+			"category" : "IN",
+			"order" : "20",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "NU",
+			"description" : "Northern University",
+			"category" : "IN",
+			"order" : "21",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "UB",
+			"description" : "University Blonde",
+			"category" : "IN",
+			"order" : "22",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "SAU",
+			"description" : "Salman bin Abdulaziz University",
+			"category" : "IN",
+			"order" : "23",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "UD",
+			"description" : "University of Dammam",
+			"category" : "IN",
+			"order" : "24",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "UC",
+			"description" : "University collected",
+			"category" : "IN",
+			"order" : "25",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "SAUE",
+			"description" : "Saudi Arabia University of electronic",
+			"category" : "IN",
+			"order" : "26",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PU"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "PSU",
+			"description" : "Prince Sultan University",
+			"category" : "IN",
+			"order" : "27",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AOU",
+			"description" : "Arabic Open University",
+			"category" : "IN",
+			"order" : "28",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "PMBFU",
+			"description" : "Prince Mohammed Bin Fahd University",
+			"category" : "IN",
+			"order" : "29",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "FU",
+			"description" : "Faisal University",
+			"category" : "IN",
+			"order" : "30",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AYU",
+			"description" : "Al-Yamamah University",
+			"category" : "IN",
+			"order" : "31",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "EU",
+			"description" : "Effat University",
+			"category" : "IN",
+			"order" : "32",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "DAUU",
+			"description" : "Dar Al Uloom University",
+			"category" : "IN",
+			"order" : "33",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "FSU",
+			"description" : "Fahad bin Sultan University",
+			"category" : "IN",
+			"order" : "34",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "QPU",
+			"description" : "Qassim Private Colleges",
+			"category" : "IN",
+			"order" : "35",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "DAHC",
+			"description" : "Dar Al-Hekma College",
+			"category" : "IN",
+			"order" : "36",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "IRCAS",
+			"description" : "IBN Rushd College of Administrative Sciences",
+			"category" : "IN",
+			"order" : "37",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "ABPCS",
+			"description" : "Al-Baha Private College of Sciences",
+			"category" : "IN",
+			"order" : "38",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "UBT",
+			"description" : "University of Business and Technology",
+			"category" : "IN",
+			"order" : "39",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "SFCMS",
+			"description" : "Dr. Suleiman Fakeeh College of Medical Sciences",
+			"category" : "IN",
+			"order" : "40",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "RCDP",
+			"description" : "Riyadh Colleges of Dentistry and Pharmacy",
+			"category" : "IN",
+			"order" : "41",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "ISPCMS",
+			"description" : "IBN Sina Private College of Medical Sciences",
+			"category" : "IN",
+			"order" : "42",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "ISNCMS",
+			"description" : "Ibn Sina National College for Medical Studies",
+			"category" : "IN",
+			"order" : "43",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "BMC",
+			"description" : "Batterjee Medical College",
+			"category" : "IN",
+			"order" : "44",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "SCNAHS",
+			"description" : "Saad College of Nursing & Allied Health Sciences",
+			"category" : "IN",
+			"order" : "45",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "ARCHS",
+			"description" : "AL-Riyada College for Health Sciences",
+			"category" : "IN",
+			"order" : "46",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AMCST",
+			"description" : "Al Maarefa College for Science & Technology",
+			"category" : "IN",
+			"order" : "47",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "BC",
+			"description" : "Buraydah Colleges",
+			"category" : "IN",
+			"order" : "48",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "MMPSMS",
+			"description" : "Mohammed Mana Private College for Medical Sciences",
+			"category" : "IN",
+			"order" : "49",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AFCDN",
+			"description" : "Al- Farabi College for Dentistry and Nursing",
+			"category" : "IN",
+			"order" : "50",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AGICHS",
+			"description" : "Al-Ghad International Colleges for Health Sciences",
+			"category" : "IN",
+			"order" : "51",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "SARC",
+			"description" : "Sulaiman Al Rajhi Colleges",
+			"category" : "IN",
+			"order" : "52",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "AEC",
+			"description" : "Arab East College",
+			"category" : "IN",
+			"order" : "53",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "IMC",
+			"description" : "INAYA Medical College",
+			"category" : "IN",
+			"order" : "54",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "PUC"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "JIC",
+			"description" : "Jubail Industrial College",
+			"category" : "IN",
+			"order" : "55",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "JUC",
+			"description" : "Jubail University College",
+			"category" : "IN",
+			"order" : "56",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "YES",
+			"description" : "Yanbu educational sector",
+			"category" : "IN",
+			"order" : "57",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "YIC",
+			"description" : "Yanbu Industrial College",
+			"category" : "IN",
+			"order" : "58",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "YUC",
+			"description" : "Yanbu University College",
+			"category" : "IN",
+			"order" : "59",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "GAI",
+			"description" : "General Administration Institute",
+			"category" : "IN",
+			"order" : "60",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "PSCHSD",
+			"description" : "Prince Sultan College for Health Sciences in Dhahran",
+			"category" : "IN",
+			"order" : "61",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "JTI",
+			"description" : "Jubail Technical Institute",
+			"category" : "IN",
+			"order" : "62",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "TVTC",
+			"description" : "Technical and Vocational Training Corporation",
+			"category" : "IN",
+			"order" : "63",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "TO",
+			"description" : "Total",
+			"category" : "IN",
+			"order" : "1",
+			"tags" : [ {
+				"category" : "IT",
+				"tag" : "OI"
+			}, {
+				"category" : "IT",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "DA",
+			"description" : "Diploma Average",
+			"category" : "AL",
+			"order" : "2",
+			"tags" : []
+		},
+		{
+			"name" : "BA",
+			"description" : "Bachelor",
+			"category" : "AL",
+			"order" : "3",
+			"tags" : []
+		},
+		{
+			"name" : "GR",
+			"description" : "Graduate",
+			"category" : "AL",
+			"order" : "4",
+			"tags" : []
+		},
+		{
+			"name" : "TO",
+			"description" : "Total",
+			"category" : "AL",
+			"order" : "1",
+			"tags" : []
+		},
+		{
+			"name" : "ME",
+			"description" : "Mecca Community College",
+			"order" : "1",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UAQU"
+			} ]
+		},
+		{
+			"name" : "RI",
+			"description" : "Riyadh Community College",
+			"order" : "2",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KSU"
+			} ]
+		},
+		{
+			"name" : "ALJ",
+			"description" : "Almjmta College in Jeddah",
+			"order" : "3",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KAU"
+			} ]
+		},
+		{
+			"name" : "HAB",
+			"description" : "Hafr Al-Batin Community College",
+			"order" : "4",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFUPM"
+			} ]
+		},
+		{
+			"name" : "DA",
+			"description" : "Community college in Dammam",
+			"order" : "5",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFUPM"
+			} ]
+		},
+		{
+			"name" : "AH",
+			"description" : "Ahsa community college for girls",
+			"order" : "6",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFU"
+			} ]
+		},
+		{
+			"name" : "AB",
+			"description" : "Abha community college for girls",
+			"order" : "7",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "BA",
+			"description" : "Balnmas community college",
+			"order" : "8",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "KM",
+			"description" : "Khamis Mushayt Community College",
+			"order" : "9",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "KMG",
+			"description" : "Girls Community College in Khamis Mushayt",
+			"order" : "10",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "MB",
+			"description" : "Men brightest Community College",
+			"order" : "11",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "BMA",
+			"description" : "Bmhaal Asir Community College",
+			"order" : "12",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "BO",
+			"description" : "Bouaphh Community College",
+			"order" : "13",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "BU",
+			"description" : "Buraidah Community College",
+			"order" : "14",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "BN",
+			"description" : "Bnizp community college",
+			"order" : "15",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "MED",
+			"description" : "Medina Community College",
+			"order" : "16",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "BAG",
+			"description" : "Girls Balhnakah Community College",
+			"order" : "17",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "AC",
+			"description" : "College Almojta cradle",
+			"order" : "18",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "KH",
+			"description" : "Khyber community college",
+			"order" : "19",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "OL",
+			"description" : "Ola community college",
+			"order" : "20",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "BAD",
+			"description" : "Badr Community College",
+			"order" : "21",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "BE",
+			"description" : "Bernih Community College",
+			"order" : "22",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TaU"
+			} ]
+		},
+		{
+			"name" : "TA",
+			"description" : "Community college in Taif",
+			"order" : "23",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TaU"
+			} ]
+		},
+		{
+			"name" : "BAK",
+			"description" : "Bakhermh Community College",
+			"order" : "24",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TaU"
+			} ]
+		},
+		{
+			"name" : "JA",
+			"description" : "Jazan Community College",
+			"order" : "25",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "GU"
+			} ]
+		},
+		{
+			"name" : "AAG",
+			"description" : "Girls Community College Abu Arish",
+			"order" : "26",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "GU"
+			} ]
+		},
+		{
+			"name" : "HA",
+			"description" : "Hail community college",
+			"order" : "27",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "HU"
+			} ]
+		},
+		{
+			"name" : "ALBI",
+			"description" : "College Almjmta Biskaka",
+			"order" : "28",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "AJU"
+			} ]
+		},
+		{
+			"name" : "QU",
+			"description" : "Qurayat community college",
+			"order" : "29",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "AJU"
+			} ]
+		},
+		{
+			"name" : "BT",
+			"description" : "Btabrgel community college",
+			"order" : "30",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "AJU"
+			} ]
+		},
+		{
+			"name" : "AT",
+			"description" : "College Almjmta Tabuk",
+			"order" : "31",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TabU"
+			} ]
+		},
+		{
+			"name" : "AD",
+			"description" : "College Almjmta Daba",
+			"order" : "32",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TabU"
+			} ]
+		},
+		{
+			"name" : "ALBA",
+			"description" : "College Almjmta Baha",
+			"order" : "33",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "BU"
+			} ]
+		},
+		{
+			"name" : "NA",
+			"description" : "Najran Community College",
+			"order" : "34",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UN"
+			} ]
+		},
+		{
+			"name" : "CO",
+			"description" : "Community College",
+			"order" : "35",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "PNBARU"
+			} ]
+		},
+		{
+			"name" : "AR",
+			"description" : "Arar community college",
+			"order" : "36",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "NU"
+			} ]
+		},
+		{
+			"name" : "RA",
+			"description" : "Community college in Rafha",
+			"order" : "37",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "NU"
+			} ]
+		},
+		{
+			"name" : "TR",
+			"description" : "Traif community college",
+			"order" : "38",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "NU"
+			} ]
+		},
+		{
+			"name" : "BH",
+			"description" : "Bhqra community college",
+			"order" : "39",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UB"
+			} ]
+		},
+		{
+			"name" : "ALDA",
+			"description" : "Aldawadmi community college",
+			"order" : "40",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UB"
+			} ]
+		},
+		{
+			"name" : "BHA",
+			"description" : "Bharimlae community college",
+			"order" : "41",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UB"
+			} ]
+		},
+		{
+			"name" : "KHMU",
+			"description" : "Khamis Mushait Community College",
+			"order" : "42",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UB"
+			} ]
+		},
+		{
+			"name" : "AK",
+			"description" : "Community college in Al-Kharj",
+			"order" : "43",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "SAU"
+			} ]
+		},
+		{
+			"name" : "PV",
+			"description" : "Propellants Valley Community College",
+			"order" : "44",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "SAU"
+			} ]
+		},
+		{
+			"name" : "AF",
+			"description" : "Aflaj community college",
+			"order" : "45",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "SAU"
+			} ]
+		},
+		{
+			"name" : "QAG",
+			"description" : "Community college for girls in Qatif",
+			"order" : "46",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UD"
+			} ]
+		},
+		{
+			"name" : "MA",
+			"description" : "Majma'ah community college",
+			"order" : "47",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "FR",
+			"description" : "Freshmen Students",
+			"order" : "1",
+			"category" : "PE",
+			"tags" : []
+		},
+		{
+			"name" : "EN",
+			"description" : "Enrolled Students",
+			"order" : "2",
+			"category" : "PE",
+			"tags" : []
+		},
+		{
+			"name" : "GR",
+			"description" : "Graduated Students previous Year",
+			"order" : "3",
+			"category" : "PE",
+			"tags" : []
+		},
+		{
+			"name" : "FM",
+			"description" : "Faculty Members",
+			"order" : "4",
+			"category" : "PE",
+			"tags" : []
+		},
+		{
+			"name" : "AT",
+			"description" : "Administrative and Technician",
+			"order" : "5",
+			"category" : "PE",
+			"tags" : []
+		},
+		{
+			"name" : "BAM",
+			"description" : "Bamajardh Community College",
+			"order" : "49",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "BAL",
+			"description" : "Balumblyda community college",
+			"order" : "50",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "BD",
+			"description" : "Bdharma community college",
+			"order" : "51",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UB"
+			} ]
+		},
+		{
+			"name" : "ALM",
+			"description" : "Almazahmia Community College",
+			"order" : "52",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UB"
+			} ]
+		},
+		{
+			"name" : "TO",
+			"description" : "All communities",
+			"order" : "1",
+			"category" : "CC",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "DCSCE-UAQU",
+			"description" : "Deanship of Community Service and Continuing Education (UAQU)",
+			"order" : "2",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UAQU"
+			} ]
+		},
+		{
+			"name" : "DDL-IU",
+			"description" : "Deanship of Distance Learning (IU)",
+			"order" : "3",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "IU"
+			} ]
+		},
+		{
+			"name" : "DCS-IU",
+			"description" : "Deanship of community service (IU)",
+			"order" : "4",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "IU"
+			} ]
+		},
+		{
+			"name" : "DUCCSCE-UMISIU",
+			"description" : "Deanship University Center for Community Service and Continuing Education (UMISIU)",
+			"order" : "5",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UMISIU"
+			} ]
+		},
+		{
+			"name" : "DDL-UMISIU",
+			"description" : "Deanship of Distance Learning (UMISIU)",
+			"order" : "6",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UMISIU"
+			} ]
+		},
+		{
+			"name" : "FASCS-KSU",
+			"description" : "Faculty of Applied Studies and Community Service (KSU)",
+			"order" : "7",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KSU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-KAU",
+			"description" : "Deanship of Community Service and Continuing Education (KAU)",
+			"order" : "8",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KAU"
+			} ]
+		},
+		{
+			"name" : "DDL-KAU",
+			"description" : "Deanship of Distance Learning (KAU)",
+			"order" : "9",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KAU"
+			} ]
+		},
+		{
+			"name" : "FASS-KFUPM",
+			"description" : "Faculty of Applied and Supporting Studies (KFUPM)",
+			"order" : "10",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFUPM"
+			} ]
+		},
+		{
+			"name" : "FASSS-KFU",
+			"description" : "Faculty of Applied Studies and Community Service (KFU)",
+			"order" : "11",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFU"
+			} ]
+		},
+		{
+			"name" : "CCSCE-KKU",
+			"description" : "College of Community Service and Continuing Education (KKU)",
+			"order" : "12",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "DCSB-QU",
+			"description" : "Deanship of community service Buraidah (QU)",
+			"order" : "13",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "DES-QU",
+			"description" : "Deanship of Educational Services (QU)",
+			"order" : "14",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "DPCE-TU",
+			"description" : "Deanship of Parallel and continuing education (TU)",
+			"order" : "15",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "DESM-TU",
+			"description" : "Dean, Educational Services in Medina (TU)",
+			"order" : "16",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "DESY-TU",
+			"description" : "Agency Dean, Educational Services in Yanbu (TU)",
+			"order" : "17",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "DESO-TU",
+			"description" : "Agency Dean, Educational Services Ola (TU)",
+			"order" : "18",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "CCSCE-TaU",
+			"description" : "College of Community Service and Continuing Education (TaU)",
+			"order" : "19",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TaU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-GU",
+			"description" : "Deanship of Community Service and Continuing Education (GU)",
+			"order" : "20",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "GU"
+			} ]
+		},
+		{
+			"name" : "DEDE-GU",
+			"description" : "Deanship of e-learning and distance education (GU)",
+			"order" : "21",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "GU"
+			} ]
+		},
+		{
+			"name" : "DES-HU",
+			"description" : "Deanship of Educational Services (HU)",
+			"order" : "22",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "HU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-TabU",
+			"description" : "Deanship of Community Service and Continuing Education (TabU)",
+			"order" : "23",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TabU"
+			} ]
+		},
+		{
+			"name" : "CASCE-BU",
+			"description" : "College of Applied Studies and Continuing Education (BU)",
+			"order" : "24",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "BU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-UN",
+			"description" : "Deanship of Community Service and Continuing Education (UN)",
+			"order" : "25",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UN"
+			} ]
+		},
+		{
+			"name" : "DCSCE-PNBARU",
+			"description" : "Deanship of Community Service and Continuing Education (PNBARU)",
+			"order" : "26",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "PNBARU"
+			} ]
+		},
+		{
+			"name" : "DCS-NU",
+			"description" : "Deanship of community service (NU)",
+			"order" : "27",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "NU"
+			} ]
+		},
+		{
+			"name" : "FASCS-UD",
+			"description" : "Faculty of Applied Studies and Community Service (UD)",
+			"order" : "28",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UD"
+			} ]
+		},
+		{
+			"name" : "DCCER-UC",
+			"description" : "Deanship of Community and Continuing Education in Riyadh service (UC)",
+			"order" : "29",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "DCSCEH-UC",
+			"description" : "Deanship of community service and continuing education Hafr Al-Batin (UC)",
+			"order" : "30",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "DCCEMS-UC",
+			"description" : "Deanship of Community and Continuing Education Majma'ah Service (UC)",
+			"order" : "31",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "DCCEZS-UC",
+			"description" : "Deanship of Community and Continuing Education Zulfi Service (UC)",
+			"order" : "32",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		}, {
+			"name" : "TO",
+			"description" : "All Services",
+			"order" : "1",
+			"category" : "CCS",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TO"
+			} ]
+		} ]

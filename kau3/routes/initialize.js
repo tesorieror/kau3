@@ -21,6 +21,7 @@ router.get('/', function(req, res) {
 	var tagDictionary = [];
 
 	function setPlainTagCategories(categories) {
+
 		plainTagCategories = categories;
 		return categories;
 	}
@@ -77,7 +78,19 @@ router.get('/', function(req, res) {
 						'utf-8').then(JSON.parse).then(addPlainIndicators),
 				q.nfbind(fs.readFile)(
 						path.join(__dirname, '../data/1433-1434-indicator_1-2.json'),
-						'utf-8').then(JSON.parse).then(addPlainIndicators) ]);
+						'utf-8').then(JSON.parse).then(addPlainIndicators) ]), // 
+		q.nfbind(fs.readFile)(
+				path.join(__dirname, '../data/1434-1435-indicator_1-5.json'), 'utf-8')
+				.then(JSON.parse).then(addPlainIndicators),// 
+		q.nfbind(fs.readFile)(
+				path.join(__dirname, '../data/1433-1434-indicator_1-5.json'), 'utf-8')
+				.then(JSON.parse).then(addPlainIndicators),//
+		q.nfbind(fs.readFile)(
+				path.join(__dirname, '../data/1434-1435-indicator_1-6.json'), 'utf-8')
+				.then(JSON.parse).then(addPlainIndicators),//
+		q.nfbind(fs.readFile)(
+				path.join(__dirname, '../data/1433-1434-indicator_1-6.json'), 'utf-8')
+				.then(JSON.parse).then(addPlainIndicators);
 	}
 
 	function insertTagCategories(data) {
@@ -109,12 +122,12 @@ router.get('/', function(req, res) {
 			// console.log(plainTag.category);
 			// console.log(plainTag.name);
 			// console.log(tagDictionary[plainTag.category]);
-
 			tagDictionary[plainTag.category][plainTag.name]._tags = _.map(
 					plainTag.tags, function(t) {
 						return tagDictionary[t.category][t.tag];
 					});
-			return tagDictionary[plainTag.category][plainTag.name].save();
+			var result = tagDictionary[plainTag.category][plainTag.name].save();
+			return result;
 		}));
 	}
 
@@ -150,12 +163,12 @@ router.get('/', function(req, res) {
 
 	function insertIndicators() {
 		var indicators = _.map(plainIndicators, function(indicator) {
-			//console.log("TD", tagDictionary);
+			// console.log("TD", tagDictionary);
 			return {
 				value : indicator.value,
 				_tags : _.map(indicator.tags, function(tag) {
-					console.log("CAT", tag.category);
-					console.log("TAG", tag);
+					// console.log("CAT", tag.category);
+					// console.log("TAG", tag);
 					return tagDictionary[tag.category][tag.name]._id;
 				})
 			};
@@ -174,9 +187,9 @@ router.get('/', function(req, res) {
 	removeAll()//
 	.then(loadData)//
 	.then(insertTagCategories)//
-	.then(insertTags)//	
+	.then(insertTags)//
 	.then(updateTagCategoryTags)//
-	.then(createTagDictionary)//	
+	.then(createTagDictionary)//
 	.then(updateTags)//
 	.then(insertIndicators)//
 	.then(function(data) {

@@ -30,4 +30,16 @@
 	"name" : "AL",
 	"description" : "Academic Level",
 	"order" : "4"
+}, {
+	"name" : "CC",
+	"description" : "Community College",
+	"order" : "7"
+}, {
+	"name" : "PE",
+	"description" : "People",
+	"order" : "8"
+}, {
+	"name" : "CCS",
+	"description" : "Community College Service",
+	"order" : "9"
 } ]

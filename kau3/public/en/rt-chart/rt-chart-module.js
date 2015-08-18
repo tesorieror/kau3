@@ -11,7 +11,8 @@ RTChartModule.directive('rtChart', function() {
 		templateUrl : './rt-chart/rt-chart.html',
 		controller : 'RTChartCtrl',
 		scope : {
-			tagCategoryNames : '='
+			tagCategoryNames : '=',
+			path : '@'
 		}
 	};
 });
@@ -97,7 +98,7 @@ RTChartModule.controller('RTChartCtrl',
 			$scope.applyFilter = function() {
 				usSpinnerService.spin('spinner-1');
 				var filterPath = getFilterPath();
-				ModelFactory.getIndicatorsFor(filterPath)//
+				ModelFactory.getIndicators($scope.path, filterPath)//
 				.then(
 						function(res) {
 							var categoriesById = _.indexBy(getSelectedCategories(), '_id');

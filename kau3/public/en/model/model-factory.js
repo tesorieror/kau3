@@ -11,16 +11,21 @@ app.factory('ModelFactory', function($log, $http) {
 		return $http.get('/tagCategory/name/' + namesPath);
 	}
 
-	function getIndicatorsFor(filterPath) {
-		$log.log("Loading Indicators for tags", filterPath);
-		return $http.get('/indicator/tag/' + filterPath);
+	// function getIndicatorsFor(filterPath) {
+	// $log.log("Loading Indicators for tags", filterPath);
+	// return $http.get('/indicator/tag/' + filterPath);
+	// }
+
+	function getIndicators(path, filter) {
+		$log.log("Loading Indicators for ", filter, "from", path);
+		return $http.get(path + filter);
 	}
 
 	/**
 	 * Public functions
 	 */
 	factory.getTagCategoriesForNames = getTagCategoriesForNames;
-	factory.getIndicatorsFor = getIndicatorsFor;
+	factory.getIndicators = getIndicators;
 
 	return factory;
 });

@@ -24,12 +24,22 @@ app.config(function($routeProvider, $locationProvider) {
 	}).when('/students-university', {
 		templateUrl : './students-university/students-university.html',
 		controller : 'StudentsUniversityCtrl'
+	}).when('/students-community', {
+		templateUrl : './students-community/students-community.html',
+		controller : 'StudentsCommunityCtrl'
+	}).when('/students-community-service', {
+		templateUrl : './students-community-service/students-community-service.html',
+		controller : 'StudentsCommunityServiceCtrl'
 	}).when('/informationNotAvailable', {
 		templateUrl : './information-not-available/information-not-available.html',
 		controller : 'InformationNotAvailableCtrl'
 	}).otherwise({
 		redirectTo : '/index.html'
 	});
+	
+	
+	
+	
 	// configure html5 to get links working on jsfiddle
 	// $locationProvider.html5Mode(true);
 });
