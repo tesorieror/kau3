@@ -1,0 +1,19 @@
+[ {
+	"name" : "FR",
+	"description" : "Freshmen",
+	"category" : "SS",
+	"order" : "1",
+	"tags" : []
+}, {
+	"name" : "EN",
+	"description" : "Enrolled",
+	"category" : "SS",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "GR",
+	"description" : "Graduates of Previous Years",
+	"category" : "SS",
+	"order" : "3",
+	"tags" : []
+} ]

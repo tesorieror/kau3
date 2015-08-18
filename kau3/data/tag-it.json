@@ -1,0 +1,25 @@
+[ {
+	"name" : "TO",
+	"description" : "Any Institution Type",
+	"category" : "IT",
+	"order" : "1",
+	"tags" : []
+}, {
+	"name" : "PU",
+	"description" : "Public Universities",
+	"category" : "IT",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "PUC",
+	"description" : "Private Universities and Colleges",
+	"category" : "IT",
+	"order" : "3",
+	"tags" : []
+}, {
+	"name" : "OI",
+	"description" : "Other Institutions in Higher Education",
+	"category" : "IT",
+	"order" : "4",
+	"tags" : []
+} ]

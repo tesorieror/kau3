@@ -1,0 +1,13 @@
+[ {
+	"name" : "FM",
+	"description" : "Faculty members",
+	"category" : "UP",
+	"order" : "1",
+	"tags" : []
+}, {
+	"name" : "AT",
+	"description" : "Administrators and Technicians",
+	"category" : "UP",
+	"order" : "2",
+	"tags" : []
+} ]

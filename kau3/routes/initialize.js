@@ -14,7 +14,7 @@ var Indicator = require(path.join(__dirname, '../model/indicator'));
 router.get('/', function(req, res) {
 
 	var plainTagCategories;
-	var plainTags;
+	var plainTags = [];
 	var plainIndicators = [];
 
 	// keys [category.name][tag.name]
@@ -26,9 +26,9 @@ router.get('/', function(req, res) {
 		return categories;
 	}
 
-	function setPlainTags(tags) {
-		plainTags = tags;
-		return tags;
+	function addPlainTags(tags) {
+		plainTags = plainTags.concat(tags);
+		return plainTags;
 	}
 
 	function addPlainIndicators(indicators) {
@@ -64,9 +64,30 @@ router.get('/', function(req, res) {
 				q.nfbind(fs.readFile)(
 						path.join(__dirname, '../data/tag-category.json'), 'utf-8').then(
 						JSON.parse).then(setPlainTagCategories),
-				q.nfbind(fs.readFile)
-						(path.join(__dirname, '../data/tag.json'), 'utf-8')
-						.then(JSON.parse).then(setPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-al.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-cc.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-ccs.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-ge.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-gr.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-in.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-it.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-na.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-pe.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-ss.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-up.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
+				q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-yr.json'),
+						'utf-8').then(JSON.parse).then(addPlainTags),
 				q.nfbind(fs.readFile)(
 						path.join(__dirname, '../data/1434-1435-indicator_1-1.json'),
 						'utf-8').then(JSON.parse).then(addPlainIndicators),
@@ -90,6 +111,9 @@ router.get('/', function(req, res) {
 				.then(JSON.parse).then(addPlainIndicators),//
 		q.nfbind(fs.readFile)(
 				path.join(__dirname, '../data/1433-1434-indicator_1-6.json'), 'utf-8')
+				.then(JSON.parse).then(addPlainIndicators),//
+		q.nfbind(fs.readFile)(
+				path.join(__dirname, '../data/1434-1435-indicator_1-8.json'), 'utf-8')
 				.then(JSON.parse).then(addPlainIndicators);
 	}
 
@@ -168,7 +192,7 @@ router.get('/', function(req, res) {
 				value : indicator.value,
 				_tags : _.map(indicator.tags, function(tag) {
 					// console.log("CAT", tag.category);
-					// console.log("TAG", tag);
+					//console.log("TAG", tag);
 					return tagDictionary[tag.category][tag.name]._id;
 				})
 			};

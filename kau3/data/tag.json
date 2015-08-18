@@ -1554,8 +1554,8 @@
 				"category" : "IN",
 				"tag" : "TO"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCE-UAQU",
 			"description" : "Deanship of Community Service and Continuing Education (UAQU)",
 			"order" : "2",
@@ -1584,8 +1584,8 @@
 				"category" : "IN",
 				"tag" : "IU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DUCCSCE-UMISIU",
 			"description" : "Deanship University Center for Community Service and Continuing Education (UMISIU)",
 			"order" : "5",
@@ -1614,8 +1614,8 @@
 				"category" : "IN",
 				"tag" : "KSU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCE-KAU",
 			"description" : "Deanship of Community Service and Continuing Education (KAU)",
 			"order" : "8",
@@ -1654,8 +1654,8 @@
 				"category" : "IN",
 				"tag" : "KFU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "CCSCE-KKU",
 			"description" : "College of Community Service and Continuing Education (KKU)",
 			"order" : "12",
@@ -1724,8 +1724,8 @@
 				"category" : "IN",
 				"tag" : "TU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "CCSCE-TaU",
 			"description" : "College of Community Service and Continuing Education (TaU)",
 			"order" : "19",
@@ -1734,8 +1734,8 @@
 				"category" : "IN",
 				"tag" : "TaU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCE-GU",
 			"description" : "Deanship of Community Service and Continuing Education (GU)",
 			"order" : "20",
@@ -1764,8 +1764,8 @@
 				"category" : "IN",
 				"tag" : "HU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCE-TabU",
 			"description" : "Deanship of Community Service and Continuing Education (TabU)",
 			"order" : "23",
@@ -1774,8 +1774,8 @@
 				"category" : "IN",
 				"tag" : "TabU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "CASCE-BU",
 			"description" : "College of Applied Studies and Continuing Education (BU)",
 			"order" : "24",
@@ -1784,8 +1784,8 @@
 				"category" : "IN",
 				"tag" : "BU"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCE-UN",
 			"description" : "Deanship of Community Service and Continuing Education (UN)",
 			"order" : "25",
@@ -1794,8 +1794,8 @@
 				"category" : "IN",
 				"tag" : "UN"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCE-PNBARU",
 			"description" : "Deanship of Community Service and Continuing Education (PNBARU)",
 			"order" : "26",
@@ -1824,8 +1824,8 @@
 				"category" : "IN",
 				"tag" : "UD"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCCER-UC",
 			"description" : "Deanship of Community and Continuing Education in Riyadh service (UC)",
 			"order" : "29",
@@ -1834,8 +1834,8 @@
 				"category" : "IN",
 				"tag" : "UC"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCSCEH-UC",
 			"description" : "Deanship of community service and continuing education Hafr Al-Batin (UC)",
 			"order" : "30",
@@ -1844,8 +1844,8 @@
 				"category" : "IN",
 				"tag" : "UC"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCCEMS-UC",
 			"description" : "Deanship of Community and Continuing Education Majma'ah Service (UC)",
 			"order" : "31",
@@ -1854,8 +1854,8 @@
 				"category" : "IN",
 				"tag" : "UC"
 			} ]
-		},
-		{
+},
+{
 			"name" : "DCCEZS-UC",
 			"description" : "Deanship of Community and Continuing Education Zulfi Service (UC)",
 			"order" : "32",
@@ -1873,4 +1873,16 @@
 				"category" : "IN",
 				"tag" : "TO"
 			} ]
+		}, {
+			"name" : "FM",
+			"description" : "Faculty members",
+			"order" : "1",
+			"category" : "UP",
+			"tags" : []
+		}, {
+			"name" : "AT",
+			"description" : "Administrators and Technicians",
+			"order" : "2",
+			"category" : "UP",
+			"tags" : []
 		} ]

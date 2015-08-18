@@ -1,0 +1,469 @@
+[ {
+	"name" : "TO",
+	"description" : "All communities",
+	"category" : "CC",
+	"order" : "1",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TO"
+	} ]
+}, {
+	"name" : "ME",
+	"description" : "Mecca Community College",
+	"category" : "CC",
+	"order" : "2",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UAQU"
+	} ]
+}, {
+	"name" : "RI",
+	"description" : "Riyadh Community College",
+	"category" : "CC",
+	"order" : "3",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KSU"
+	} ]
+}, {
+	"name" : "ALJ",
+	"description" : "Almjmta College in Jeddah",
+	"category" : "CC",
+	"order" : "4",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KAU"
+	} ]
+}, {
+	"name" : "HAB",
+	"description" : "Hafr Al-Batin Community College",
+	"category" : "CC",
+	"order" : "5",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KFUPM"
+	} ]
+}, {
+	"name" : "DA",
+	"description" : "Community college in Dammam",
+	"category" : "CC",
+	"order" : "6",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KFUPM"
+	} ]
+}, {
+	"name" : "AH",
+	"description" : "Ahsa community college for girls",
+	"category" : "CC",
+	"order" : "7",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KFU"
+	} ]
+}, {
+	"name" : "AB",
+	"description" : "Abha community college for girls",
+	"category" : "CC",
+	"order" : "8",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "BA",
+	"description" : "Balnmas community college",
+	"category" : "CC",
+	"order" : "9",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "KM",
+	"description" : "Khamis Mushayt Community College",
+	"category" : "CC",
+	"order" : "10",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "KMG",
+	"description" : "Girls Community College in Khamis Mushayt",
+	"category" : "CC",
+	"order" : "11",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "MB",
+	"description" : "Men brightest Community College",
+	"category" : "CC",
+	"order" : "12",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "BMA",
+	"description" : "Bmhaal Asir Community College",
+	"category" : "CC",
+	"order" : "13",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "BO",
+	"description" : "Bouaphh Community College",
+	"category" : "CC",
+	"order" : "14",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "BU",
+	"description" : "Buraidah Community College",
+	"category" : "CC",
+	"order" : "15",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "QU"
+	} ]
+}, {
+	"name" : "BN",
+	"description" : "Bnizp community college",
+	"category" : "CC",
+	"order" : "16",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "QU"
+	} ]
+}, {
+	"name" : "MED",
+	"description" : "Medina Community College",
+	"category" : "CC",
+	"order" : "17",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TU"
+	} ]
+}, {
+	"name" : "BAG",
+	"description" : "Girls Balhnakah Community College",
+	"category" : "CC",
+	"order" : "18",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TU"
+	} ]
+}, {
+	"name" : "AC",
+	"description" : "College Almojta cradle",
+	"category" : "CC",
+	"order" : "19",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TU"
+	} ]
+}, {
+	"name" : "KH",
+	"description" : "Khyber community college",
+	"category" : "CC",
+	"order" : "20",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TU"
+	} ]
+}, {
+	"name" : "OL",
+	"description" : "Ola community college",
+	"category" : "CC",
+	"order" : "21",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TU"
+	} ]
+}, {
+	"name" : "BAD",
+	"description" : "Badr Community College",
+	"category" : "CC",
+	"order" : "22",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TU"
+	} ]
+}, {
+	"name" : "BE",
+	"description" : "Bernih Community College",
+	"category" : "CC",
+	"order" : "23",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TaU"
+	} ]
+}, {
+	"name" : "TA",
+	"description" : "Community college in Taif",
+	"category" : "CC",
+	"order" : "24",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TaU"
+	} ]
+}, {
+	"name" : "BAK",
+	"description" : "Bakhermh Community College",
+	"category" : "CC",
+	"order" : "25",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TaU"
+	} ]
+}, {
+	"name" : "JA",
+	"description" : "Jazan Community College",
+	"category" : "CC",
+	"order" : "26",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "GU"
+	} ]
+}, {
+	"name" : "AAG",
+	"description" : "Girls Community College Abu Arish",
+	"category" : "CC",
+	"order" : "27",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "GU"
+	} ]
+}, {
+	"name" : "HA",
+	"description" : "Hail community college",
+	"category" : "CC",
+	"order" : "28",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "HU"
+	} ]
+}, {
+	"name" : "ALBI",
+	"description" : "College Almjmta Biskaka",
+	"category" : "CC",
+	"order" : "29",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "AJU"
+	} ]
+}, {
+	"name" : "QU",
+	"description" : "Qurayat community college",
+	"category" : "CC",
+	"order" : "30",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "AJU"
+	} ]
+}, {
+	"name" : "BT",
+	"description" : "Btabrgel community college",
+	"category" : "CC",
+	"order" : "31",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "AJU"
+	} ]
+}, {
+	"name" : "AT",
+	"description" : "College Almjmta Tabuk",
+	"category" : "CC",
+	"order" : "32",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TabU"
+	} ]
+}, {
+	"name" : "AD",
+	"description" : "College Almjmta Daba",
+	"category" : "CC",
+	"order" : "33",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "TabU"
+	} ]
+}, {
+	"name" : "ALBA",
+	"description" : "College Almjmta Baha",
+	"category" : "CC",
+	"order" : "34",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "BU"
+	} ]
+}, {
+	"name" : "NA",
+	"description" : "Najran Community College",
+	"category" : "CC",
+	"order" : "35",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UN"
+	} ]
+}, {
+	"name" : "CO",
+	"description" : "Community College",
+	"category" : "CC",
+	"order" : "36",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "PNBARU"
+	} ]
+}, {
+	"name" : "AR",
+	"description" : "Arar community college",
+	"category" : "CC",
+	"order" : "37",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "NU"
+	} ]
+}, {
+	"name" : "RA",
+	"description" : "Community college in Rafha",
+	"category" : "CC",
+	"order" : "38",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "NU"
+	} ]
+}, {
+	"name" : "TR",
+	"description" : "Traif community college",
+	"category" : "CC",
+	"order" : "39",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "NU"
+	} ]
+}, {
+	"name" : "BH",
+	"description" : "Bhqra community college",
+	"category" : "CC",
+	"order" : "40",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+}, {
+	"name" : "ALDA",
+	"description" : "Aldawadmi community college",
+	"category" : "CC",
+	"order" : "41",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+}, {
+	"name" : "BHA",
+	"description" : "Bharimlae community college",
+	"category" : "CC",
+	"order" : "42",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+}, {
+	"name" : "KHMU",
+	"description" : "Khamis Mushait Community College",
+	"category" : "CC",
+	"order" : "43",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+}, {
+	"name" : "AK",
+	"description" : "Community college in Al-Kharj",
+	"category" : "CC",
+	"order" : "44",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "SAU"
+	} ]
+}, {
+	"name" : "PV",
+	"description" : "Propellants Valley Community College",
+	"category" : "CC",
+	"order" : "45",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "SAU"
+	} ]
+}, {
+	"name" : "AF",
+	"description" : "Aflaj community college",
+	"category" : "CC",
+	"order" : "46",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "SAU"
+	} ]
+}, {
+	"name" : "QAG",
+	"description" : "Community college for girls in Qatif",
+	"category" : "CC",
+	"order" : "47",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UD"
+	} ]
+}, {
+	"name" : "MA",
+	"description" : "Majma'ah community college",
+	"category" : "CC",
+	"order" : "48",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UC"
+	} ]
+}, {
+	"name" : "BAM",
+	"description" : "Bamajardh Community College",
+	"category" : "CC",
+	"order" : "49",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KKU"
+	} ]
+}, {
+	"name" : "BAL",
+	"description" : "Balumblyda community college",
+	"category" : "CC",
+	"order" : "50",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "QU"
+	} ]
+}, {
+	"name" : "BD",
+	"description" : "Bdharma community college",
+	"category" : "CC",
+	"order" : "51",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+}, {
+	"name" : "ALM",
+	"description" : "Almazahmia Community College",
+	"category" : "CC",
+	"order" : "52",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+} ]

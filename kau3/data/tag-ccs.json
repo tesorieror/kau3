@@ -1,0 +1,321 @@
+[
+		{
+			"name" : "TO",
+			"description" : "All Services",
+			"category" : "CCS",
+			"order" : "1",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TO"
+			} ]
+		},
+		{
+			"name" : "DCSCE-UAQU",
+			"description" : "Deanship of Community Service and Continuing Education (UAQU)",
+			"category" : "CCS",
+			"order" : "2",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UAQU"
+			} ]
+		},
+		{
+			"name" : "DDL-IU",
+			"description" : "Deanship of Distance Learning (IU)",
+			"category" : "CCS",
+			"order" : "3",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "IU"
+			} ]
+		},
+		{
+			"name" : "DCS-IU",
+			"description" : "Deanship of community service (IU)",
+			"category" : "CCS",
+			"order" : "4",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "IU"
+			} ]
+		},
+		{
+			"name" : "DUCCSCE-UMISIU",
+			"description" : "Deanship University Center for Community Service and Continuing Education (UMISIU)",
+			"category" : "CCS",
+			"order" : "5",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UMISIU"
+			} ]
+		},
+		{
+			"name" : "DDL-UMISIU",
+			"description" : "Deanship of Distance Learning (UMISIU)",
+			"category" : "CCS",
+			"order" : "6",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UMISIU"
+			} ]
+		},
+		{
+			"name" : "FASCS-KSU",
+			"description" : "Faculty of Applied Studies and Community Service (KSU)",
+			"category" : "CCS",
+			"order" : "7",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KSU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-KAU",
+			"description" : "Deanship of Community Service and Continuing Education (KAU)",
+			"category" : "CCS",
+			"order" : "8",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KAU"
+			} ]
+		},
+		{
+			"name" : "DDL-KAU",
+			"description" : "Deanship of Distance Learning (KAU)",
+			"category" : "CCS",
+			"order" : "9",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KAU"
+			} ]
+		},
+		{
+			"name" : "FASS-KFUPM",
+			"description" : "Faculty of Applied and Supporting Studies (KFUPM)",
+			"category" : "CCS",
+			"order" : "10",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFUPM"
+			} ]
+		},
+		{
+			"name" : "FASSS-KFU",
+			"description" : "Faculty of Applied Studies and Community Service (KFU)",
+			"category" : "CCS",
+			"order" : "11",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KFU"
+			} ]
+		},
+		{
+			"name" : "CCSCE-KKU",
+			"description" : "College of Community Service and Continuing Education (KKU)",
+			"category" : "CCS",
+			"order" : "12",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "DCSB-QU",
+			"description" : "Deanship of community service Buraidah (QU)",
+			"category" : "CCS",
+			"order" : "13",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "DES-QU",
+			"description" : "Deanship of Educational Services (QU)",
+			"category" : "CCS",
+			"order" : "14",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "DPCE-TU",
+			"description" : "Deanship of Parallel and continuing education (TU)",
+			"category" : "CCS",
+			"order" : "15",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "DESM-TU",
+			"description" : "Dean, Educational Services in Medina (TU)",
+			"category" : "CCS",
+			"order" : "16",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "DESY-TU",
+			"description" : "Agency Dean, Educational Services in Yanbu (TU)",
+			"category" : "CCS",
+			"order" : "17",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "DESO-TU",
+			"description" : "Agency Dean, Educational Services Ola (TU)",
+			"category" : "CCS",
+			"order" : "18",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
+			} ]
+		},
+		{
+			"name" : "CCSCE-TaU",
+			"description" : "College of Community Service and Continuing Education (TaU)",
+			"category" : "CCS",
+			"order" : "19",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TaU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-GU",
+			"description" : "Deanship of Community Service and Continuing Education (GU)",
+			"category" : "CCS",
+			"order" : "20",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "GU"
+			} ]
+		},
+		{
+			"name" : "DEDE-GU",
+			"description" : "Deanship of e-learning and distance education (GU)",
+			"category" : "CCS",
+			"order" : "21",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "GU"
+			} ]
+		},
+		{
+			"name" : "DES-HU",
+			"description" : "Deanship of Educational Services (HU)",
+			"category" : "CCS",
+			"order" : "22",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "HU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-TabU",
+			"description" : "Deanship of Community Service and Continuing Education (TabU)",
+			"category" : "CCS",
+			"order" : "23",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TabU"
+			} ]
+		},
+		{
+			"name" : "CASCE-BU",
+			"description" : "College of Applied Studies and Continuing Education (BU)",
+			"category" : "CCS",
+			"order" : "24",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "BU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-UN",
+			"description" : "Deanship of Community Service and Continuing Education (UN)",
+			"category" : "CCS",
+			"order" : "25",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UN"
+			} ]
+		},
+		{
+			"name" : "DCSCE-PNBARU",
+			"description" : "Deanship of Community Service and Continuing Education (PNBARU)",
+			"category" : "CCS",
+			"order" : "26",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "PNBARU"
+			} ]
+		},
+		{
+			"name" : "DCS-NU",
+			"description" : "Deanship of community service (NU)",
+			"category" : "CCS",
+			"order" : "27",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "NU"
+			} ]
+		},
+		{
+			"name" : "FASCS-UD",
+			"description" : "Faculty of Applied Studies and Community Service (UD)",
+			"category" : "CCS",
+			"order" : "28",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UD"
+			} ]
+		},
+		{
+			"name" : "DCCER-UC",
+			"description" : "Deanship of Community and Continuing Education in Riyadh service (UC)",
+			"category" : "CCS",
+			"order" : "29",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "DCSCEH-UC",
+			"description" : "Deanship of community service and continuing education Hafr Al-Batin (UC)",
+			"category" : "CCS",
+			"order" : "30",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "DCCEMS-UC",
+			"description" : "Deanship of Community and Continuing Education Majma'ah Service (UC)",
+			"category" : "CCS",
+			"order" : "31",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "DCCEZS-UC",
+			"description" : "Deanship of Community and Continuing Education Zulfi Service (UC)",
+			"category" : "CCS",
+			"order" : "32",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UC"
+			} ]
+		} ]

@@ -1,0 +1,31 @@
+[ {
+	"name" : "FR",
+	"description" : "Freshmen Students",
+	"category" : "PE",
+	"order" : "1",
+	"tags" : []
+}, {
+	"name" : "EN",
+	"description" : "Enrolled Students",
+	"category" : "PE",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "GR",
+	"description" : "Graduated Students previous Year",
+	"category" : "PE",
+	"order" : "3",
+	"tags" : []
+}, {
+	"name" : "FM",
+	"description" : "Faculty Members",
+	"category" : "PE",
+	"order" : "4",
+	"tags" : []
+}, {
+	"name" : "AT",
+	"description" : "Administrative and Technician",
+	"category" : "PE",
+	"order" : "5",
+	"tags" : []
+} ]

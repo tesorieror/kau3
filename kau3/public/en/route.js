@@ -30,6 +30,9 @@ app.config(function($routeProvider, $locationProvider) {
 	}).when('/students-community-service', {
 		templateUrl : './students-community-service/students-community-service.html',
 		controller : 'StudentsCommunityServiceCtrl'
+	}).when('/students-staff', {
+		templateUrl : './students-staff/students-staff.html',
+		controller : 'StudentsStaffCtrl'
 	}).when('/informationNotAvailable', {
 		templateUrl : './information-not-available/information-not-available.html',
 		controller : 'InformationNotAvailableCtrl'

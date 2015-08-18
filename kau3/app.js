@@ -17,6 +17,7 @@ var tagCategory = require('./routes/tag/category');
 var indicatorTag = require('./routes/indicator/tag');
 var indicatorStudentCommunity = require('./routes/indicator/students/community');
 var indicatorStudentCommunityService = require('./routes/indicator/students/community-service');
+var indicatorStudentStaff = require('./routes/indicator/students/staff');
 
 var app = express();
 
@@ -48,6 +49,7 @@ app.use('/tag/category', tagCategory);
 app.use('/indicator/tag', indicatorTag);
 app.use('/data/students/community', indicatorStudentCommunity);
 app.use('/data/students/community-service', indicatorStudentCommunityService);
+app.use('/data/students/staff', indicatorStudentStaff);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

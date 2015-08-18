@@ -42,4 +42,8 @@
 	"name" : "CCS",
 	"description" : "Community College Service",
 	"order" : "9"
+}, {
+	"name" : "UP",
+	"description" : "University Personal",
+	"order" : "10"
 } ]

@@ -1,0 +1,19 @@
+[ {
+	"name" : "TO",
+	"description" : "Any Nationality",
+	"category" : "NA",
+	"order" : "1",
+	"tags" : []
+}, {
+	"name" : "SA",
+	"description" : "Saudi",
+	"category" : "NA",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "NS",
+	"description" : "Non-Saudi",
+	"category" : "NA",
+	"order" : "3",
+	"tags" : []
+} ]

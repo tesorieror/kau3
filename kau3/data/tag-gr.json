@@ -1,0 +1,43 @@
+[ {
+	"name" : "TO",
+	"description" : "Any Grade",
+	"category" : "GR",
+	"order" : "1",
+	"tags" : []
+}, {
+	"name" : "DA",
+	"description" : "Diploma Average",
+	"category" : "GR",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "BA",
+	"description" : "Bachelor",
+	"category" : "GR",
+	"order" : "3",
+	"tags" : []
+}, {
+	"name" : "HD",
+	"description" : "Higher Diploma",
+	"category" : "GR",
+	"order" : "4",
+	"tags" : []
+}, {
+	"name" : "MA",
+	"description" : "Master",
+	"category" : "GR",
+	"order" : "5",
+	"tags" : []
+}, {
+	"name" : "FE",
+	"description" : "Fellowship",
+	"category" : "GR",
+	"order" : "6",
+	"tags" : []
+}, {
+	"name" : "DO",
+	"description" : "Doctorate",
+	"category" : "GR",
+	"order" : "7",
+	"tags" : []
+} ]
