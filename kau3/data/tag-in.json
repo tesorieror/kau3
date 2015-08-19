@@ -18,7 +18,7 @@
 	} ]
 }, {
 	"name" : "IU",
-	"description" : "Islamic University",
+	"description" : "Islamic University in Madinah",
 	"category" : "IN",
 	"order" : "3",
 	"tags" : [ {
@@ -126,7 +126,7 @@
 	} ]
 }, {
 	"name" : "HU",
-	"description" : "Hael University",
+	"description" : "University of Hail",
 	"category" : "IN",
 	"order" : "15",
 	"tags" : [ {
@@ -135,7 +135,7 @@
 	} ]
 }, {
 	"name" : "AJU",
-	"description" : "Al-Jouf University",
+	"description" : "Al Jawf University",
 	"category" : "IN",
 	"order" : "16",
 	"tags" : [ {
@@ -144,7 +144,7 @@
 	} ]
 }, {
 	"name" : "TabU",
-	"description" : "Tabouk University",
+	"description" : "Tabuk University",
 	"category" : "IN",
 	"order" : "17",
 	"tags" : [ {
@@ -153,7 +153,7 @@
 	} ]
 }, {
 	"name" : "BU",
-	"description" : "Baha University",
+	"description" : "Al Baha University",
 	"category" : "IN",
 	"order" : "18",
 	"tags" : [ {
@@ -171,7 +171,7 @@
 	} ]
 }, {
 	"name" : "PNBARU",
-	"description" : "Princess Nora Bint Abdul Rahman University",
+	"description" : "Princess Noura Bint Abdul Rahman University",
 	"category" : "IN",
 	"order" : "20",
 	"tags" : [ {
@@ -180,7 +180,7 @@
 	} ]
 }, {
 	"name" : "NU",
-	"description" : "Northern University",
+	"description" : " Northern Border University",
 	"category" : "IN",
 	"order" : "21",
 	"tags" : [ {
@@ -189,7 +189,7 @@
 	} ]
 }, {
 	"name" : "UB",
-	"description" : "University Blonde",
+	"description" : "Shaqra University",
 	"category" : "IN",
 	"order" : "22",
 	"tags" : [ {
@@ -216,7 +216,7 @@
 	} ]
 }, {
 	"name" : "UC",
-	"description" : "University collected",
+	"description" : "Al Majma'ah University",
 	"category" : "IN",
 	"order" : "25",
 	"tags" : [ {
@@ -261,7 +261,7 @@
 	} ]
 }, {
 	"name" : "FU",
-	"description" : "Faisal University",
+	"description" : "Al Faisal University",
 	"category" : "IN",
 	"order" : "30",
 	"tags" : [ {
@@ -270,7 +270,7 @@
 	} ]
 }, {
 	"name" : "AYU",
-	"description" : "Al-Yamamah University",
+	"description" : "Al Yamamah University",
 	"category" : "IN",
 	"order" : "31",
 	"tags" : [ {
@@ -297,7 +297,7 @@
 	} ]
 }, {
 	"name" : "FSU",
-	"description" : "Fahad bin Sultan University",
+	"description" : "Fahad Bin Sultan University",
 	"category" : "IN",
 	"order" : "34",
 	"tags" : [ {
@@ -306,7 +306,7 @@
 	} ]
 }, {
 	"name" : "QPU",
-	"description" : "Qassim Private Colleges",
+	"description" : "Qassim Private College",
 	"category" : "IN",
 	"order" : "35",
 	"tags" : [ {
@@ -333,7 +333,7 @@
 	} ]
 }, {
 	"name" : "ABPCS",
-	"description" : "Al-Baha Private College of Sciences",
+	"description" : "Baha Private College of Sciences",
 	"category" : "IN",
 	"order" : "38",
 	"tags" : [ {
@@ -351,7 +351,7 @@
 	} ]
 }, {
 	"name" : "SFCMS",
-	"description" : "Dr. Suleiman Fakeeh College of Medical Sciences",
+	"description" : "Dr. Soliman Fakeeh College of Medical Sciences",
 	"category" : "IN",
 	"order" : "40",
 	"tags" : [ {
@@ -414,7 +414,7 @@
 	} ]
 }, {
 	"name" : "AMCST",
-	"description" : "Al Maarefa College for Science & Technology",
+	"description" : "Almaarefa College for Science & Technology",
 	"category" : "IN",
 	"order" : "47",
 	"tags" : [ {
@@ -432,7 +432,7 @@
 	} ]
 }, {
 	"name" : "MMPSMS",
-	"description" : "Mohammed Mana Private College for Medical Sciences",
+	"description" : " Mohammed Almana College of Health Sciences",
 	"category" : "IN",
 	"order" : "49",
 	"tags" : [ {
@@ -441,7 +441,7 @@
 	} ]
 }, {
 	"name" : "AFCDN",
-	"description" : "Al- Farabi College for Dentistry and Nursing",
+	"description" : "Alfarabi Colleges",
 	"category" : "IN",
 	"order" : "50",
 	"tags" : [ {
@@ -531,7 +531,7 @@
 	} ]
 }, {
 	"name" : "GAI",
-	"description" : "General Administration Institute",
+	"description" : "Institute of Public Administration",
 	"category" : "IN",
 	"order" : "60",
 	"tags" : [ {
@@ -540,7 +540,7 @@
 	} ]
 }, {
 	"name" : "PSCHSD",
-	"description" : "Prince Sultan College for Health Sciences in Dhahran",
+	"description" : "Prince Sultan Military College of Health Sciences Dhahran",
 	"category" : "IN",
 	"order" : "61",
 	"tags" : [ {
@@ -579,6 +579,150 @@
 	"description" : "English Language Center",
 	"category" : "IN",
 	"order" : "65",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "PSCTMA",
+	"description" : "Prince Sultan College for Tourism and Management in Abha",
+	"category" : "IN",
+	"order" : "66",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "PUC"
+	} ]
+}, {
+	"name" : "GCC",
+	"description" : "Global community colleges",
+	"category" : "IN",
+	"order" : "67",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "PUC"
+	} ]
+}, {
+	"name" : "CBA",
+	"description" : "College of Business Administration (CBA)",
+	"category" : "IN",
+	"order" : "68",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "PUC"
+	} ]
+}, {
+	"name" : "PSCTBJ",
+	"description" : "Prince Soltan College for Tourism and Business in Jeddah",
+	"category" : "IN",
+	"order" : "69",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "PUC"
+	} ]
+}, {
+	"name" : "AC",
+	"description" : "AlFaisal Colleges ",
+	"category" : "IN",
+	"order" : "70",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "PUC"
+	} ]
+}, {
+	"name" : "RCJY",
+	"description" : "Royal Commission for Jubail and Yanbu",
+	"category" : "IN",
+	"order" : "71",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "NHE",
+	"description" : "National Higher Education",
+	"category" : "IN",
+	"order" : "72",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "PSBAU",
+	"description" : "Prince Sattam Bin Abdulaziz University",
+	"category" : "IN",
+	"order" : "73",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "TC",
+	"description" : "Technical colleges",
+	"category" : "IN",
+	"order" : "74",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "CJY",
+	"description" : "Colleges of Jubail and Yanbu",
+	"category" : "IN",
+	"order" : "75",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "RUG",
+	"description" : "Riyadh University for Girls",
+	"category" : "IN",
+	"order" : "76",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "PU"
+	} ]
+}, {
+	"name" : "CHI",
+	"description" : "Colleges and health institutes",
+	"category" : "IN",
+	"order" : "77",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "TEC",
+	"description" : "Teachers Colleges",
+	"category" : "IN",
+	"order" : "78",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "GC",
+	"description" : "Girls Colleges",
+	"category" : "IN",
+	"order" : "79",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "NGHA",
+	"description" : "National Guard Health Affairs",
+	"category" : "IN",
+	"order" : "80",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
+}, {
+	"name" : "MSAF",
+	"description" : "Medical services of the armed forces",
+	"category" : "IN",
+	"order" : "81",
 	"tags" : [ {
 		"category" : "IT",
 		"tag" : "OI"

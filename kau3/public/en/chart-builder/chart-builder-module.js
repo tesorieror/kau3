@@ -126,26 +126,64 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 	}
 
 	function cleanInvalidChartData(chart) {
-		var row = chart.data.rows[0]['c'];
 
-		var indexes = _.reduce(chart.data.rows[0]['c'], function(result, o) {
-			if (o['v'] == -10000000) {
-				result.push(chart.data.rows[0]['c'].indexOf(o));
+		//		
+		// var row = chart.data.rows[0]['c'];
+		//
+		// var indexes = _.reduce(chart.data.rows[0]['c'], function(result, o) {
+		// if (o['v'] == -10000000) {
+		// result.push(chart.data.rows[0]['c'].indexOf(o));
+		// }
+		// return result;
+		// }, []);
+		//
+		// chart.data.rows = _.map(chart.data.rows, function(row) {
+		// row['c'] = _.filter(row['c'], function(v) {
+		// return !_.contains(indexes, row['c'].indexOf(v));
+		// });
+		// return row;
+		// });
+		//
+		// chart.data.cols = _.filter(chart.data.cols, function(col) {
+		// return !_.contains(indexes, chart.data.cols.indexOf(col));
+		// });
+
+		var rows = chart.data.rows;
+		var cols = chart.data.cols;
+		var indexes = [];
+
+		for (var c = 1; c < cols.length; c++) {
+			var invalid = true;
+			for (var r = 0; r < rows.length; r++) {
+				invalid = invalid && rows[r]['c'][c]['v'] == -10000000;
 			}
-			return result;
-		}, []);
+			if (invalid) {
+				indexes.push(c);
+			}
+		}
 
-		chart.data.rows = _.map(chart.data.rows, function(row) {
-			row['c'] = _.filter(row['c'], function(v) {
-				return !_.contains(indexes, row['c'].indexOf(v));
+		$log.log("Indexes", indexes);
+
+		// Filter Columns
+
+		chart.data.cols = _.filter(cols, function(c) {
+			return !_.contains(indexes, cols.indexOf(c));
+		});
+
+		_.each(rows, function(r) {
+			r['c'] = _.filter(r['c'], function(c) {
+				return !_.contains(indexes, r['c'].indexOf(c));
 			});
-			return row;
 		});
 
-		chart.data.cols = _.filter(chart.data.cols, function(col) {
-			return !_.contains(indexes, chart.data.cols.indexOf(col));
+		// Filter Rows
+		_.each(rows, function(r) {
+			_.each(r['c'], function(c) {
+				c['v'] = c['v'] == -10000000 ? 0 : c['v'];
+			});
 		});
 
+		$log.log("Chart", chart);
 	}
 
 	function buildColumnCols(data) {
@@ -245,12 +283,29 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 			result = result.concat(_.map(keys, function(key) {
 				// $log.log("yrTag", yrTag, "key", key);
 				// $log.log("VbY", valuesByYear);
-				// $log.log("VbY Yr Id", valuesByYear[yrTag._id]);
+				// $log.log("VbY Yr Id",
+				// valuesByYear[yrTag._id]);
 				return {
 					// "v" :
 					// valuesByYear[yrTag._id][key].value,
-					"v" : (valuesByYear[yrTag._id][key] != null ? // 
-					valuesByYear[yrTag._id][key].value : -10000000),
+
+					/**
+					 * Mega patch hack
+					 * 
+					 * It was working. Avoiding year error
+					 */
+
+					// "v" : (valuesByYear[yrTag._id][key] !=
+					// null ? //
+					// valuesByYear[yrTag._id][key].value :
+					// -10000000),
+					/**
+					 * End of working code
+					 */
+
+					"v" : (valuesByYear[yrTag._id] != null) ? // 
+					(valuesByYear[yrTag._id][key] != null ? // 
+					valuesByYear[yrTag._id][key].value : -10000000) : -10000000,
 					"p" : {
 						"style" : "font-size:11px"
 					}
