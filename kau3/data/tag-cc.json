@@ -9,7 +9,7 @@
 	} ]
 }, {
 	"name" : "ME",
-	"description" : "Mecca Community College",
+	"description" : "Community College , Makah",
 	"category" : "CC",
 	"order" : "2",
 	"tags" : [ {
@@ -18,7 +18,7 @@
 	} ]
 }, {
 	"name" : "RI",
-	"description" : "Riyadh Community College",
+	"description" : "Community College, Riyadh",
 	"category" : "CC",
 	"order" : "3",
 	"tags" : [ {
@@ -27,7 +27,7 @@
 	} ]
 }, {
 	"name" : "ALJ",
-	"description" : "Almjmta College in Jeddah",
+	"description" : "Community College, Jeddah",
 	"category" : "CC",
 	"order" : "4",
 	"tags" : [ {
@@ -36,7 +36,7 @@
 	} ]
 }, {
 	"name" : "HAB",
-	"description" : "Hafr Al-Batin Community College",
+	"description" : "Community College, Hafr Albatin",
 	"category" : "CC",
 	"order" : "5",
 	"tags" : [ {
@@ -45,7 +45,7 @@
 	} ]
 }, {
 	"name" : "DA",
-	"description" : "Community college in Dammam",
+	"description" : "Community College, Dammam",
 	"category" : "CC",
 	"order" : "6",
 	"tags" : [ {
@@ -54,7 +54,7 @@
 	} ]
 }, {
 	"name" : "AH",
-	"description" : "Ahsa community college for girls",
+	"description" : "Community College, Al-Ahsa",
 	"category" : "CC",
 	"order" : "7",
 	"tags" : [ {
@@ -63,7 +63,7 @@
 	} ]
 }, {
 	"name" : "AB",
-	"description" : "Abha community college for girls",
+	"description" : "Community College, Abha",
 	"category" : "CC",
 	"order" : "8",
 	"tags" : [ {
@@ -72,7 +72,7 @@
 	} ]
 }, {
 	"name" : "BA",
-	"description" : "Balnmas community college",
+	"description" : "Community College, Alnmas",
 	"category" : "CC",
 	"order" : "9",
 	"tags" : [ {
@@ -81,7 +81,7 @@
 	} ]
 }, {
 	"name" : "KM",
-	"description" : "Khamis Mushayt Community College",
+	"description" : "Community College ,Khamis Mushit",
 	"category" : "CC",
 	"order" : "10",
 	"tags" : [ {
@@ -99,7 +99,7 @@
 	} ]
 }, {
 	"name" : "MB",
-	"description" : "Men brightest Community College",
+	"description" : "Community College, Rigal Alma ",
 	"category" : "CC",
 	"order" : "12",
 	"tags" : [ {
@@ -108,7 +108,7 @@
 	} ]
 }, {
 	"name" : "BMA",
-	"description" : "Bmhaal Asir Community College",
+	"description" : "Community College, Mahayel Aseir",
 	"category" : "CC",
 	"order" : "13",
 	"tags" : [ {
@@ -117,7 +117,7 @@
 	} ]
 }, {
 	"name" : "BO",
-	"description" : "Bouaphh Community College",
+	"description" : "Community College, Bisha",
 	"category" : "CC",
 	"order" : "14",
 	"tags" : [ {
@@ -126,7 +126,7 @@
 	} ]
 }, {
 	"name" : "BU",
-	"description" : "Buraidah Community College",
+	"description" : "Community College, Burayadh",
 	"category" : "CC",
 	"order" : "15",
 	"tags" : [ {
@@ -135,7 +135,7 @@
 	} ]
 }, {
 	"name" : "BN",
-	"description" : "Bnizp community college",
+	"description" : "Community College, Unaizah ",
 	"category" : "CC",
 	"order" : "16",
 	"tags" : [ {
@@ -144,7 +144,7 @@
 	} ]
 }, {
 	"name" : "MED",
-	"description" : "Medina Community College",
+	"description" : "Community College , Medina",
 	"category" : "CC",
 	"order" : "17",
 	"tags" : [ {
@@ -153,7 +153,7 @@
 	} ]
 }, {
 	"name" : "BAG",
-	"description" : "Girls Balhnakah Community College",
+	"description" : "Community College, Hinakiyah",
 	"category" : "CC",
 	"order" : "18",
 	"tags" : [ {
@@ -162,7 +162,7 @@
 	} ]
 }, {
 	"name" : "AC",
-	"description" : "College Almojta cradle",
+	"description" : "Community College, Al-Mahd ",
 	"category" : "CC",
 	"order" : "19",
 	"tags" : [ {
@@ -171,7 +171,7 @@
 	} ]
 }, {
 	"name" : "KH",
-	"description" : "Khyber community college",
+	"description" : "Community College, Khaiber",
 	"category" : "CC",
 	"order" : "20",
 	"tags" : [ {
@@ -180,7 +180,7 @@
 	} ]
 }, {
 	"name" : "OL",
-	"description" : "Ola community college",
+	"description" : "Community College, Ula",
 	"category" : "CC",
 	"order" : "21",
 	"tags" : [ {
@@ -198,7 +198,7 @@
 	} ]
 }, {
 	"name" : "BE",
-	"description" : "Bernih Community College",
+	"description" : "Community College - Ranyah",
 	"category" : "CC",
 	"order" : "23",
 	"tags" : [ {
@@ -207,7 +207,7 @@
 	} ]
 }, {
 	"name" : "TA",
-	"description" : "Community college in Taif",
+	"description" : "Community College, Taif",
 	"category" : "CC",
 	"order" : "24",
 	"tags" : [ {
@@ -225,7 +225,7 @@
 	} ]
 }, {
 	"name" : "JA",
-	"description" : "Jazan Community College",
+	"description" : "Community College, Jazan ",
 	"category" : "CC",
 	"order" : "26",
 	"tags" : [ {
@@ -234,7 +234,7 @@
 	} ]
 }, {
 	"name" : "AAG",
-	"description" : "Girls Community College Abu Arish",
+	"description" : "Community College, Abu Arish",
 	"category" : "CC",
 	"order" : "27",
 	"tags" : [ {
@@ -243,7 +243,7 @@
 	} ]
 }, {
 	"name" : "HA",
-	"description" : "Hail community college",
+	"description" : "Community College, Hail",
 	"category" : "CC",
 	"order" : "28",
 	"tags" : [ {
@@ -252,7 +252,7 @@
 	} ]
 }, {
 	"name" : "ALBI",
-	"description" : "College Almjmta Biskaka",
+	"description" : "Community College, Skaka",
 	"category" : "CC",
 	"order" : "29",
 	"tags" : [ {
@@ -261,7 +261,7 @@
 	} ]
 }, {
 	"name" : "QU",
-	"description" : "Qurayat community college",
+	"description" : "Community College,  ALQurayyat ",
 	"category" : "CC",
 	"order" : "30",
 	"tags" : [ {
@@ -270,7 +270,7 @@
 	} ]
 }, {
 	"name" : "BT",
-	"description" : "Btabrgel community college",
+	"description" : "Community College,  Tabrjal ",
 	"category" : "CC",
 	"order" : "31",
 	"tags" : [ {
@@ -279,7 +279,7 @@
 	} ]
 }, {
 	"name" : "AT",
-	"description" : "College Almjmta Tabuk",
+	"description" : "Community College, Tabuk",
 	"category" : "CC",
 	"order" : "32",
 	"tags" : [ {
@@ -297,7 +297,7 @@
 	} ]
 }, {
 	"name" : "ALBA",
-	"description" : "College Almjmta Baha",
+	"description" : "Community College, Baha",
 	"category" : "CC",
 	"order" : "34",
 	"tags" : [ {
@@ -306,7 +306,7 @@
 	} ]
 }, {
 	"name" : "NA",
-	"description" : "Najran Community College",
+	"description" : "Community College, Najran",
 	"category" : "CC",
 	"order" : "35",
 	"tags" : [ {
@@ -324,7 +324,7 @@
 	} ]
 }, {
 	"name" : "AR",
-	"description" : "Arar community college",
+	"description" : "Community College, Arar",
 	"category" : "CC",
 	"order" : "37",
 	"tags" : [ {
@@ -333,7 +333,7 @@
 	} ]
 }, {
 	"name" : "RA",
-	"description" : "Community college in Rafha",
+	"description" : "Community College, Rafha",
 	"category" : "CC",
 	"order" : "38",
 	"tags" : [ {
@@ -351,7 +351,7 @@
 	} ]
 }, {
 	"name" : "BH",
-	"description" : "Bhqra community college",
+	"description" : "Community College, Shaqra",
 	"category" : "CC",
 	"order" : "40",
 	"tags" : [ {
@@ -360,7 +360,7 @@
 	} ]
 }, {
 	"name" : "ALDA",
-	"description" : "Aldawadmi community college",
+	"description" : "Community College, Al-Dawadmi",
 	"category" : "CC",
 	"order" : "41",
 	"tags" : [ {
@@ -369,7 +369,7 @@
 	} ]
 }, {
 	"name" : "BHA",
-	"description" : "Bharimlae community college",
+	"description" : "Community College, Bharimlae",
 	"category" : "CC",
 	"order" : "42",
 	"tags" : [ {
@@ -387,7 +387,7 @@
 	} ]
 }, {
 	"name" : "AK",
-	"description" : "Community college in Al-Kharj",
+	"description" : "Community College,  Al-Kharj",
 	"category" : "CC",
 	"order" : "44",
 	"tags" : [ {
@@ -396,7 +396,7 @@
 	} ]
 }, {
 	"name" : "PV",
-	"description" : "Propellants Valley Community College",
+	"description" : "Community College,  Wadi Addawasir",
 	"category" : "CC",
 	"order" : "45",
 	"tags" : [ {
@@ -405,7 +405,7 @@
 	} ]
 }, {
 	"name" : "AF",
-	"description" : "Aflaj community college",
+	"description" : "Community College,  Aflaj",
 	"category" : "CC",
 	"order" : "46",
 	"tags" : [ {
@@ -414,7 +414,7 @@
 	} ]
 }, {
 	"name" : "QAG",
-	"description" : "Community college for girls in Qatif",
+	"description" : "Community College for Girls,  Qatif",
 	"category" : "CC",
 	"order" : "47",
 	"tags" : [ {
@@ -423,7 +423,7 @@
 	} ]
 }, {
 	"name" : "MA",
-	"description" : "Majma'ah community college",
+	"description" : "Community College, Almajma'ah",
 	"category" : "CC",
 	"order" : "48",
 	"tags" : [ {
@@ -465,5 +465,59 @@
 	"tags" : [ {
 		"category" : "IN",
 		"tag" : "UB"
+	} ]
+}, {
+	"name" : "ALME",
+	"description" : "Community College, Almendq",
+	"category" : "CC",
+	"order" : "53",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "BU"
+	} ]
+}, {
+	"name" : "RAB",
+	"description" : "Community College, Rabigh",
+	"category" : "CC",
+	"order" : "54",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "KAU"
+	} ]
+}, {
+	"name" : "QAT",
+	"description" : "Community College,  Qatif",
+	"category" : "CC",
+	"order" : "55",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UD"
+	} ]
+}, {
+	"name" : "QOW",
+	"description" : "Community College,  Qowaiyia",
+	"category" : "CC",
+	"order" : "56",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ]
+}, {
+	"name" : "BHR",
+	"description" : "Bhrorh Community College",
+	"category" : "CC",
+	"order" : "57",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "UN"
+	} ]
+}, {
+	"name" : "HAG",
+	"description" : "Community College, Hail",
+	"category" : "CC",
+	"order" : "58",
+	"tags" : [ {
+		"category" : "IN",
+		"tag" : "HU"
 	} ]
 } ]

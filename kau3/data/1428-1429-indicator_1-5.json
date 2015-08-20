@@ -1,0 +1,10801 @@
+[ {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 572
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 572
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1018
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1018
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 213
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 213
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ME"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 239
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 239
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 165
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 165
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 139
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 139
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 27
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 27
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AK"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 73
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 73
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 169
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 169
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 155
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 155
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 23
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 23
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 12
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BH"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 12
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1795
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1795
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2535
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2535
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 306
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 306
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RI"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 319
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 319
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 687
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 687
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 132
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 132
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 26
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 26
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AF"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 312
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 312
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 633
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 633
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 131
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 131
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 31
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 31
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 19
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 19
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 398
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 398
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 519
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 519
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 36
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 36
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 13
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 13
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 13
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 13
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 272
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 272
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 273
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 273
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALDA"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1193
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1193
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1065
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1065
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 120
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 120
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 15
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALJ"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 15
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 119
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 119
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 172
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 172
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 127
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 127
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RAB"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 295
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 295
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 416
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 416
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 72
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 74
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 34
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HAB"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 34
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 633
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 633
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 995
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 995
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 89
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 89
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 43
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 43
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "DA"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 285
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 285
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 549
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 549
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 269
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 269
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 9
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 9
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 4
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QAG"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 4
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 471
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 471
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 800
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 800
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 506
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 506
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AH"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 198
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 198
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 122
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 122
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 67
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 67
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 21
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 22
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 7
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BO"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 7
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 390
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 390
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 766
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 766
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 227
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 227
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 32
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 32
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 5
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "KM"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 5
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 453
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 453
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 853
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 853
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 30
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 36
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AB"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 186
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 186
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 256
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 256
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 77
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 77
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BMA"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 284
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 284
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 638
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 638
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 8
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 8
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 257
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 257
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 205
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 205
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BN"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 156
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 156
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 156
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 156
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAL"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 183
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 183
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 553
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 553
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 155
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 155
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BAG"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 250
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 152
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 402
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 650
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 602
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1252
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 131
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 68
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 199
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "MED"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 83
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 83
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 137
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 137
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 157
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 157
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 8
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 9
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BE"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 397
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 397
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 829
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 829
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 147
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 147
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 32
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 32
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 56
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "JA"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 56
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 227
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 227
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 853
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 853
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 281
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 281
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AAG"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 429
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 529
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 958
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 521
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 842
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1363
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 19
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 19
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "HA"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 556
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 556
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 4186
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 4186
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 181
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 181
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 29
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 29
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 11
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "QU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 11
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 64
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 64
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 280
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 280
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 99
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 99
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBI"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 72
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 72
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 280
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 280
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 100
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 100
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BT"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 343
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 525
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 868
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 376
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1111
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1487
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 103
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 309
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 412
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 12
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 33
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 7
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AT"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 9
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 648
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 648
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 656
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 656
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 126
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 126
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 39
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 39
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 8
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALBA"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 8
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 33
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 33
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 67
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 67
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 134
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 134
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "ALME"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 304
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 304
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 796
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 796
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 244
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 244
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 25
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 26
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "NA"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 351
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 351
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 679
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 679
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 110
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 110
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 30
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 30
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BHR"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 819
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 819
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1971
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1971
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 402
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 402
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "BD"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 125
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 125
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 170
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 170
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 30
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 30
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 12
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 12
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "AR"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 86
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 86
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 169
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 169
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 13
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 13
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 17
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "RA"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 17
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 10553
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 4444
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "FR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 14997
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 18566
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 10192
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "EN"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 28758
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2458
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3037
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "GR"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 5495
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 542
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 133
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 675
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 266
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 39
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "CC",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "PE",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 305
+} ]

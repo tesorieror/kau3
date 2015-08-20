@@ -727,4 +727,13 @@
 		"category" : "IT",
 		"tag" : "OI"
 	} ]
+}, {
+	"name" : "KHU",
+	"description" : "Kharj University",
+	"category" : "IN",
+	"order" : "82",
+	"tags" : [ {
+		"category" : "IT",
+		"tag" : "OI"
+	} ]
 } ]
