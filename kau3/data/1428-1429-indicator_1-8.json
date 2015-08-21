@@ -1,0 +1,10585 @@
+[ {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1126
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 485
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1611
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 609
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 26
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 635
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1053
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 176
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1229
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 123
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 123
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2179
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 661
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2840
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 732
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 26
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UAQU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 758
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 463
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 27
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 490
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 568
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 570
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 463
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 27
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 490
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 570
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "IU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 572
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 945
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 259
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1204
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1588
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 278
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1866
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 491
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 69
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 560
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 410
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 412
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1436
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 328
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1764
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1998
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 280
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UMISIU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2278
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2163
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1249
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 3412
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2904
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1063
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 3967
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 749
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 253
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1002
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1035
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1750
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2785
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2912
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1502
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 4414
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3939
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2813
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 6752
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1530
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 444
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1974
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 961
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 169
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1130
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1633
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 238
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1871
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 404
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 30
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 434
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3163
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 682
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3845
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1365
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 199
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KAU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1564
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 290
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 527
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 817
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 927
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 258
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1185
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 33
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 33
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 290
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 560
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 850
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 927
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 261
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFUPM"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1188
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 514
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 634
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1148
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1145
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 35
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1180
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 638
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 400
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1038
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 505
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 7
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 512
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1152
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1034
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2186
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1650
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 42
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KFU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1692
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 595
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 726
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1321
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1790
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 22
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1812
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 291
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 224
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 515
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 591
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 23
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 614
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 886
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 950
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1836
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2381
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KKU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 2426
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 485
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 476
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 961
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 741
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 59
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 800
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 246
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 185
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 431
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 88
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 126
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 731
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 661
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1392
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 829
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 97
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "QU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 926
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 384
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 207
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 591
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 412
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 426
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 134
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 110
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 244
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 114
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 114
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 518
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 317
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 835
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 526
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 540
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 282
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 221
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 503
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 299
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 305
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 273
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 86
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 359
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 174
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 174
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 555
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 307
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 862
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 473
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TaU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 479
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 17
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 20
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 37
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 5
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 7
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 21
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 59
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 56
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 74
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 38
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 58
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 96
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 61
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 20
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "KSAUHS"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 81
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 197
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 247
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 444
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 384
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 351
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 735
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 64
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 115
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 179
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 249
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 173
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 422
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 261
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 362
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 623
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 633
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 524
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "GU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1157
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 88
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 201
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 289
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 44
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 57
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 116
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 173
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 29
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 29
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 145
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 317
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 462
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 73
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "HU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 74
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 55
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 260
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 315
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 52
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 4
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 56
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 79
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 133
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 212
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 114
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 115
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 134
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 393
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 527
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 166
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 5
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "AJU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 171
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 59
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 97
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 156
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 51
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 51
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 146
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 86
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 232
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 37
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 37
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 205
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 183
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 388
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 88
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TabU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 88
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 62
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 191
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 253
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 41
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 41
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 40
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 119
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 159
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 16
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 16
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 102
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 310
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 412
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 57
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "BU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 57
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 40
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 50
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 42
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 67
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 109
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 31
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 5
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 36
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 52
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 107
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 159
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 31
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "UN"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 37
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 173
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 175
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1068
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 492
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 1560
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 478
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 478
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1070
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 665
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1735
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 479
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "PNBARU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 479
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 71
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 102
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 173
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 39
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 61
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 100
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 15
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 15
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 110
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 163
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 273
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 60
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "NU"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 60
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 9338
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 6586
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 15924
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 12567
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2291
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 14858
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 7064
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3001
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 10065
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 4471
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2050
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 6521
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 16402
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 9587
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 25989
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 17038
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 4341
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "PU"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 21379
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 3500
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 777
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 4277
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 671
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 671
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 118
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 118
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 54
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 54
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 3618
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 777
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 4395
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 725
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TC"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 725
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 4
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 43
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 47
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 22
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 59
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 81
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 8
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 32
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 50
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 10
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 45
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 55
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 40
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 91
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "PSCHSD"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 131
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 84
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 448
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 532
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 239
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 17
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 256
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 7
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 55
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 62
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 18
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 20
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 91
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 503
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 594
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 257
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 19
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "CJY"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 276
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 342
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 113
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 455
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 315
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 329
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 53
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 6
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 59
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 41
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 0
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 41
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 395
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 119
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 514
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 356
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 14
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "GAI"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 370
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 3930
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1381
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 5311
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1247
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 90
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 1337
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 184
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 63
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 247
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 131
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 34
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 165
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 4114
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1444
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 5558
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1378
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 124
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1502
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 158
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 528
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 686
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 189
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 279
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 468
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 168
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 508
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 676
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 303
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 264
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 567
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 326
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1036
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1362
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 492
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 543
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "OI"
+	}, {
+		"category" : "IN",
+		"name" : "NHE"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 1035
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 13426
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 8495
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 21921
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 14003
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 2660
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "MA"
+	} ],
+	"value" : 16663
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 7416
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 3572
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 10988
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 4905
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 2348
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "FE"
+	} ],
+	"value" : 7253
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 20842
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 12067
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "FM"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 32909
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "SA"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 18908
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "NS"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 5008
+}, {
+	"tags" : [ {
+		"category" : "YR",
+		"name" : "1428-1429"
+	}, {
+		"category" : "IT",
+		"name" : "TO"
+	}, {
+		"category" : "IN",
+		"name" : "TO"
+	}, {
+		"category" : "NA",
+		"name" : "TO"
+	}, {
+		"category" : "UP",
+		"name" : "AT"
+	}, {
+		"category" : "GE",
+		"name" : "TO"
+	} ],
+	"value" : 23916
+} ]
