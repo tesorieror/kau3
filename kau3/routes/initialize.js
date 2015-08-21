@@ -185,6 +185,30 @@ router.get('/', function(req, res) {
 						path.join(__dirname, '../data/1433-1434-indicator_1-6.json'),
 						'utf-8').then(JSON.parse).then(addPlainIndicators),
 				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1432-1433-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1431-1432-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1430-1431-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1429-1430-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1428-1429-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1427-1428-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1426-1427-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
+						path.join(__dirname, '../data/1425-1426-indicator_1-6.json'),
+						'utf-8').then(JSON.parse).then(addPlainIndicators),
+				q.nfbind(fs.readFile)(
 						path.join(__dirname, '../data/1434-1435-indicator_1-8.json'),
 						'utf-8').then(JSON.parse).then(addPlainIndicators),
 				q.nfbind(fs.readFile)(
@@ -268,6 +292,12 @@ router.get('/', function(req, res) {
 				_tags : _.map(indicator.tags, function(tag) {
 					// console.log("CAT", tag.category);
 					// console.log("TAG", tag);
+					// if(tag.name=='DCSCE-UAQU'){
+					// console.log("CAT", tag.category);
+					// console.log("TAG", tag);
+					// console.log(_.keys(tagDictionary));
+					// console.log(tagDictionary[tag.category]);
+					// }
 					return tagDictionary[tag.category][tag.name]._id;
 				})
 			};

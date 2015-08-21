@@ -31,7 +31,7 @@
 		},
 		{
 			"name" : "DCS-IU",
-			"description" : "Deanship of community service (IU)",
+			"description" : "Deanship for Community Service  (IU)",
 			"category" : "CCS",
 			"order" : "4",
 			"tags" : [ {
@@ -41,7 +41,7 @@
 		},
 		{
 			"name" : "DUCCSCE-UMISIU",
-			"description" : "Deanship University Center for Community Service and Continuing Education (UMISIU)",
+			"description" : " University Center Deanship for Community Service and Continuing Education (UMISIU)",
 			"category" : "CCS",
 			"order" : "5",
 			"tags" : [ {
@@ -51,7 +51,7 @@
 		},
 		{
 			"name" : "DDL-UMISIU",
-			"description" : "Deanship of Distance Learning (UMISIU)",
+			"description" : "Deanship of  Distance Learning (UMISIU)",
 			"category" : "CCS",
 			"order" : "6",
 			"tags" : [ {
@@ -61,7 +61,7 @@
 		},
 		{
 			"name" : "FASCS-KSU",
-			"description" : "Faculty of Applied Studies and Community Service (KSU)",
+			"description" : "College of Applied Studies and Community Service (KSU)",
 			"category" : "CCS",
 			"order" : "7",
 			"tags" : [ {
@@ -91,7 +91,7 @@
 		},
 		{
 			"name" : "FASS-KFUPM",
-			"description" : "Faculty of Applied and Supporting Studies (KFUPM)",
+			"description" : "College of Applied and Suppporting Studies  (KFUPM)",
 			"category" : "CCS",
 			"order" : "10",
 			"tags" : [ {
@@ -121,7 +121,7 @@
 		},
 		{
 			"name" : "DCSB-QU",
-			"description" : "Deanship of community service Buraidah (QU)",
+			"description" : "Deanship of Community Service (QU)",
 			"category" : "CCS",
 			"order" : "13",
 			"tags" : [ {
@@ -141,7 +141,7 @@
 		},
 		{
 			"name" : "DPCE-TU",
-			"description" : "Deanship of Parallel and continuing education (TU)",
+			"description" : "Deanship of Parallel and Continuing Education  (TU)",
 			"category" : "CCS",
 			"order" : "15",
 			"tags" : [ {
@@ -151,7 +151,7 @@
 		},
 		{
 			"name" : "DESM-TU",
-			"description" : "Dean, Educational Services in Medina (TU)",
+			"description" : "Deanship of Educational Services in Madinah (TU)",
 			"category" : "CCS",
 			"order" : "16",
 			"tags" : [ {
@@ -161,7 +161,7 @@
 		},
 		{
 			"name" : "DESY-TU",
-			"description" : "Agency Dean, Educational Services in Yanbu (TU)",
+			"description" : "Deanship of Educational Services in Yanbu (TU)",
 			"category" : "CCS",
 			"order" : "17",
 			"tags" : [ {
@@ -171,7 +171,7 @@
 		},
 		{
 			"name" : "DESO-TU",
-			"description" : "Agency Dean, Educational Services Ola (TU)",
+			"description" : "Deanship of Educational Services in Ula (TU)",
 			"category" : "CCS",
 			"order" : "18",
 			"tags" : [ {
@@ -231,7 +231,7 @@
 		},
 		{
 			"name" : "CASCE-BU",
-			"description" : "College of Applied Studies and Continuing Education (BU)",
+			"description" : "College of Applied Studies  and Continuing Education (BU)",
 			"category" : "CCS",
 			"order" : "24",
 			"tags" : [ {
@@ -271,7 +271,7 @@
 		},
 		{
 			"name" : "FASCS-UD",
-			"description" : "Faculty of Applied Studies and Community Service (UD)",
+			"description" : "College of Applied Studies and Community Service (UD)",
 			"category" : "CCS",
 			"order" : "28",
 			"tags" : [ {
@@ -317,5 +317,45 @@
 			"tags" : [ {
 				"category" : "IN",
 				"tag" : "UC"
+			} ]
+		},
+		{
+			"name" : "CCSCE-UAQU",
+			"description" : "College of Community Service and Continuing Education (UAQU)",
+			"category" : "CCS",
+			"order" : "33",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "UAQU"
+			} ]
+		},
+		{
+			"name" : "CCSCE-QU",
+			"description" : "College of Community Service and Continuing Education (QU)",
+			"category" : "CCS",
+			"order" : "34",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "QU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-KKU",
+			"description" : "Deanship of Community Service and Continuing Education (KKU)",
+			"category" : "CCS",
+			"order" : "35",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "KKU"
+			} ]
+		},
+		{
+			"name" : "DCSCE-TU",
+			"description" : "Deanship of Community Service and Continuing Education (TU)",
+			"category" : "CCS",
+			"order" : "36",
+			"tags" : [ {
+				"category" : "IN",
+				"tag" : "TU"
 			} ]
 		} ]
