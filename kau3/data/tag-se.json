@@ -1,0 +1,5331 @@
+[
+		{
+			"name" : "ABR",
+			"description" : "Dawa Islamic culture",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ACC",
+			"description" : "Accountancy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "ADMFISCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ADMIN",
+			"description" : "Administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "PSTAJ",
+				"category" : "CO"
+			}, {
+				"tag" : "PSCTMA",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ADVEDUGD",
+			"description" : "Advanced Education in General Dentistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DENRI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AEROENG",
+			"description" : "Aerospace Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRBUSCS",
+			"description" : "Agri-business and consumer sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRECO",
+			"description" : "Agricultural economy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRENVNATRES",
+			"description" : "Agricultural environment and natural resources",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRIENG",
+			"description" : "agricultural engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRSYSENG",
+			"description" : "Agricultural Systems Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ALAGR",
+			"description" : "Arid Land Agriculture",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MEALA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ALMENG",
+			"description" : "Almikianikih Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ANAT",
+			"description" : "Anatomy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "VMAR",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ANES",
+			"description" : "Anesthesia",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ANFISH",
+			"description" : "Animal and Fishery Production",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ANIPROD",
+			"description" : "Animal Production",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARALIT",
+			"description" : "Arabic literature",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARCH",
+			"description" : "Architecture",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARCHBUSCI",
+			"description" : "Architecture and Building Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARITH",
+			"description" : "Arithmetic",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HIEGF",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARLAN",
+			"description" : "Arabic language",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "HA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANSS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADA",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARLANLIT",
+			"description" : "Arabic language and its literature",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "HU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUA",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARTEDU",
+			"description" : "Art education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ASSDOC",
+			"description" : "Assistant doctor",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PSMCHSD",
+				"category" : "CO"
+			}, {
+				"tag" : "PSCHSD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ASTRO",
+			"description" : "Astronomy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AVIENG",
+			"description" : "Aviation Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BA",
+			"description" : "Business Administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BAT",
+			"description" : "Batinah",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BIO",
+			"description" : "Biology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCIG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCID",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BIOCHEM",
+			"description" : "Biochemistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BIOSCI",
+			"description" : "Biological Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "UMED",
+				"category" : "CO"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BM",
+			"description" : "Business Management",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADMFISCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADMFISCI",
+				"category" : "CO"
+			}, {
+				"tag" : "SAUE",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			}, {
+				"tag" : "IRCAS",
+				"category" : "CO"
+			}, {
+				"tag" : "IRCAS",
+				"category" : "IN"
+			}, {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BOTMIC",
+			"description" : "Botany and Microbiology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BUTESCI",
+			"description" : "Building Technology Science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CALL",
+			"description" : "Call",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ADINF",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CHEM",
+			"description" : "Chemistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCIG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCID",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CHEMENG",
+			"description" : "Chemical Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CIS",
+			"description" : "Centre for Islamic Studies",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CIVENG",
+			"description" : "Civil engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CLICHEM",
+			"description" : "Clinical Biochemistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CLILABSCI",
+			"description" : "Clinical laboratory sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "APPMEDSCIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CLINSTU",
+			"description" : "Clinical Studies",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "VMAR",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CLIPHAR",
+			"description" : "Clinical Pharmacy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CLOTEX",
+			"description" : "Clothing and textiles",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HE",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMBIOPRO",
+			"description" : "Council Master biodiversity program",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMHEA",
+			"description" : "Community Health",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMINFO",
+			"description" : "Communication and Information",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "COMMINF",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMINFOSYS",
+			"description" : "Computer Information Systems",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CIT",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMJUR",
+			"description" : "Comparative Jurisprudence",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HJI",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMLAW",
+			"description" : "Commercial Law",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "RIG",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMMHEMEHENUR",
+			"description" : "Community health and mental health nursing",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMP",
+			"description" : "Computer",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMPENG",
+			"description" : "Computer Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CAIS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCE",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMSCI",
+			"description" : "Computer Science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CAIS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "CIT",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "CS",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCE",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "CS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CONENGMA",
+			"description" : "Construction Engineering and Management",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CRE",
+			"description" : "Creed",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CRILAY",
+			"description" : "Criminal Law",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "RIG",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CRP",
+			"description" : "City and Regional Planning",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CSCIENG",
+			"description" : "Computer Science and Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CULARLAN",
+			"description" : "The cultivation of arid lands",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CURINS",
+			"description" : "Curriculum and Instruction",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUA",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CURRTEAMAT",
+			"description" : "Curricula and methods of teaching mathematics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDUD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CURRTEAMEFOSCI",
+			"description" : "Curricula and teaching methods of forensic science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDUD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CURRTEAMET",
+			"description" : "Curriculum and Teaching Methods",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "HU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CURRTECEDU",
+			"description" : "Curriculum and Technology Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DATE",
+			"description" : "Date",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "HU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANSS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADA",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DEN",
+			"description" : "dentistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "RDP",
+				"category" : "CO"
+			}, {
+				"tag" : "RCDP",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DIPHOLUNDEGDI",
+			"description" : "Diploma holders of university degree programs",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "UCCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DOCONDOC",
+			"description" : "Doctrine and contemporary doctrines",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DOGDOCON",
+			"description" : "Dogma and doctrines contemporary",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "REL",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DOMREF",
+			"description" : "Domestic reform",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DRUG",
+			"description" : "Drugs",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ECO",
+			"description" : "Economy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ECOSCIM",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ECOFIN",
+			"description" : "Economics and Finance",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDU",
+			"description" : "Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "HU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "AOU",
+				"category" : "IN"
+			}, {
+				"tag" : "UCJ",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "SS",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUA",
+			"description" : "educational administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUA",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUADMIN",
+			"description" : "Educational administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUDIP",
+			"description" : "Educational Diploma",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUEDUADMINS",
+			"description" : "Education in Educational Administration and Supervision",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUGUICOU",
+			"description" : "Educational guidance and counseling",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUHUDEV",
+			"description" : "Education and Human Development",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUKIND",
+			"description" : "Kindergarten",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDULPSY",
+			"description" : "Educational Psychology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUMEDTECHEDU",
+			"description" : "Education in the media and technology education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUPOL",
+			"description" : "Educational policies",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUPSY",
+			"description" : "Education and Psychology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUA",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUSCI",
+			"description" : "Educational Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUTEC",
+			"description" : "Education Technology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EFF",
+			"description" : "Effects",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "TA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ELEENG",
+			"description" : "Electrical engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EMEMED",
+			"description" : "Emergency Medicine",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ENGLAN",
+			"description" : "English language",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ELI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ENGLANLIT",
+			"description" : "English language and literature",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ENGMAN",
+			"description" : "Engineering Management",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ENLAN",
+			"description" : "english language",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANSS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "ADA",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ENVSCI",
+			"description" : "Environmental Science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MEALA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EULANLIT",
+			"description" : "European Languages ​​and Literature",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EXEMBA",
+			"description" : "Executive Master of Business Administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "FSU",
+				"category" : "IN"
+			}, {
+				"tag" : "CCBA",
+				"category" : "CO"
+			}, {
+				"tag" : "UBT",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EXEMMA",
+			"description" : "Executive Master in Management Alogmal",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "AYU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EXMANHSH",
+			"description" : "Executive management of health services and hospitals",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FACOMMED",
+			"description" : "Family and Community Medicine",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FAMCOU",
+			"description" : "Family counseling",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DCSB",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FAMED",
+			"description" : "Family medicine",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FASDES",
+			"description" : "fashion design",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DEHE",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FIG",
+			"description" : "Fiqh",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FINAN",
+			"description" : "Finance",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "EU",
+				"category" : "IN"
+			}, {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FONUT",
+			"description" : "Food and Nutrition",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HE",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FOODSCIHUNUT",
+			"description" : "Food Science and Human Nutrition",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRVETMED",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FOOSCINUT",
+			"description" : "Food Science and Nutrition",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FORLANG",
+			"description" : "foreign languages",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FRELANTRA",
+			"description" : "French Language and Translation",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FUNDEDU",
+			"description" : "Foundations of Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GED",
+			"description" : "General Education Diploma",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GENADMIN",
+			"description" : "the general Administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GENDIP",
+			"description" : "General Diploma",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "UCB",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GENDIPEDU",
+			"description" : "General Diploma in Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DCSB",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "PNBARU",
+				"category" : "IN"
+			}, {
+				"tag" : "BHC",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "KMC",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUAD",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBH",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBE",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GENEDUPRO",
+			"description" : "General Educational Diploma Program",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GENGEO",
+			"description" : "General Geology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "GEO",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GEO",
+			"description" : "geology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GEOG",
+			"description" : "Geography",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "HU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANSS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADA",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "SS",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GEOLOG",
+			"description" : "Geology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GRAART",
+			"description" : "Graphic arts",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARTD",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GRAMPHI",
+			"description" : "Grammar and philology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GRASTU",
+			"description" : "Graduate Studies - Master's program",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "GP",
+				"category" : "CO"
+			}, {
+				"tag" : "PSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GUICOU",
+			"description" : "Guidance and counseling (parallel)",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDUD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GUICOUST",
+			"description" : "Guidance and counseling students",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSB",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GUICOUSTDIP",
+			"description" : "Guidance and counseling students Diploma",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BHC",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "KMC",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUAD",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBH",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBE",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HADSCI",
+			"description" : "Hadith and its sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUA",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HEAINFO",
+			"description" : "Health Informatics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PHHIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HIC",
+			"description" : "History and Islamic Civilization",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HISCIV",
+			"description" : "History and civilization",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SS",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HOECO",
+			"description" : "Home economics education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HE",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HSMQ",
+			"description" : "Health Systems Management and Quality",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PHHIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "IARCH",
+			"description" : "Islamic architecture",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "IMARHE",
+			"description" : "Imamate and rhetoric",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HIIP",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INDENG",
+			"description" : "Industrial Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INFMAN",
+			"description" : "Information management",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INFOSCI",
+			"description" : "Information Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INFOSYS",
+			"description" : "Information Systems",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CAIS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INFOTECH",
+			"description" : "information technology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CIT",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INFSEC",
+			"description" : "Information Security",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CI",
+				"category" : "CO"
+			}, {
+				"tag" : "SAUE",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INTER",
+			"description" : "Interpretation",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HQIS",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "INTREL",
+			"description" : "International Relations",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DAHB",
+				"category" : "CO"
+			}, {
+				"tag" : "DAHC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "IP",
+			"description" : "Islamic principals",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ISCULT",
+			"description" : "Islamic culture",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "HU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ISECO",
+			"description" : "Islamic Economics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ISHIS",
+			"description" : "Islamic history",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ISPOL",
+			"description" : "Islamic politics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HJI",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ISST",
+			"description" : "Islamic studies",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "HA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADA",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JB",
+			"description" : "Joint Business",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JP",
+			"description" : "The joint program",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CAIS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JUDSTU",
+			"description" : "Judicial Studies",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "JSR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JUPOLLEG",
+			"description" : "The judiciary and the political legitimacy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JUR",
+			"description" : "Jurisprudence",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JURIS",
+			"description" : "Jurisprudence",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JURISYEAR",
+			"description" : "The jurisprudence of the year and sources",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HADITH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LAW",
+			"description" : "Law",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LAWPROFPRA",
+			"description" : "Law and professional practice",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "RIG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LEADIFF",
+			"description" : "Learning difficulties (parallel)",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDUD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LIBINFOSCI",
+			"description" : "Library and information science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LING",
+			"description" : "Linguistics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LITRHT",
+			"description" : "Literature and Rhetoric",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MABIO",
+			"description" : "Marine Biology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SEA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MANINFO",
+			"description" : "Management information systems",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MANMAR",
+			"description" : "Management and Marketing",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "IM",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MARCHEM",
+			"description" : "Marine Chemistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SEA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MARPHY",
+			"description" : "Marine Physics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SEA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MASCIPROJDES",
+			"description" : "Master of Science Program in the joint Desalination",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MATCHHENUR",
+			"description" : "Maternal and child health nursing",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MATH",
+			"description" : "Mathematics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "ASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MATHSCI",
+			"description" : "Mathematical Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MATHSTAT",
+			"description" : "Mathematics and Statistics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MBA",
+			"description" : "Master of Business Administration",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "AYU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "FSU",
+				"category" : "IN"
+			}, {
+				"tag" : "DAHB",
+				"category" : "CO"
+			}, {
+				"tag" : "DAHC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MDHRM",
+			"description" : "Master's degree in Human Resources Management",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "AYU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEAEVAL",
+			"description" : "Measurement and Evaluation",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDUAD",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBE",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEATECHEDU",
+			"description" : "Means and Technology Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MECENG",
+			"description" : "Mechanical engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEDEDU",
+			"description" : "Medical Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEDEPI",
+			"description" : "Medical epidemiology and vital statistics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PHHIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEDIA",
+			"description" : "Media",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ADINF",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEDLABTECH",
+			"description" : "Medical Laboratory Technology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEDMIC",
+			"description" : "Medical Microbiology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEDSUNUR",
+			"description" : "Medical Surgical Nursing",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MNE",
+			"description" : "Management and nursing education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MODSCI",
+			"description" : "Modern Science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "HADITH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NATPRO",
+			"description" : "Natural Products",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NATTHE",
+			"description" : "natural therapy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NEU",
+			"description" : "Neurology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NUCENG",
+			"description" : "Nuclear Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NUR",
+			"description" : "Nursing",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NURCRISIT",
+			"description" : "Nursing critical situations",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "OBSGYN",
+			"description" : "Obstetrics and Gynecology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "OPHT",
+			"description" : "Ophthalmology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "OPTICS",
+			"description" : "Optics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ORALMAXSUR",
+			"description" : "Oral and Maxillofacial Surgery",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PAHRM",
+			"description" : "Pharmacy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PAIEDU",
+			"description" : "Public assets of Islamic Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PARMEDSCI",
+			"description" : "Pharmacy and Medical Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "RDP",
+				"category" : "CO"
+			}, {
+				"tag" : "RCDP",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PATH",
+			"description" : "Pathology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PED",
+			"description" : "Pediatrics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PEDENORTH",
+			"description" : "Pediatric Dentistry and Orthodontics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PEDNUR",
+			"description" : "Pediatric Nursing",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PETROLENG",
+			"description" : "Petrol Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHARCHEM",
+			"description" : "Pharmaceutical Chemistry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHARM",
+			"description" : "Pharmacy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHARMAC",
+			"description" : "Pharmacology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHARMS",
+			"description" : "Pharmaceutics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHARSCI",
+			"description" : "Pharmaceutical sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHEDU",
+			"description" : "Physical education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "SPAS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHY",
+			"description" : "Physics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "APPSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCID",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHYAST",
+			"description" : "Physics and Astronomy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHYCO",
+			"description" : "Physiology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHYMEDREH",
+			"description" : "Physical Medicine and Rehabilitation",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHYSI",
+			"description" : "Physiology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PLANTPRO",
+			"description" : "Plant Protection",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PLANTPROD",
+			"description" : "Plant Production",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "POLSCI",
+			"description" : "Political Science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "LAWPS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PREDENSCI",
+			"description" : "Preventive Dental Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PROFACC",
+			"description" : "Professional Accounting",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PSY",
+			"description" : "psychology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "SS",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PSYCH",
+			"description" : "Psychiatry",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PUBHEA",
+			"description" : "Public Health",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PHHIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "QANA",
+			"description" : "Quantitative analysis",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "QUASCI",
+			"description" : "Quran and its Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "REL",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "QUASUN",
+			"description" : "Quran and Sunnah",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "RADIO",
+			"description" : "Radiology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "RAIMS",
+			"description" : "Radiology and Imaging Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "UMED",
+				"category" : "CO"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "REA",
+			"description" : "Readings",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "HQIS",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "RESDENSCI",
+			"description" : "Restorative Dental Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "RHECRIMEIL",
+			"description" : "Rhetoric and criticism and the methodology of Islamic literature",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCICIVENG",
+			"description" : "Science in Civil Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCIELEENG",
+			"description" : "Science in Electrical Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCIENGPRO",
+			"description" : "Science and Engineering Program",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCIMANWR",
+			"description" : "Science and management of water resources",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MEALA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCIPROENVSCI",
+			"description" : "Science program in Environmental Sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SHA",
+			"description" : "Sharia",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "LAWREG",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOCSOWO",
+			"description" : "Sociology and social work",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLANSS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOCSTU",
+			"description" : "Social Studies",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOFT",
+			"description" : "Software",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "GAI",
+				"category" : "CO"
+			}, {
+				"tag" : "GAI",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOFTENG",
+			"description" : "Software Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "CAIS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOLI",
+			"description" : "Soil Science",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOSOSE",
+			"description" : "Sociology and Social Service",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SS",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SOULEAR",
+			"description" : "Sources learn",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DCSB",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SPEBREE",
+			"description" : "special breeding",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DCSB",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SPEDU",
+			"description" : "Special Education",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SPMAN",
+			"description" : "Sports Management",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "B",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "STARAH",
+			"description" : "Studies Arab Higher",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLANLI",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "STAT",
+			"description" : "Statistics",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "STATOR",
+			"description" : "Statistics and Operations Research",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SURG",
+			"description" : "Surgery",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SYS",
+			"description" : "Systems",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "JSR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "RIG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SYSENG",
+			"description" : "Systems Engineering",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCE",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "TEATRA",
+			"description" : "Teacher Training",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARLANI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "TECHTISSANAT",
+			"description" : "Technical and tissue anatomy",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "TISS",
+			"description" : "Tissue surrounding the teeth and dental health community",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "TO",
+			"description" : "Phrase",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANLI",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "EIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "UCJ",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "HIEGF",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "UCB",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "CIS",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "JSR",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "APPSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "DFR",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "HQIS",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "HADITH",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "UCCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "SH",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLAN",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "REL",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "SS",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADINF",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOSCIM",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "HJI",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "BA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "LAWPS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "TA",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "FAI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "CAIS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "SPAS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "MEALA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "CIT",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "MED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "DEN",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "GEO",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SEA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "HE",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARTD",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "HA",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "B",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCIG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "COMMINF",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ELI",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "RIG",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "ESCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "SCE",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "IM",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "CS",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "AGRFSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "VMAR",
+				"category" : "CO"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "HU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADMFISCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "AGRVETMED",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARLANSS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ECOMA",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSB",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "DEHE",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "ENG",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "CS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "HIIP",
+				"category" : "CO"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "ART",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "LAWREG",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "ADMFISCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "EGS",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "APPMEDSCIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "DENRI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "PHHIR",
+				"category" : "CO"
+			}, {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "HU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "HU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUA",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "FASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "AHU",
+				"category" : "CO"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "ASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "PNBARU",
+				"category" : "IN"
+			}, {
+				"tag" : "DCSCE",
+				"category" : "CO"
+			}, {
+				"tag" : "PNBARU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "BHC",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "KMC",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUAD",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBH",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUBE",
+				"category" : "CO"
+			}, {
+				"tag" : "NU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "MD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "APPMEDSCI",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "NU",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "SCID",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "ADA",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "EDUD",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "SAUE",
+				"category" : "IN"
+			}, {
+				"tag" : "ADMFISCI",
+				"category" : "CO"
+			}, {
+				"tag" : "SAUE",
+				"category" : "IN"
+			}, {
+				"tag" : "CI",
+				"category" : "CO"
+			}, {
+				"tag" : "SAUE",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "PSU",
+				"category" : "IN"
+			}, {
+				"tag" : "GP",
+				"category" : "CO"
+			}, {
+				"tag" : "PSU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "AOU",
+				"category" : "IN"
+			}, {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "AOU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			}, {
+				"tag" : "ASCI",
+				"category" : "CO"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			}, {
+				"tag" : "UMED",
+				"category" : "CO"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "AYU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "AYU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "EU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "EU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			}, {
+				"tag" : "RIG",
+				"category" : "CO"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "FSU",
+				"category" : "IN"
+			}, {
+				"tag" : "BM",
+				"category" : "CO"
+			}, {
+				"tag" : "FSU",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "DAHC",
+				"category" : "IN"
+			}, {
+				"tag" : "DAHB",
+				"category" : "CO"
+			}, {
+				"tag" : "DAHC",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "IRCAS",
+				"category" : "IN"
+			}, {
+				"tag" : "IRCAS",
+				"category" : "CO"
+			}, {
+				"tag" : "IRCAS",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "UBT",
+				"category" : "IN"
+			}, {
+				"tag" : "CCBA",
+				"category" : "CO"
+			}, {
+				"tag" : "UBT",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "RCDP",
+				"category" : "IN"
+			}, {
+				"tag" : "RDP",
+				"category" : "CO"
+			}, {
+				"tag" : "RCDP",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "PSCTMA",
+				"category" : "IN"
+			}, {
+				"tag" : "PSTAJ",
+				"category" : "CO"
+			}, {
+				"tag" : "PSCTMA",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "AREAGRSTC",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "TO",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "GAI",
+				"category" : "IN"
+			}, {
+				"tag" : "GAI",
+				"category" : "CO"
+			}, {
+				"tag" : "GAI",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "CO"
+			}, {
+				"tag" : "PSCHSD",
+				"category" : "IN"
+			}, {
+				"tag" : "PSMCHSD",
+				"category" : "CO"
+			}, {
+				"tag" : "PSCHSD",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "TRACEN",
+			"description" : "Training Center",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "TRANS",
+			"description" : "Translation",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "LT",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "TRUEDURES",
+			"description" : "Trustees of the Educational Resources",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "EDU",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "UNLIM",
+			"description" : "Unlimited",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "PH",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "URPLA",
+			"description" : "urban planning",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "URREPLA",
+			"description" : "Urban and Regional Planning",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "ED",
+				"category" : "CO"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "ARCHP",
+				"category" : "CO"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "VETMED",
+			"description" : "Veterinary Medicine",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "AGRVETMED",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "YEARSCI",
+			"description" : "Year and sciences",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "REL",
+				"category" : "CO"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "SFR",
+				"category" : "CO"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "SIS",
+				"category" : "CO"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "ZOO",
+			"description" : "Zoology",
+			"category" : "SE",
+			"tags" : [ {
+				"tag" : "SCI",
+				"category" : "CO"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		} ]

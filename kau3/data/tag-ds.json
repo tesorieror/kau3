@@ -1,0 +1,25 @@
+[ {
+	"name" : "ID",
+	"description" : "Intermediate Diploma",
+	"category" : "DS",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "UG",
+	"description" : "Undergraduate",
+	"category" : "DS",
+	"order" : "3",
+	"tags" : []
+}, {
+	"name" : "PG",
+	"description" : "Post Graduate",
+	"category" : "DS",
+	"order" : "4",
+	"tags" : []
+}, {
+	"name" : "TO",
+	"description" : "Total",
+	"category" : "DS",
+	"order" : "1",
+	"tags" : []
+} ]

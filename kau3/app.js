@@ -18,6 +18,8 @@ var indicatorTag = require('./routes/indicator/tag');
 var indicatorStudentCommunity = require('./routes/indicator/students/community');
 var indicatorStudentCommunityService = require('./routes/indicator/students/community-service');
 var indicatorStudentStaff = require('./routes/indicator/students/staff');
+var indicatorStudentFreshmenUndergraduate = require('./routes/indicator/students/freshmen-undergraduate');
+var indicatorStudentFreshmenIntermediate = require('./routes/indicator/students/freshmen-intermediate');
 
 var app = express();
 
@@ -50,6 +52,9 @@ app.use('/indicator/tag', indicatorTag);
 app.use('/data/students/community', indicatorStudentCommunity);
 app.use('/data/students/community-service', indicatorStudentCommunityService);
 app.use('/data/students/staff', indicatorStudentStaff);
+app.use('/data/students/freshmen-undergraduate/', indicatorStudentFreshmenUndergraduate);
+app.use('/data/students/freshmen-intermediate/', indicatorStudentFreshmenIntermediate);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

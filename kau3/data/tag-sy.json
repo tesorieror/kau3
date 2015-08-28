@@ -1,0 +1,25 @@
+[ {
+	"name" : "RE",
+	"description" : "Regular",
+	"category" : "SY",
+	"order" : "2",
+	"tags" : []
+}, {
+	"name" : "NM",
+	"description" : "Not a member",
+	"category" : "SY",
+	"order" : "3",
+	"tags" : []
+}, {
+	"name" : "CO",
+	"description" : "Collimated",
+	"category" : "SY",
+	"order" : "4",
+	"tags" : []
+}, {
+	"name" : "TO",
+	"description" : "Total",
+	"category" : "SY",
+	"order" : "1",
+	"tags" : []
+} ]

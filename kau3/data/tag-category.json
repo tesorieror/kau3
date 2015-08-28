@@ -46,4 +46,24 @@
 	"name" : "UP",
 	"description" : "University Personal",
 	"order" : "10"
+}, {
+	"name" : "SY",
+	"description" : "Study System",
+	"order" : "11"
+}, {
+	"name" : "DS",
+	"description" : "Diploma Stage",
+	"order" : "12"
+}, {
+	"name" : "CO",
+	"description" : "College",
+	"order" : "13"
+}, {
+	"name" : "SE",
+	"description" : "Section",
+	"order" : "14"
+}, {
+	"name" : "SP",
+	"description" : "Specialization",
+	"order" : "15"
 } ]

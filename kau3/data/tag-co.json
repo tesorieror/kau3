@@ -1,0 +1,1054 @@
+[
+		{
+			"name" : "ADA",
+			"description" : "Arts in Dammam",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ADINF",
+			"description" : "Advocacy and information",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ADMFISCI",
+			"description" : "Administrative and Financial Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "SAUE",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRFSCI",
+			"description" : "Agricultural and Food Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AGRVETMED",
+			"description" : "Agriculture and Veterinary Medicine",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AHU",
+			"description" : "Humanities and Arts",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "APPMEDSCI",
+			"description" : "Applied Medical Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "APPMEDSCIR",
+			"description" : "Applied Medical Sciences in Riyadh",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "APPSCI",
+			"description" : "Applied Science",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARCHP",
+			"description" : "Architecture and Planning",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "AREAGRSTC",
+			"description" : "Arab East Graduate Studies and colleges",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "AEC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARLAN",
+			"description" : "Arabic language",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARLANI",
+			"description" : "Arabic Language Institute",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARLANLI",
+			"description" : "Arabic language and its literature",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARLANSS",
+			"description" : "Arabic Language and Social Studies",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ART",
+			"description" : "Arts",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ARTD",
+			"description" : "Art and Design",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ASCI",
+			"description" : "Arts and Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "B",
+			"description" : "Business (COB)",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BA",
+			"description" : "Business Administration",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BHC",
+			"description" : "Bharimlae community",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "BM",
+			"description" : "Business Management",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "PMBFU",
+				"category" : "IN"
+			}, {
+				"tag" : "FU",
+				"category" : "IN"
+			}, {
+				"tag" : "AYU",
+				"category" : "IN"
+			}, {
+				"tag" : "EU",
+				"category" : "IN"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			}, {
+				"tag" : "FSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CAIS",
+			"description" : "Computer and Information Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CCBA",
+			"description" : "Community College of Business Administration",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UBT",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CI",
+			"description" : "Computing and Informatics",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "SAUE",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CIS",
+			"description" : "Computer and information systems",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CIT",
+			"description" : "Computing and Information Technology",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "COMMINF",
+			"description" : "Communication and Information",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "CS",
+			"description" : "Computer Science",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DAHB",
+			"description" : "Dar al-Hikma of Business",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "DAHC",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DCSB",
+			"description" : "Deanship of community service Buraidah",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DCSCE",
+			"description" : "Deanship of Community Service and Continuing Education",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "TabU",
+				"category" : "IN"
+			}, {
+				"tag" : "PNBARU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DEHE",
+			"description" : "Designs and home economics",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DEN",
+			"description" : "dentistry",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DENRI",
+			"description" : "Dentistry in Riyadh",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "DFR",
+			"description" : "Dawa and Fundamentals of Religion",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ECOMA",
+			"description" : "Economics and Management",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ECOSCIM",
+			"description" : "Economy, science managerial",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ED",
+			"description" : "Environmental Designs",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDU",
+			"description" : "Education",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "TU",
+				"category" : "IN"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "HU",
+				"category" : "IN"
+			}, {
+				"tag" : "BU",
+				"category" : "IN"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			}, {
+				"tag" : "AOU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUA",
+			"description" : "Education and Arts",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "TabU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUAD",
+			"description" : "Education Aldawadmi",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUBE",
+			"description" : "Education Bafeef",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUBH",
+			"description" : "Education Bhqra",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EDUD",
+			"description" : "Education in Dammam",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EGS",
+			"description" : "Educational Graduate Studies",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "EIS",
+			"description" : "Engineering and Islamic Architecture",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ELI",
+			"description" : "English Language Institute",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ENG",
+			"description" : "Engineering",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "ESCI",
+			"description" : "Engineering Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FAI",
+			"description" : "Food and Agricultural Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "FASCI",
+			"description" : "Financial and Administrative Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "BU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GAI",
+			"description" : "General Administration Institute",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "GAI",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GEO",
+			"description" : "geology",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "GP",
+			"description" : "Graduate Program",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "PSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HA",
+			"description" : "Humanities and Arts (COB)",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HADITH",
+			"description" : "The Hadith and Islamic Studies",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HE",
+			"description" : "Home Economics",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HIEGF",
+			"description" : "Higher Institute of enjoining what is good and forbidding what is evil",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HIIP",
+			"description" : "Higher Institute of Imams and Preachers",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "TU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HJI",
+			"description" : "Higher Judicial Institute",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HQIS",
+			"description" : "Holy Quran and Islamic Studies",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "IU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "HU",
+			"description" : "Humanities",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "IM",
+			"description" : "Industrial Management",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "IRCAS",
+			"description" : "Ibn Rushd College of Administrative Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "IRCAS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "JSR",
+			"description" : "Judicial Studies and regulations",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "KMC",
+			"description" : "Khamis Mushait community",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "NU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LAWPS",
+			"description" : "Law and Political Science",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LAWREG",
+			"description" : "Law and regulations",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "TaU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "LT",
+			"description" : "Languages ​​and Translation",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			}, {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MD",
+			"description" : "Medicine Dammam",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MEALA",
+			"description" : "Meteorology, Environment and Arid Land Agriculture",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "MED",
+			"description" : "Medicine",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "NU",
+			"description" : "Nursing",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PH",
+			"description" : "Pharmacy",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PHHIR",
+			"description" : "Public Health and Health Informatics in Riyadh",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSAUHS",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PSMCHSD",
+			"description" : "Prince Sultan Military College of Health Sciences in Dhahran",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "PSCHSD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "PSTAJ",
+			"description" : "Prince Sultan for Tourism and Administration in Jeddah",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "PSCTMA",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "RDP",
+			"description" : "Riyadh dental and pharmacy",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "RCDP",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "REL",
+			"description" : "Religion basics",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "RIG",
+			"description" : "Rights",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "DAUU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCE",
+			"description" : "Science and Computer Engineering",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCI",
+			"description" : "Science",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			}, {
+				"tag" : "KAU",
+				"category" : "IN"
+			}, {
+				"tag" : "KFUPM",
+				"category" : "IN"
+			}, {
+				"tag" : "KFU",
+				"category" : "IN"
+			}, {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			}, {
+				"tag" : "TaU",
+				"category" : "IN"
+			}, {
+				"tag" : "TabU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCID",
+			"description" : "Science Dammam",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UD",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SCIG",
+			"description" : "Science for Girls",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SEA",
+			"description" : "sea ​​science",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KAU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SFR",
+			"description" : "Sharia and Fundamentals of Religion",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KKU",
+				"category" : "IN"
+			}, {
+				"tag" : "UN",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SH",
+			"description" : "Sharia",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "IU",
+				"category" : "IN"
+			}, {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SIS",
+			"description" : "Sharia and Islamic Studies",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			}, {
+				"tag" : "QU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SPAS",
+			"description" : "Sport and Physical Activity Sciences",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "SS",
+			"description" : "social science",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "TA",
+			"description" : "Tourism and Antiquities",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KSU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "TO",
+			"description" : "Total public universities",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "SAUE",
+				"category" : "IN"
+			}, {
+				"tag" : "AEC",
+				"category" : "IN"
+			}, {
+				"tag" : "PSCHSD",
+				"category" : "IN"
+			}, {
+				"tag" : "PSCHSD",
+				"category" : "IN"
+			}, {
+				"tag" : "TO",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "UCB",
+			"description" : "University College Ballit",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		},
+		{
+			"name" : "UCCSCE",
+			"description" : "University Center for Community Service and Continuing Education",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UMISIU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "UCJ",
+			"description" : "University College Jouf",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "UAQU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "UMED",
+			"description" : "Human Medicine",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "FU",
+				"category" : "IN"
+			} ]
+		}, {
+			"name" : "VMAR",
+			"description" : "Veterinary Medicine and Animal Resources",
+			"category" : "CO",
+			"tags" : [ {
+				"tag" : "KFU",
+				"category" : "IN"
+			} ]
+		} ]
