@@ -25,6 +25,40 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 	}
 
 	/**
+	 * Dependency
+	 */
+
+	$scope.checkDependency = function(tag) {
+		var result = _.any(tag._tags, function(t) {
+			return $scope.model[t._category][t._id];
+		});
+
+		if (tag.name == 'SIS') {
+			console.log(tag._tags);
+		}
+
+		return result || tag._tags.length == 0;
+	}
+
+	/**
+	 * Input filter
+	 */
+
+	$scope.inputFilter = _.reduce(_.keys($scope.model), function(result, catId) {
+		result[catId] = '';
+		return result;
+	}, []);
+
+	/**
+	 * Show Filter
+	 */
+
+	$scope.showCategory = _.reduce(_.keys($scope.model), function(result, catId) {
+		result[catId] = false;
+		return result;
+	}, []);
+
+	/**
 	 * Selection
 	 */
 

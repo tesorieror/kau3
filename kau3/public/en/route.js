@@ -61,6 +61,12 @@ app
 							})
 
 					.when(
+							'/students-freshmen-post-graduate-college-section-specialization',
+							{
+								templateUrl : './students-freshmen-post-graduate-college-section-specialization/students-freshmen-post-graduate-college-section-specialization.html',
+								controller : 'StudentsFreshmenPostGraduateCollegeSectionSpecializationCtrl'
+							})
+					.when(
 							'/informationNotAvailable',
 							{
 								templateUrl : './information-not-available/information-not-available.html',

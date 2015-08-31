@@ -258,9 +258,9 @@ router.get('/', function(req, res) {
 		// q.nfbind(fs.readFile)(
 		// path.join(__dirname, '../data/1434-1435-indicator_2-7.json'),
 		// 'utf-8').then(JSON.parse).then(addPlainIndicators) ]);
-		// q.nfbind(fs.readFile)(
-		// path.join(__dirname, '../data/1434-1435-indicator_2-13.json'),
-		// 'utf-8').then(JSON.parse).then(addPlainIndicators)
+		 q.nfbind(fs.readFile)(
+		 path.join(__dirname, '../data/1434-1435-indicator_2-13.json'),
+		 'utf-8').then(JSON.parse).then(addPlainIndicators)
 		]);
 
 	}
@@ -400,7 +400,7 @@ router.get('/', function(req, res) {
 	}
 
 	function onFulfilled(data) {
-		console.info("Filfilled ", data);
+		console.info("Filfilled ");
 		sendData(data);
 		return data;
 	}

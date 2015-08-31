@@ -4,26 +4,52 @@
 		<dl>
 			<span ng-repeat="cat in categories">
 				<dt style="margin-top: 2px; margin-bottom: 5px;">
-					<span style="color: red" ng-hide="isSelected(cat)">
-						<span class="glyphicon glyphicon-exclamation-sign"></span>
-					</span>
-					{{cat.description}}
-					<div class="btn-group" role="group">
-						<label type="button" class="btn btn-success btn-xs" ng-click="selectCategoryFirst(cat)"> <span class="glyphicon" aria-hidden="true">
-								<b>1</b>
-							</span>
-						</label> <label type="button" class="btn btn-success btn-xs" ng-click="selectCategory(cat)"> <span class="glyphicon glyphicon glyphicon-check"
-								aria-hidden="true"
-							></span>
-						</label> <label type="button" class="btn btn-success btn-xs" ng-click="unselectCategory(cat)"> <span class="glyphicon glyphicon glyphicon-unchecked"
-								aria-hidden="true"
-							></span>
-						</label>
+					<div class="row">
+						<div class="col-xs-5">
+							<div class="btn-group" role="group">
+								<label type="button" class="btn btn-success btn-sm" ng-click="showCategory[cat._id]=true;" ng-show="!showCategory[cat._id]"> <span
+										class="glyphicon  glyphicon-menu-right" aria-hidden="true"
+									></span>
+								</label> <label type="button" class="btn btn-success btn-sm" ng-click="showCategory[cat._id]=false;" ng-show="showCategory[cat._id]"> <span
+										class="glyphicon  glyphicon-menu-down" aria-hidden="true"
+									></span>
+								</label>
+							</div>
+							<div class="btn-group" role="group">
+								<label style="margin-bottom: 0px; margin-top: 5px;"> <span style="color: red" ng-hide="isSelected(cat)">
+										<span class="glyphicon glyphicon-exclamation-sign"></span>
+									</span> {{cat.description}}
+								</label>
+							</div>
+						</div>
+						<div class="col-xs-7" style="text-align: right">
+							<div class="btn-group " role="group">
+								<label type="button" class="btn btn-success btn-sm" ng-click="selectCategoryFirst(cat)"> <span class="glyphicon" aria-hidden="true">
+										<b>1</b>
+									</span>
+								</label> <label type="button" class="btn btn-success btn-sm" ng-click="selectCategory(cat)"> <span class="glyphicon  glyphicon-check" aria-hidden="true"></span>
+								</label> <label type="button" class="btn btn-success btn-sm" ng-click="unselectCategory(cat)"> <span class="glyphicon  glyphicon-unchecked"
+										aria-hidden="true"
+									></span>
+								</label>
+							</div>
+							<div class="btn-group" role="group">
+								<input type="text" class="form-control input-sm" placeholder="Text filter" ng-model="inputFilter[cat._id]">
+							</div>
+							<div class="btn-group " role="group">
+								<label type="button" class="btn btn-success btn-sm" ng-click="inputFilter[cat._id]='';"> <span class="glyphicon glyphicon-trash"
+										aria-hidden="true"
+									></span>
+								</label>
+							</div>
+						</div>
 					</div>
 				</dt>
 				<dd>
-					<div class="btn-group">
-						<label ng-repeat="tag in cat._tags | orderBy: '+order'" class="btn btn-success btn-xs" ng-model="model[cat._id][tag._id]" btn-checkbox>{{tag.description}}</label>
+					<div class="btn-group" style="height: 150px; overflow: auto; border: SOLID 1px lightGrey; width:100%;" ng-show="showCategory[cat._id]">
+						<label ng-repeat="tag in cat._tags | orderBy: '+order' | filter:inputFilter[cat._id] | filter:model[cat._id][tag._id]" class="btn btn-success btn-sm" ng-model="model[cat._id][tag._id]"
+							btn-checkbox ng-show="checkDependency(tag)"
+						>{{tag.description}}</label>
 					</div>
 				</dd>
 			</span>

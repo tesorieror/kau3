@@ -28,7 +28,8 @@ router.get('/:names', function(req, res) {
 
 	function sendData(data) {
 		// console.log("sendData", data);
-		res.send(_.flatten(data));
+		// console.log(data);
+		res.send(data);
 		res.status(200).end();
 	}
 
@@ -38,11 +39,28 @@ router.get('/:names', function(req, res) {
 		res.status(500).end();
 	}
 
+	function populateTagDependencies(data) {
+		console.log('populate tag dependences');
+		var categories = _.flatten(data);
+		var promises = [];
+		_.each(categories, function(cat) {
+			_.each(cat._tags, function(tag) {
+				promises.push(Tag.populate(tag, '_tags'));
+			});
+		});
+		return q.all(promises).then(function(data) {
+			return categories;
+		});
+	}
+
 	var names = req.params.names.split(',');
 
 	loadTagCategoriesFor(names)//
 	.then(populateTags)//
+	.then(populateTagDependencies)//
 	.then(sendData, sendError);
 });
+
+// return q.nbind(Tag.populate, Tag)(tag, '_tags');
 
 module.exports = router;

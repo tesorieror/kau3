@@ -21,7 +21,6 @@ RTChartModule.controller('RTChartCtrl',
 		function($scope, $log, $q, $http, usSpinnerService, //
 		ModelFactory, ChartBuilderFactory) {
 			$log.info('Chart Controller Loaded!');
-
 			$log.info('TagCategoryNames', $scope.tagCategoryNames);
 			
 			/**

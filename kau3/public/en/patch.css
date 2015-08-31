@@ -20,3 +20,11 @@
 dd {
 	margin-bottom: 10px;
 }
+
+/**
+* Buttons
+*/
+
+btn {
+	boder: inherit;
+}

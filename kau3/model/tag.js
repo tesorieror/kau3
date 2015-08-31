@@ -15,11 +15,11 @@ var schema = mongoose.Schema({
 	order : Number,
 	_category : {
 		type : mongoose.Schema.Types.ObjectId,
-		ref : TagCategory
+		ref : 'TagCategory'
 	},
 	_tags : [ {
 		type : mongoose.Schema.Types.ObjectId,
-		ref : Tag
+		ref : 'Tag'
 	} ]
 });
 
@@ -32,7 +32,8 @@ schema.statics.findByCategoryIdStr = function(idStr) {
 		_category : new mongoose.Types.ObjectId(idStr)
 	}).then(function(tags) {
 		return q.all(_.map(tags, function(tag) {
-			return Tag.populate(tag, '_tags');
+			// return Tag.populate(tag, '_tags');
+			return q.nbind(Tag.populate, Tag)(tag, '_tags');
 		}));
 	});
 };
