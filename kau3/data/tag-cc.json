@@ -3,521 +3,521 @@
 	"description" : "All communities",
 	"category" : "CC",
 	"order" : "1",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TO"
-	} ]
+	} ] ]
 }, {
 	"name" : "ME",
 	"description" : "Community College , Makah",
 	"category" : "CC",
 	"order" : "2",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UAQU"
-	} ]
+	} ] ]
 }, {
 	"name" : "RI",
 	"description" : "Community College, Riyadh",
 	"category" : "CC",
 	"order" : "3",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KSU"
-	} ]
+	} ] ]
 }, {
 	"name" : "ALJ",
 	"description" : "Community College, Jeddah",
 	"category" : "CC",
 	"order" : "4",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KAU"
-	} ]
+	} ] ]
 }, {
 	"name" : "HAB",
 	"description" : "Community College, Hafr Albatin",
 	"category" : "CC",
 	"order" : "5",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KFUPM"
-	} ]
+	} ] ]
 }, {
 	"name" : "DA",
 	"description" : "Community College, Dammam",
 	"category" : "CC",
 	"order" : "6",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KFUPM"
-	} ]
+	} ] ]
 }, {
 	"name" : "AH",
 	"description" : "Community College, Al-Ahsa",
 	"category" : "CC",
 	"order" : "7",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KFU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AB",
 	"description" : "Community College, Abha",
 	"category" : "CC",
 	"order" : "8",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BA",
 	"description" : "Community College, Alnmas",
 	"category" : "CC",
 	"order" : "9",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "KM",
 	"description" : "Community College ,Khamis Mushit",
 	"category" : "CC",
 	"order" : "10",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "KMG",
 	"description" : "Girls Community College in Khamis Mushayt",
 	"category" : "CC",
 	"order" : "11",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "MB",
 	"description" : "Community College, Rigal Alma ",
 	"category" : "CC",
 	"order" : "12",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BMA",
 	"description" : "Community College, Mahayel Aseir",
 	"category" : "CC",
 	"order" : "13",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BO",
 	"description" : "Community College, Bisha",
 	"category" : "CC",
 	"order" : "14",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BU",
 	"description" : "Community College, Burayadh",
 	"category" : "CC",
 	"order" : "15",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "QU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BN",
 	"description" : "Community College, Unaizah ",
 	"category" : "CC",
 	"order" : "16",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "QU"
-	} ]
+	} ] ]
 }, {
 	"name" : "MED",
 	"description" : "Community College , Medina",
 	"category" : "CC",
 	"order" : "17",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BAG",
 	"description" : "Community College, Hinakiyah",
 	"category" : "CC",
 	"order" : "18",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AC",
 	"description" : "Community College, Al-Mahd ",
 	"category" : "CC",
 	"order" : "19",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TU"
-	} ]
+	} ] ]
 }, {
 	"name" : "KH",
 	"description" : "Community College, Khaiber",
 	"category" : "CC",
 	"order" : "20",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TU"
-	} ]
+	} ] ]
 }, {
 	"name" : "OL",
 	"description" : "Community College, Ula",
 	"category" : "CC",
 	"order" : "21",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BAD",
 	"description" : "Badr Community College",
 	"category" : "CC",
 	"order" : "22",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BE",
 	"description" : "Community College - Ranyah",
 	"category" : "CC",
 	"order" : "23",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TaU"
-	} ]
+	} ] ]
 }, {
 	"name" : "TA",
 	"description" : "Community College, Taif",
 	"category" : "CC",
 	"order" : "24",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TaU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BAK",
 	"description" : "Bakhermh Community College",
 	"category" : "CC",
 	"order" : "25",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TaU"
-	} ]
+	} ] ]
 }, {
 	"name" : "JA",
 	"description" : "Community College, Jazan ",
 	"category" : "CC",
 	"order" : "26",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "GU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AAG",
 	"description" : "Community College, Abu Arish",
 	"category" : "CC",
 	"order" : "27",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "GU"
-	} ]
+	} ] ]
 }, {
 	"name" : "HA",
 	"description" : "Community College, Hail",
 	"category" : "CC",
 	"order" : "28",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "HU"
-	} ]
+	} ] ]
 }, {
 	"name" : "ALBI",
 	"description" : "Community College, Skaka",
 	"category" : "CC",
 	"order" : "29",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "AJU"
-	} ]
+	} ] ]
 }, {
 	"name" : "QU",
 	"description" : "Community College,  ALQurayyat ",
 	"category" : "CC",
 	"order" : "30",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "AJU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BT",
 	"description" : "Community College,  Tabrjal ",
 	"category" : "CC",
 	"order" : "31",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "AJU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AT",
 	"description" : "Community College, Tabuk",
 	"category" : "CC",
 	"order" : "32",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TabU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AD",
 	"description" : "College Almjmta Daba",
 	"category" : "CC",
 	"order" : "33",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "TabU"
-	} ]
+	} ] ]
 }, {
 	"name" : "ALBA",
 	"description" : "Community College, Baha",
 	"category" : "CC",
 	"order" : "34",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "BU"
-	} ]
+	} ] ]
 }, {
 	"name" : "NA",
 	"description" : "Community College, Najran",
 	"category" : "CC",
 	"order" : "35",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UN"
-	} ]
+	} ] ]
 }, {
 	"name" : "CO",
 	"description" : "Community College",
 	"category" : "CC",
 	"order" : "36",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "PNBARU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AR",
 	"description" : "Community College, Arar",
 	"category" : "CC",
 	"order" : "37",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "NU"
-	} ]
+	} ] ]
 }, {
 	"name" : "RA",
 	"description" : "Community College, Rafha",
 	"category" : "CC",
 	"order" : "38",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "NU"
-	} ]
+	} ] ]
 }, {
 	"name" : "TR",
 	"description" : "Traif community college",
 	"category" : "CC",
 	"order" : "39",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "NU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BH",
 	"description" : "Community College, Shaqra",
 	"category" : "CC",
 	"order" : "40",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "ALDA",
 	"description" : "Community College, Al-Dawadmi",
 	"category" : "CC",
 	"order" : "41",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "BHA",
 	"description" : "Community College, Bharimlae",
 	"category" : "CC",
 	"order" : "42",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "KHMU",
 	"description" : "Khamis Mushait Community College",
 	"category" : "CC",
 	"order" : "43",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "AK",
 	"description" : "Community College,  Al-Kharj",
 	"category" : "CC",
 	"order" : "44",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "SAU"
-	} ]
+	} ] ]
 }, {
 	"name" : "PV",
 	"description" : "Community College,  Wadi Addawasir",
 	"category" : "CC",
 	"order" : "45",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "SAU"
-	} ]
+	} ] ]
 }, {
 	"name" : "AF",
 	"description" : "Community College,  Aflaj",
 	"category" : "CC",
 	"order" : "46",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "SAU"
-	} ]
+	} ] ]
 }, {
 	"name" : "QAG",
 	"description" : "Community College for Girls,  Qatif",
 	"category" : "CC",
 	"order" : "47",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UD"
-	} ]
+	} ] ]
 }, {
 	"name" : "MA",
 	"description" : "Community College, Almajma'ah",
 	"category" : "CC",
 	"order" : "48",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UC"
-	} ]
+	} ] ]
 }, {
 	"name" : "BAM",
 	"description" : "Bamajardh Community College",
 	"category" : "CC",
 	"order" : "49",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KKU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BAL",
 	"description" : "Balumblyda community college",
 	"category" : "CC",
 	"order" : "50",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "QU"
-	} ]
+	} ] ]
 }, {
 	"name" : "BD",
 	"description" : "Bdharma community college",
 	"category" : "CC",
 	"order" : "51",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "ALM",
 	"description" : "Almazahmia Community College",
 	"category" : "CC",
 	"order" : "52",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "ALME",
 	"description" : "Community College, Almendq",
 	"category" : "CC",
 	"order" : "53",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "BU"
-	} ]
+	} ] ]
 }, {
 	"name" : "RAB",
 	"description" : "Community College, Rabigh",
 	"category" : "CC",
 	"order" : "54",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "KAU"
-	} ]
+	} ] ]
 }, {
 	"name" : "QAT",
 	"description" : "Community College,  Qatif",
 	"category" : "CC",
 	"order" : "55",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UD"
-	} ]
+	} ] ]
 }, {
 	"name" : "QOW",
 	"description" : "Community College,  Qowaiyia",
 	"category" : "CC",
 	"order" : "56",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UB"
-	} ]
+	} ] ]
 }, {
 	"name" : "BHR",
 	"description" : "Bhrorh Community College",
 	"category" : "CC",
 	"order" : "57",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "UN"
-	} ]
+	} ] ]
 }, {
 	"name" : "HAG",
 	"description" : "Community College, Hail",
 	"category" : "CC",
 	"order" : "58",
-	"tags" : [ {
+	"tags" : [ [ {
 		"category" : "IN",
 		"tag" : "HU"
-	} ]
+	} ] ]
 } ]

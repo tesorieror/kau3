@@ -7,6 +7,7 @@ var _ = require('underscore');
 var q = require('q');
 
 var TagCategory = require(path.join(__dirname, 'tag-category'));
+var TagDependency = require(path.join(__dirname, 'tag-dependency'));
 var Tag;
 
 var schema = mongoose.Schema({
@@ -17,25 +18,22 @@ var schema = mongoose.Schema({
 		type : mongoose.Schema.Types.ObjectId,
 		ref : 'TagCategory'
 	},
-	_tags : [ {
+	_dependencies : [ {
 		type : mongoose.Schema.Types.ObjectId,
-		ref : 'Tag'
+		ref : 'TagDependency'
 	} ]
 });
 
 schema.statics.findByCategoryIdStr = function(idStr) {
-	// return Tag.find({
-	// _category : new mongoose.Types.ObjectId(idStr)
-	// });
-
 	return Tag.find({
 		_category : new mongoose.Types.ObjectId(idStr)
-	}).then(function(tags) {
-		return q.all(_.map(tags, function(tag) {
-			// return Tag.populate(tag, '_tags');
-			return q.nbind(Tag.populate, Tag)(tag, '_tags');
-		}));
-	});
+	}).then(
+			function(tags) {
+				return q.all(_.map(tags, function(tag) {
+					return q.nbind(TagDependency.populate, TagDependency)(tag,
+							'_dependencies');
+				}));
+			});
 };
 
 module.exports = Tag = mongoose.model('Tag', schema);
