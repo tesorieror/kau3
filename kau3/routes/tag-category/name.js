@@ -6,6 +6,7 @@ var q = require('q');
 
 var TagCategory = require(path.join(__dirname, '../../model/tag-category'));
 var Tag = require(path.join(__dirname, '../../model/tag'));
+var TagDependency = require(path.join(__dirname, '../../model/tag-dependency'));
 
 /* GET tag category by name */
 router.get('/:names', function(req, res) {
@@ -46,9 +47,16 @@ router.get('/:names', function(req, res) {
 		_.each(categories, function(cat) {
 			_.each(cat._tags, function(tag) {
 				promises.push(Tag.populate(tag, '_tags'));
+				promises.push(TagDependency.populate(tag, '_dependencies').then(function(tag) {
+					// console.log("DEP", tag._dependencies);
+					return q.all(_.map(tag._dependencies, function(dep) {
+						return (Tag.populate(dep, '_tags'));
+					}));
+				}));
 			});
 		});
 		return q.all(promises).then(function(data) {
+			// console.log("D",data);
 			return categories;
 		});
 	}

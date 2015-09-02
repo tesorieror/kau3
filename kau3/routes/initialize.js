@@ -407,7 +407,7 @@ router.get('/', function(req, res) {
 					name : tag.name,
 					description : tag.description,
 					order : tag.order,
-					_tags : [],
+					//_tags : [],
 					_category : category._id
 				};
 			});

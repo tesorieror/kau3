@@ -7,7 +7,7 @@ var q = require('q');
 var Tag = require(path.join(__dirname, '../../model/tag'));
 
 /* GET tag category by name */
-router.get('/:category/:dependency', function(req, res) {
+router.get('/:categories', function(req, res) {
 
 	var categories = req.params.categories.split(',');
 

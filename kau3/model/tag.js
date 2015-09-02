@@ -27,13 +27,17 @@ var schema = mongoose.Schema({
 schema.statics.findByCategoryIdStr = function(idStr) {
 	return Tag.find({
 		_category : new mongoose.Types.ObjectId(idStr)
-	}).then(
-			function(tags) {
-				return q.all(_.map(tags, function(tag) {
-					return q.nbind(TagDependency.populate, TagDependency)(tag,
-							'_dependencies');
-				}));
-			});
+	}).then(function(tags) {
+		return q.all(_.map(tags, function(tag) {
+			return q.nbind(TagDependency.populate, TagDependency)(tag, '_dependencies');
+			// return TagDependency.populate(tag, '_dependencies').then(function(data)
+			// {
+			// if (tag.name == "KSU") {
+			// console.log("KSU", data);
+			// }
+			// });
+		}));
+	});
 };
 
 module.exports = Tag = mongoose.model('Tag', schema);
