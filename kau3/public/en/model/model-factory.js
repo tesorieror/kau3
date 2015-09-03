@@ -5,7 +5,7 @@
 app.factory('ModelFactory', function($log, $http) {
 
 	var factory = {};
-
+	
 	function getTagCategoriesForNames(namesPath) {
 		$log.info("Loading Tag Categories for names " + namesPath);
 		return $http.get('/tagCategory/name/' + namesPath);

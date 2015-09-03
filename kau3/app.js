@@ -53,12 +53,9 @@ app.use('/indicator/tag', indicatorTag);
 app.use('/data/students/community', indicatorStudentCommunity);
 app.use('/data/students/community-service', indicatorStudentCommunityService);
 app.use('/data/students/staff', indicatorStudentStaff);
-app.use('/data/students/freshmen-undergraduate/',
-		indicatorStudentFreshmenUndergraduate);
-app.use('/data/students/freshmen-intermediate/',
-		indicatorStudentFreshmenIntermediate);
-app.use(
-		'/data/students/freshmen-post-graduate-college-section-specialization/',
+app.use('/data/students/freshmen-undergraduate/', indicatorStudentFreshmenUndergraduate);
+app.use('/data/students/freshmen-intermediate/', indicatorStudentFreshmenIntermediate);
+app.use('/data/students/freshmen-post-graduate-college-section-specialization/',
 		indicatorStudentFreshmenPostGraduateCollegeSectionSpecialization);
 
 // catch 404 and forward to error handler

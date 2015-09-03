@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1#state= title
+  
+  script.
+    setTimeout(function(){ 
+      
+      document.getElementById("state").innerHTML="MyState"; 
+    }, 3000);

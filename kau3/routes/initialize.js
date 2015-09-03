@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 var express = require('express');
 var router = express.Router();
 
@@ -11,14 +14,14 @@ var Tag = require(path.join(__dirname, '../model/tag'));
 var TagDependency = require(path.join(__dirname, '../model/tag-dependency'));
 var Indicator = require(path.join(__dirname, '../model/indicator'));
 
-/* GET initialize */
 router.get('/', function(req, res) {
+
+	var state = "DONE"
 
 	var plainTagCategories;
 	var plainTags = [];
 	var plainIndicators = [];
 
-	// keys [category.name][tag.name]
 	var tagDictionary = [];
 
 	function setPlainTagCategories(categories) {
@@ -40,7 +43,6 @@ router.get('/', function(req, res) {
 	}
 
 	function sendData(data) {
-		console.log("Sending data");
 		var result = data;
 		res.status(200).send(result).end();
 	}
@@ -124,271 +126,269 @@ router.get('/', function(req, res) {
 								addPlainTags),
 						q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-sp.json'), 'utf-8').then(JSON.parse).then(
 								addPlainTags),
-				/**
-				 * Indicators
-				 */
+						/**
+						 * Indicators
+						 */
 
-				//
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-1.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)(
-				// path.join(__dirname, '../data/1434-1435-indicator_2-4.json'),
-				// 'utf-8').then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)(
-				// path.join(__dirname, '../data/1434-1435-indicator_2-7.json'),
-				// 'utf-8').then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)(
-				// path.join(__dirname, '../data/1434-1435-indicator_2-13.json'),
-				// 'utf-8').then(JSON.parse).then(addPlainIndicators)
-				]);
+						//
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1434-1435-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1433-1434-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1432-1433-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1431-1432-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1430-1431-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1429-1430-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1428-1429-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1427-1428-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1426-1427-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1425-1426-indicator_1-1.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1434-1435-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1433-1434-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1432-1433-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1431-1432-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1430-1431-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1429-1430-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1428-1429-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1427-1428-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1426-1427-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1425-1426-indicator_1-2.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1434-1435-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1433-1434-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1432-1433-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1431-1432-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1430-1431-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1429-1430-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1428-1429-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1427-1428-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1426-1427-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1425-1426-indicator_1-5.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1434-1435-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1433-1434-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1432-1433-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1431-1432-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1430-1431-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1429-1430-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1428-1429-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1427-1428-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1426-1427-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1425-1426-indicator_1-6.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1434-1435-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1433-1434-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1432-1433-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1431-1432-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1430-1431-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1429-1430-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1428-1429-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1427-1428-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1426-1427-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)
+						// (
+						// path.join(__dirname,
+						// '../data/1425-1426-indicator_1-8.json'), 'utf-8')
+						// .then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)(
+						// path.join(__dirname, '../data/1434-1435-indicator_2-4.json'),
+						// 'utf-8').then(JSON.parse).then(addPlainIndicators),
+						// q.nfbind(fs.readFile)(
+						// path.join(__dirname, '../data/1434-1435-indicator_2-7.json'),
+						// 'utf-8').then(JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_2-13.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators) ]);
 
 	}
 
@@ -407,7 +407,7 @@ router.get('/', function(req, res) {
 					name : tag.name,
 					description : tag.description,
 					order : tag.order,
-					//_tags : [],
+					// _tags : [],
 					_category : category._id
 				};
 			});
@@ -502,15 +502,21 @@ router.get('/', function(req, res) {
 	}
 
 	function onFulfilled(data) {
-		console.info("Filfilled ");
-		sendData(data);
+		console.info("DONE");
+		state = "DONE";
+		sendData({
+			state : state
+		});
 		return data;
 	}
 
 	function onRejection(param) {
+		state = "ERROR"
 		console.error("Rejection", param);
-		console.error("Unhandled reasons", q.getUnhandledReasons())
-		sendError(param);
+		console.error("Unhandled reasons", q.getUnhandledReasons());
+		sendError({
+			state : state
+		});
 		return param;
 	}
 
@@ -519,15 +525,20 @@ router.get('/', function(req, res) {
 		return param;
 	}
 
-	removeAll()//
-	.then(loadData)//
-	.then(insertTagCategories)//
-	.then(insertTags)//
-	.then(updateTagCategoryTags)//
-	.then(createTagDictionary)//
-	.then(updateTagDependencies)//
-	.then(insertIndicators)//
-	.done(onFulfilled, onRejection, onProgress);
+	if (state != "PROCESSING") {
+		state = "PROCESSING";
+		removeAll()//
+		.then(loadData)//
+		.then(insertTagCategories)//
+		.then(insertTags)//
+		.then(updateTagCategoryTags)//
+		.then(createTagDictionary)//
+		.then(updateTagDependencies)//
+		.then(insertIndicators)//
+		.done(onFulfilled, onRejection, onProgress);
+	} else {
+		sendData({state:state});
+	}
 });
 
 module.exports = router;
