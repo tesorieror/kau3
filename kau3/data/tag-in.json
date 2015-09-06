@@ -6,6 +6,15 @@
 	"tags" : [ [ {
 		"category" : "IT",
 		"tag" : "TO"
+	} ], [ {
+		"category" : "IT",
+		"tag" : "PU"
+	} ], [ {
+		"category" : "IT",
+		"tag" : "PUC"
+	} ], [ {
+		"category" : "IT",
+		"tag" : "OI"
 	} ] ]
 }, {
 	"name" : "UAQU",

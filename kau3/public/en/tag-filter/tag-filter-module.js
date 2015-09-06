@@ -28,16 +28,105 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 	 * Dependency
 	 */
 
+	$scope.$watch("categories", function(newValue, oldValue) {
+		$log.log("categories changed!");
+		$scope.updateDependencies(null);
+	});
+
 	$scope.checkDependency = function(tag) {
-		var result = _.any(tag._tags, function(t) {
-			return $scope.model[t._category][t._id];
+		var result = _.any(tag._dependencies, function(dep) {
+			return _.all(dep._tags, function(t) {
+				return $scope.model[t._category][t._id];
+			});
 		});
 
 		if (tag.name == 'SIS') {
 			console.log(tag._tags);
 		}
 
-		return result || tag._tags.length == 0;
+		return result || tag._dependencies.length == 0;
+	}
+
+	$scope.getGroupsFor = function(cat) {
+		// $log.log("CAT ID",cat.id);
+		var result = [];
+		for ( var key in $scope.filteredTags[cat._id]) {
+			// $log.log(key);
+			result.push($scope.filteredTags[cat._id][key]);
+		}
+
+		if (cat.name == 'SP' && result.length > 0) {
+			var ids = _.pluck(result[0]._tags, '_id');
+			$log.log("Count: ", _.countBy(ids, function(id) {
+				return id;
+			}));
+		}
+		return result;
+	}
+
+	$scope.updateDependencies = function(changedTag) {
+		$log.log("Categories length", $scope.categories.length);
+		// console.log("TAG", t);
+		$scope.filteredTags = {};
+		_.each($scope.categories, function(cat) {
+			$scope.filteredTags[cat._id] = {};
+			_.each(cat._tags, function(tag) {
+				if (tag._dependencies.length > 0) {
+					_.each(tag._dependencies, function(dep) {
+						var ok = _.all(dep._tags, function(t) {
+							return $scope.model[t._category][t._id];
+						});
+
+						// $log.log("CAT", cat.name, "TAG", tag.name, "OK", ok);
+
+						if (dep._tags.length == 0) {
+							$log.error("_tags empty!", "CAT", cat.name, "TAG", tag.name, "OK", ok);
+						}
+
+						// if (ok || dep._tags.length == 0) {
+						if (ok) {
+							var description = _.reduce(dep._tags, function(acc, t) {
+								return acc.concat(t.description).concat(" ");
+							}, "");
+							var _id = _.reduce(dep._tags, function(acc, t) {
+								return acc.concat(t._id).concat(" ");
+							}, "");
+							// $log.log("KEY", _id, "DESCRIPTION", description, "LEN",
+							// dep._tags.length);
+							if (!$scope.filteredTags[cat._id][_id]) {
+								$scope.filteredTags[cat._id][_id] = {
+									description : description,
+									_tags : []
+								};
+								// $log.log("CID", cat._id, "ID", _id,
+								// $scope.filteredTags[cat._id][_id]);
+							}
+							// $log.log("CID", cat._id, "ID", _id,
+							// $scope.filteredTags[cat._id][_id]);
+							$scope.filteredTags[cat._id][_id]._tags.push(tag);
+							// $log.log("CID", cat._id, "ID", _id,
+							// $scope.filteredTags[cat._id][_id]);
+						}
+					});
+					// $log.log( cat._id, $scope.filteredTags[cat._id]);
+				} else {
+					var defaultGroup = " ";
+					if (!$scope.filteredTags[cat._id][" "]) {
+						$scope.filteredTags[cat._id][" "] = {
+							description : " ",
+							_tags : []
+						};
+					}
+					$scope.filteredTags[cat._id][" "]._tags.push(tag);
+					if (cat.name == "SP") {						
+							$log.error("dependences == 0", tag);						
+					}
+				}
+			});
+			// $log.log("CID",cat._id,$scope.filteredTags[cat._id]);
+			// $log.log("Filtered tags", $scope.filteredTags);
+		});
+		$log.log("Filtered tags", $scope.filteredTags);
 	}
 
 	/**
@@ -86,4 +175,5 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 			$scope.model[cat._id][t._id] = true;
 		});
 	}
+
 });

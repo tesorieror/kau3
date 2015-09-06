@@ -41,7 +41,7 @@ router.get('/:names', function(req, res) {
 	}
 
 	function populateTagDependencies(data) {
-		console.log('populate tag dependences');
+//		console.log('populate tag dependences');
 		var categories = _.flatten(data);
 		var promises = [];
 		_.each(categories, function(cat) {

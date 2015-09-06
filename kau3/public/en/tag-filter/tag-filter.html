@@ -47,9 +47,21 @@
 				</dt>
 				<dd>
 					<div class="btn-group" style="height: 150px; overflow: auto; border: SOLID 1px lightGrey; width: 100%;" ng-show="showCategory[cat._id]">
+						<div ng-repeat="group in getGroupsFor(cat)">
+							<div ng-show="group.description!=' '">
+								<label>{{group.description}}</label>
+							</div>
+							<div>
+								<label ng-repeat="tag in group._tags | orderBy: '+order' | filter:inputFilter[cat._id] | filter:model[cat._id][tag._id]" class="btn btn-success btn-sm"
+									ng-model="model[cat._id][tag._id]" btn-checkbox ng-show="checkDependency(tag)" ng-change="updateDependencies(tag)"
+								>{{tag.description}}</label>
+							</div>
+						</div>
+						<!--  
 						<label ng-repeat="tag in cat._tags | orderBy: '+order' | filter:inputFilter[cat._id] | filter:model[cat._id][tag._id]" class="btn btn-success btn-sm"
-							ng-model="model[cat._id][tag._id]" btn-checkbox ng-show="checkDependency(tag)"
+							ng-model="model[cat._id][tag._id]" btn-checkbox ng-show="checkDependency(tag)" ng-change="updateDependencies(tag)"
 						>{{tag.description}}</label>
+						-->
 					</div>
 				</dd>
 			</span>
