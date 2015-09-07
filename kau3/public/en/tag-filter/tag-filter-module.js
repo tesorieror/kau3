@@ -39,11 +39,6 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 				return $scope.model[t._category][t._id];
 			});
 		});
-
-		if (tag.name == 'SIS') {
-			console.log(tag._tags);
-		}
-
 		return result || tag._dependencies.length == 0;
 	}
 
@@ -57,9 +52,9 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 
 		if (cat.name == 'SP' && result.length > 0) {
 			var ids = _.pluck(result[0]._tags, '_id');
-			$log.log("Count: ", _.countBy(ids, function(id) {
-				return id;
-			}));
+//			$log.log("Count: ", _.countBy(ids, function(id) {
+//				return id;
+//			}));
 		}
 		return result;
 	}
@@ -126,7 +121,7 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 			// $log.log("CID",cat._id,$scope.filteredTags[cat._id]);
 			// $log.log("Filtered tags", $scope.filteredTags);
 		});
-		$log.log("Filtered tags", $scope.filteredTags);
+//		$log.log("Filtered tags", $scope.filteredTags);
 	}
 
 	/**

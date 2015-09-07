@@ -16,7 +16,7 @@ var Indicator = require(path.join(__dirname, '../model/indicator'));
 
 router.get('/', function(req, res) {
 
-	var state = "DONE"
+	var state = "DONE";
 
 	var plainTagCategories;
 	var plainTags = [];
@@ -89,9 +89,11 @@ router.get('/', function(req, res) {
 						 */
 						q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-category.json'), 'utf-8').then(JSON.parse).then(
 								setPlainTagCategories),
+
 						/**
 						 * Tags
 						 */
+
 						q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-al.json'), 'utf-8').then(JSON.parse).then(
 								addPlainTags),
 						q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-cc.json'), 'utf-8').then(JSON.parse).then(
@@ -126,268 +128,117 @@ router.get('/', function(req, res) {
 								addPlainTags),
 						q.nfbind(fs.readFile)(path.join(__dirname, '../data/tag-sp.json'), 'utf-8').then(JSON.parse).then(
 								addPlainTags),
+
 						/**
 						 * Indicators
 						 */
 
-						//
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1434-1435-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1433-1434-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1432-1433-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1431-1432-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1430-1431-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1429-1430-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1428-1429-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1427-1428-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1426-1427-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
-						// q.nfbind(fs.readFile)
-						// (
-						// path.join(__dirname,
-						// '../data/1425-1426-indicator_1-1.json'), 'utf-8')
-						// .then(JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1433-1434-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1432-1433-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1431-1432-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1430-1431-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1429-1430-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1428-1429-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1427-1428-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1426-1427-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1425-1426-indicator_1-1.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
 						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_1-2.json'), 'utf-8').then(
 								JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-2.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-5.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-6.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1434-1435-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1433-1434-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1432-1433-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1431-1432-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1430-1431-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1429-1430-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1428-1429-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1427-1428-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1426-1427-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)
-				// (
-				// path.join(__dirname,
-				// '../data/1425-1426-indicator_1-8.json'), 'utf-8')
-				// .then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)(
-				// path.join(__dirname, '../data/1434-1435-indicator_2-4.json'),
-				// 'utf-8').then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)(
-				// path.join(__dirname, '../data/1434-1435-indicator_2-7.json'),
-				// 'utf-8').then(JSON.parse).then(addPlainIndicators),
-				// q.nfbind(fs.readFile)(path.join(__dirname,
-				// '../data/1434-1435-indicator_2-13.json'), 'utf-8').then(
-				// JSON.parse).then(addPlainIndicators)
-				]);
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1433-1434-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1432-1433-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1431-1432-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1430-1431-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1429-1430-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1428-1429-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1427-1428-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1426-1427-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1425-1426-indicator_1-2.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1433-1434-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1432-1433-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1431-1432-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1430-1431-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1429-1430-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1428-1429-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1427-1428-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1426-1427-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1425-1426-indicator_1-5.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1433-1434-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1432-1433-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1431-1432-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1430-1431-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1429-1430-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1428-1429-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1427-1428-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1426-1427-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1425-1426-indicator_1-6.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1433-1434-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1432-1433-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1431-1432-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1430-1431-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1429-1430-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1428-1429-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1427-1428-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1426-1427-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1425-1426-indicator_1-8.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_2-4.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_2-7.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators),
+						q.nfbind(fs.readFile)(path.join(__dirname, '../data/1434-1435-indicator_2-13.json'), 'utf-8').then(
+								JSON.parse).then(addPlainIndicators) ]);
 
 	}
 

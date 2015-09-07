@@ -1,5 +1,5 @@
 /**
- * Freshmen Undergraduate service 
+ * Freshmen Post graduate college section specialization service 
  * 
  */
 
@@ -24,7 +24,7 @@ function processParams(params) {
 
 /* GET tag category by name */
 // YR, SS, DS, GR, IN, IT, CO, SE, SP, NA, GE
-router.get('/:ys/:ss/:ds/:gr/:in/:it/:co/:se/:sp/:na/:ge', function(req, res) {
+router.get('/:ys/:ss/:ds/:gr/:it/:in/:co/:se/:sp/:na/:ge', function(req, res) {
 	var idCollections = processParams(req.params);
 	idCollections = _.filter(idCollections, function(idCollection) {
 		return idCollection.length > 0;
