@@ -26,7 +26,7 @@
 <!-- Google Charts -->
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <!-- Angular JS Google Charts -->
-<script src="../angular-google-chart-0.0.11b/ng-google-chart.js"></script>
+<script src="../angular-google-chart-0.1.0b/ng-google-chart.js"></script>
 <!-- UI Bootstrap JS -->
 <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.min.js"></script>
 <!-- UI Bootstrap  CSS 
@@ -269,7 +269,7 @@ Tag Filter Module
 <!-- 
 Chart Builder Module
  -->
-<script type="text/javascript" src="./chart-builder/chart-builder-module.js"></script>
+<script type="text/javascript" src="./chart-builder-2/chart-builder-module.js"></script>
 <!-- 
 Chart Module
  -->
@@ -284,6 +284,19 @@ Fix
 <script type="text/javascript">
 	angular.element(document.getElementsByTagName('head')).append(
       angular.element('<base href="' + window.location.pathname + '" />'));
+      
+      
+      					// Draw table
+					console.log("Loading Google charts!");
+					google.load("visualization", "1.1", {
+						packages : [ "table" ]
+					});
+
+					google.setOnLoadCallback(function() {
+						console.log("Google Charts loaded!");
+					});
+      
+      
 </script>
 </head>
 <body ng-app="app">

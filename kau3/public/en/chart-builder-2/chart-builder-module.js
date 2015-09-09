@@ -379,9 +379,8 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 		return _.map(_.keys(yearValues), function(key) {
 			// Creates a row for each key
 			var values = [ {
-				"v" : _.pluck(yearValues[key].tags.slice(1).reverse(), 'description')
-						.join(' ').concat(' at ').concat(
-								yearValues[key].tags[0].description),
+				"v" : _.pluck(yearValues[key].tags.slice(1).reverse(), 'description').join(' ').concat(' at ').concat(
+						yearValues[key].tags[0].description),
 				"p" : {
 					"style" : "font-size:11px"
 				}
@@ -466,13 +465,46 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 	 */
 
 	function buildFullTableChart(data) {
-		var chart = buildTableChart();
-		chart.data.cols = buildFullTableCols(data);
-		chart.data.rows = buildFullTableRows(data);
-		return chart;
+		var categories = data.metadata.categories;
+		var dataTable = new google.visualization.DataTable();
+
+		// Columns
+		_.each(categories, function(cat) {
+			dataTable.addColumn('string', cat.description);
+		});
+		dataTable.addColumn('number', 'Students');
+		// Rows
+		var indicators = data.indicators;
+		// CategoryId order
+		var categoryIdOrder = _.pluck(data.metadata.categories, '_id');
+
+		dataTable.addRows(indicators.length);
+		var i = 0;
+		_.each(indicators, function(indicator) {
+			// Filter unused tags
+			// var tags = _.filter(indicator._tags, function(tag) {
+			// return data.metadata.categories[tag._category] != null;
+			// });
+			// // Sort tags by categoryId
+			// tags = _.sortBy(tags, function(tag) {
+			// return categoryIdOrder.indexOf(tag._category);
+			// });
+			_.each(indicator._tags, function(tag) {
+				dataTable.setCell(i, categoryIdOrder.indexOf(tag._category), tag.description);
+			});
+			dataTable.setCell(i, indicator._tags.length, indicator.value);
+			i++;
+		});
+
+		return dataTable;
+		// var chart = buildTableChart();
+		// chart.data.cols = buildFullTableCols(data);
+		// chart.data.rows = buildFullTableRows(data);
+		// return chart;
 	}
 
 	function buildFullTableCols(data) {
+		$log.error(' buildFullTable Should not be called!');
 		var categories = data.metadata.categories;
 		var result = _.map(_.values(categories), function(category) {
 			return {
@@ -498,6 +530,7 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 	}
 
 	function buildFullTableRows(data) {
+		$log.error(' buildFullTableRows Should not be called!');
 		return _.map(data.indicators, function(indicator) {
 			// CategoryId order
 			var categoryIdOrder = _.pluck(data.metadata.categories, '_id');
