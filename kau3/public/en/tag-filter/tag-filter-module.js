@@ -29,7 +29,7 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 	 */
 
 	$scope.$watch("categories", function(newValue, oldValue) {
-		$log.log("categories changed!");
+		$log.log("categories changed!", newValue);
 		$scope.updateDependencies(null);
 	});
 

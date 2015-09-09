@@ -16,6 +16,11 @@ var Indicator = require(path.join(__dirname, '../model/indicator'));
 
 router.get('/', function(req, res) {
 
+	// 256324 ms.
+	res.setTimeout(600000, function() {
+		console.error("Timed out!");
+	});
+
 	var state = "DONE";
 
 	var plainTagCategories;
@@ -250,7 +255,7 @@ router.get('/', function(req, res) {
 	function insertTags(data) {
 		console.log("Inserting tags");
 		var tags = _.map(plainTags, function(tag) {
-			console.log("TAG", tag.name, "CAT", tag.category);
+//			console.log("TAG", tag.name, "CAT", tag.category);
 			return q.nbind(TagCategory.findOne, TagCategory)({
 				name : tag.category
 			}).then(function(category) {
@@ -343,7 +348,8 @@ router.get('/', function(req, res) {
 				value : indicator.value,
 				_tags : _.map(indicator.tags, function(tag) {
 					return tagDictionary[tag.category][tag.name]._id;
-				})
+				}),
+				amount : indicator.tags.length
 			};
 		});
 

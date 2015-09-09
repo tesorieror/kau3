@@ -11,18 +11,18 @@ RTChartModule.directive('rtChart', function() {
 		templateUrl : './rt-chart/rt-chart.html',
 		controller : 'RTChartCtrl',
 		scope : {
-			tagCategoryNames : '=',
+			// tagCategoryNames : '=',
+			tagCategories : '=',
 			path : '@'
 		}
 	};
 });
 
 RTChartModule.controller('RTChartCtrl',
-		function($scope, $log, $q, $http, usSpinnerService, //
-		ModelFactory, ChartBuilderFactory) {
+		function($scope, $log, $q, $http, usSpinnerService, ModelFactory, ChartBuilderFactory) {
 			$log.info('Chart Controller Loaded!');
 			$log.info('TagCategoryNames', $scope.tagCategoryNames);
-			
+
 			/**
 			 * Initialization
 			 */
@@ -30,48 +30,56 @@ RTChartModule.controller('RTChartCtrl',
 			$scope.filterCategories = [];
 			$scope.filterModel = [];
 
-			loadFilterCategories($scope.tagCategoryNames);
+			// loadFilterCategories($scope.tagCategoryNames);
 
 			/**
 			 * Filter
 			 */
 
-			function loadFilterCategories(names) {
-				ModelFactory.getTagCategoriesForNames(names)//
-				.then(configFilter);
-			}
+			// function loadFilterCategories(names) {
+			// ModelFactory.getTagCategoriesForNames(names)//
+			// .then(configFilter);
+			// }
+			/**
+			 * Updates filter
+			 */
+
+			$scope.$watch("tagCategories", function(newValue, oldValue) {
+				$log.log("categories changed!");
+				// $scope.updateDependencies(null);
+				configFilter(newValue);
+			});
 
 			function configFilter(data) {
 				$log.info("Categories loaded!");
-				var categories = data.data;
-				$scope.filterCategories = _.sortBy(categories, function(cat) {
-					return $scope.tagCategoryNames.indexOf(cat.name);
-				});
+				// var categories = data.data;
+				// $scope.filterCategories = _.sortBy(categories, function(cat) {
+				// return $scope.tagCategoryNames.indexOf(cat.name);
+				// });
+				$scope.filterCategories = data;
 				$scope.unselectAll();
 				return data;
 			}
 
 			function setAll(selection) {
-				$scope.filterModel = _.reduce($scope.filterCategories,
-						function(result, cat) {
-							var tags = _.sortBy(cat._tags, 'order');
-							result[cat._id] = _.reduce(tags, function(result2, tag) {
-								result2[tag._id] = selection;
-								return result2
-							}, []);
-							return result;
-						}, []);
+				$scope.filterModel = _.reduce($scope.filterCategories, function(result, cat) {
+					var tags = _.sortBy(cat._tags, 'order');
+					result[cat._id] = _.reduce(tags, function(result2, tag) {
+						result2[tag._id] = selection;
+						return result2
+					}, []);
+					return result;
+				}, []);
 				// $log.log('Filter Model', $scope.filterModel);
 			}
 
 			$scope.allHasSelection = function() {
-				return _.reduce(_.values($scope.filterCategories),
-						function(result, cat) {
-							var hasSelection = _.reduce(cat._tags, function(result, tag) {
-								return $scope.filterModel[cat._id][tag._id] || result;
-							}, false);
-							return hasSelection && result;
-						}, true);
+				return _.reduce(_.values($scope.filterCategories), function(result, cat) {
+					var hasSelection = _.reduce(cat._tags, function(result, tag) {
+						return $scope.filterModel[cat._id][tag._id] || result;
+					}, false);
+					return hasSelection && result;
+				}, true);
 			};
 
 			$scope.unselectAll = function() {
@@ -83,45 +91,91 @@ RTChartModule.controller('RTChartCtrl',
 			}
 
 			$scope.selectFirsts = function() {
-				$scope.filterModel = _.reduce($scope.filterCategories,
-						function(result, cat) {
-							var tags = _.sortBy(cat._tags, 'order');
-							result[cat._id] = _.reduce(tags, function(result2, tag) {
-								result2[tag._id] = tags.indexOf(tag) == 0;
-								return result2;
-							}, []);
-							return result;
-						}, []);
+				$scope.filterModel = _.reduce($scope.filterCategories, function(result, cat) {
+					var tags = _.sortBy(cat._tags, 'order');
+					result[cat._id] = _.reduce(tags, function(result2, tag) {
+						result2[tag._id] = tags.indexOf(tag) == 0;
+						return result2;
+					}, []);
+					return result;
+				}, []);
 			}
 
 			$scope.applyFilter = function() {
 				usSpinnerService.spin('spinner-1');
 				var filterPath = getFilterPath();
 				ModelFactory.getIndicators($scope.path, filterPath)//
-				.then(
-						function(res) {
-							var categoriesById = _.indexBy(getSelectedCategories(), '_id');
-							var tagsByCategoryBiId = _.reduce(_.values(categoriesById),
-									function(result, cat) {
-										var tags = _.sortBy(cat._tags, 'order');
-										result[cat._id] = _.indexBy(_.filter(tags, function(tag) {
-											return $scope.filterModel[cat._id][tag._id];
-										}), '_id');
-										return result;
-									}, []);
-							var metadata = {
-								categories : categoriesById,
-								tags : tagsByCategoryBiId
-							};
-							// $log.log('indicators ', res.data);
-							// $log.log('metadata ', metadata);
-							$scope.chart = $scope.chartBuilder({
-								indicators : res.data,
-								metadata : metadata
-							});
-							usSpinnerService.stop('spinner-1');
-							$scope.filterShow = false;
-						});
+				.then(function(res) {
+					var len = res.data.length;
+					$log.log(len + " values were retrieved!");
+
+					var start = new Date().getTime();
+
+					$log.log("Before format", new Date().getTime());
+					// Format data
+					var categoriesById = _.indexBy(getSelectedCategories(), '_id');
+					var tagsByCategoryById = _.reduce(_.values(categoriesById), function(result, cat) {
+						var tags = _.sortBy(cat._tags, 'order');
+						result[cat._id] = _.indexBy(_.filter(tags, function(tag) {
+							return $scope.filterModel[cat._id][tag._id];
+						}), '_id');
+						return result;
+					}, []);
+					var metadata = {
+						categories : categoriesById,
+						tags : tagsByCategoryById
+					};
+
+					// Draw table
+
+					$log.log("Google charts loaded!");
+					$log.log("Before data", new Date().getTime());
+					var data = $scope.chartBuilder({
+						indicators : res.data,
+						metadata : metadata
+					});
+					$log.log("Before draw", new Date().getTime());
+					var table = new google.visualization.Table(document.getElementById('table_div'));
+					table.draw(data, {
+						showRowNumber : true,
+						width : '100%',
+						height : '100%',
+						page : 'enable',
+						pageSize : '20'
+					});
+					$log.log("End", new Date().getTime());
+					$log.log("Time:", new Date().getTime() - start, "ms");
+					$log.log("Spinner STOP!");
+					usSpinnerService.stop('spinner-1');
+					$scope.filterShow = false;
+
+					// if (len < 100000) {
+					// var categoriesById = _.indexBy(getSelectedCategories(), '_id');
+					// var tagsByCategoryBiId = _.reduce(_.values(categoriesById),
+					// function(result, cat) {
+					// var tags = _.sortBy(cat._tags, 'order');
+					// result[cat._id] = _.indexBy(_.filter(tags, function(tag) {
+					// return $scope.filterModel[cat._id][tag._id];
+					// }), '_id');
+					// return result;
+					// }, []);
+					// var metadata = {
+					// categories : categoriesById,
+					// tags : tagsByCategoryBiId
+					// };
+					// // $log.log('indicators ', res.data);
+					// // $log.log('metadata ', metadata);
+					// $scope.chart = $scope.chartBuilder({
+					// indicators : res.data,
+					// metadata : metadata
+					// });
+					// } else {
+					// $log.error("Too much values to process");
+					// }
+					// $log.log("Spinner STOP!");
+					// usSpinnerService.stop('spinner-1');
+					// $scope.filterShow = false;
+				});
 			}
 
 			function getFilterPath() {

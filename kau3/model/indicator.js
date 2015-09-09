@@ -12,7 +12,8 @@ var schema = mongoose.Schema({
 	_tags : [ {
 		type : mongoose.Schema.Types.ObjectId,
 		ref : 'Tag'
-	} ]
+	} ],
+	amount : Number
 });
 
 var Indicator;

@@ -34,8 +34,11 @@ router.get('/:ys/:it/:ss/:gr/:na/:ge', function(req, res) {
 					};
 				})
 			};
-		})
+		}).concat([{
+			amount : idCollections.length
+		}])
 	}).then(function(data) {
+		console.log("Populating _tags");
 		return q.nbind(Tag.populate, Tag)(data, '_tags');
 	})//
 	.then(function(data) {
