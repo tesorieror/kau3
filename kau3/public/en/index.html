@@ -273,7 +273,8 @@ Chart Builder Module
 <!-- 
 Chart Module
  -->
-<script type="text/javascript" src="./rt-chart/rt-chart-module.js"></script>
+<script type="text/javascript" src="./rt-chart-2/rt-chart-module.js"></script>
+<link href="./rt-chart-2/rt-chart.css" rel="stylesheet" />
 <!-- 
 Model Factory
  -->
@@ -286,16 +287,17 @@ Fix
       angular.element('<base href="' + window.location.pathname + '" />'));
       
       
-      					// Draw table
+					// Draw table
+
 					console.log("Loading Google charts!");
 					google.load("visualization", "1.1", {
-						packages : [ "table" ]
+						packages : [ "corechart", "table", "bar" ]
+						
 					});
-
 					google.setOnLoadCallback(function() {
 						console.log("Google Charts loaded!");
 					});
-      
+   
       
 </script>
 </head>

@@ -8,7 +8,7 @@ RTChartModule.directive('rtChart', function() {
 
 	return {
 		restrict : 'AEC',
-		templateUrl : './rt-chart/rt-chart.html',
+		templateUrl : './rt-chart-2/rt-chart.html',
 		controller : 'RTChartCtrl',
 		scope : {
 			// tagCategoryNames : '=',
@@ -130,51 +130,36 @@ RTChartModule.controller('RTChartCtrl',
 
 					$log.log("Google charts loaded!");
 					$log.log("Before data", new Date().getTime());
-					var data = $scope.chartBuilder({
+
+					$scope.chartBuilder({
 						indicators : res.data,
 						metadata : metadata
-					});
-					$log.log("Before draw", new Date().getTime());
-					var table = new google.visualization.Table(document.getElementById('table_div'));
-					table.draw(data, {
-						showRowNumber : true,
-						width : '100%',
-						height : '100%',
-						page : 'enable',
-						pageSize : '20'
-					});
+					}, document.getElementById('table_div'));
+
+					// var data = $scope.chartBuilder({
+					// indicators : res.data,
+					// metadata : metadata
+					// });
+					//
+					// $log.log("Before draw", new Date().getTime());
+					// var table = new
+					// google.visualization.Table(document.getElementById('table_div'));
+					//
+					// table.draw(data, {
+					// showRowNumber : false,
+					// width : '100%',
+					// height : '100%',
+					// page : 'enable',
+					// pageSize : '20',
+					// allowHtml : true
+					// });
+
 					$log.log("End", new Date().getTime());
 					$log.log("Time:", new Date().getTime() - start, "ms");
 					$log.log("Spinner STOP!");
 					usSpinnerService.stop('spinner-1');
 					$scope.filterShow = false;
 
-					// if (len < 100000) {
-					// var categoriesById = _.indexBy(getSelectedCategories(), '_id');
-					// var tagsByCategoryBiId = _.reduce(_.values(categoriesById),
-					// function(result, cat) {
-					// var tags = _.sortBy(cat._tags, 'order');
-					// result[cat._id] = _.indexBy(_.filter(tags, function(tag) {
-					// return $scope.filterModel[cat._id][tag._id];
-					// }), '_id');
-					// return result;
-					// }, []);
-					// var metadata = {
-					// categories : categoriesById,
-					// tags : tagsByCategoryBiId
-					// };
-					// // $log.log('indicators ', res.data);
-					// // $log.log('metadata ', metadata);
-					// $scope.chart = $scope.chartBuilder({
-					// indicators : res.data,
-					// metadata : metadata
-					// });
-					// } else {
-					// $log.error("Too much values to process");
-					// }
-					// $log.log("Spinner STOP!");
-					// usSpinnerService.stop('spinner-1');
-					// $scope.filterShow = false;
 				});
 			}
 

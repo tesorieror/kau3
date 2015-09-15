@@ -2,7 +2,7 @@
  * App file
  */
 
-var app = angular.module("app", [ "ui.bootstrap", // "googlechart",
+var app = angular.module("app", [ "ui.bootstrap",// "googlechart",
 "ngRoute", 'angularSpinner', "ngAnimate", 'TagFilterModule', 'ChartBuilderModule', 'RTChartModule' ]);
 
 /**

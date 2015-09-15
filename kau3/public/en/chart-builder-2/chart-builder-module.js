@@ -31,35 +31,13 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 	 * Pie Chart
 	 */
 
-	function buildPieChart(data) {
-		var chart = buildLegendChart();
-		chart.type = 'PieChart';
-		chart.data.cols = buildPieCols(data);
-		chart.data.rows = buildPieRows(data);
-		chart.options.title = buildChartTitle(data);
-		return chart;
-	}
+	function buildPieChart(data, view) {
 
-	function buildPieCols(data) {
-		return [ {
-			"id" : 'descriptorId',
-			"label" : 'Descriptor',
-			"type" : "string",
-			"p" : {
-				"style" : "font-size:11px"
-			},
-		}, {
-			"id" : 'studentsId',
-			"label" : 'Students',
-			"type" : "number",
-			"p" : {
-				"style" : "font-size:11px"
-			}
-		} ];
-	}
+		// Columns
+		var columns = [ 'Descriptor', 'Students' ];
 
-	function buildPieRows(data) {
-		return _.map(data.indicators, function(indicator) {
+		// Rows
+		var rows = _.map(data.indicators, function(indicator) {
 			var tags = indicator._tags;
 			if (data.indicators.length > 1) {
 				tags = _.filter(tags, function(tag) {
@@ -67,137 +45,51 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 				});
 			}
 			var descriptor = _.pluck(tags, 'description').join(' ');
-			return {
-				"c" : [ {
-					"v" : descriptor,
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				}, {
-					"v" : indicator.value,
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				} ]
-			};
+			return [ descriptor, indicator.value ];
 		});
+
+		// Set Data
+		var data = google.visualization.arrayToDataTable([ columns ].concat(rows));
+		// Set Options
+		var options = {
+		// title : "Title"
+		};
+		// Draw Chart
+		new google.visualization.PieChart(view).draw(data, options);
 	}
 
 	/**
 	 * Area Chart
 	 */
 
-	function buildAreaChart(data) {
-		var chart = buildLegendChart();
-		chart.type = 'AreaChart';
-		chart.data.cols = buildColumnCols(data);
-		chart.data.rows = buildColumnRows(data);
-		chart.options.title = buildChartTitle(data);
-		cleanInvalidChartData(chart);
-		return chart;
+	function buildAreaChart(data, view) {
+		buildChart(data, new google.visualization.AreaChart(view));
 	}
 
 	/**
 	 * Line Chart
 	 */
 
-	function buildLineChart(data) {
-		var chart = buildLegendChart();
-		chart.type = 'LineChart';
-		chart.data.cols = buildColumnCols(data);
-		chart.data.rows = buildColumnRows(data);
-		chart.options.title = buildChartTitle(data);
-		cleanInvalidChartData(chart);
-		return chart;
+	function buildLineChart(data, view) {
+		buildChart(data, new google.visualization.LineChart(view));
 	}
 
 	/**
 	 * Columns Chart
 	 */
 
-	function buildColumnChart(data) {
-		var chart = buildLegendChart();
-		chart.type = 'ColumnChart';
-		chart.data.cols = buildColumnCols(data);
-		chart.data.rows = buildColumnRows(data);
-		chart.options.title = buildChartTitle(data);
-		cleanInvalidChartData(chart);
-		return chart;
+	function buildColumnChart(data, view) {
+		buildChart(data, new google.visualization.ColumnChart(view));
 	}
 
-	function cleanInvalidChartData(chart) {
+	/*****************************************************************************
+	 * Build generic chart
+	 */
+	function buildChart(data, chart) {
 
-		//		
-		// var row = chart.data.rows[0]['c'];
-		//
-		// var indexes = _.reduce(chart.data.rows[0]['c'], function(result, o) {
-		// if (o['v'] == -10000000) {
-		// result.push(chart.data.rows[0]['c'].indexOf(o));
-		// }
-		// return result;
-		// }, []);
-		//
-		// chart.data.rows = _.map(chart.data.rows, function(row) {
-		// row['c'] = _.filter(row['c'], function(v) {
-		// return !_.contains(indexes, row['c'].indexOf(v));
-		// });
-		// return row;
-		// });
-		//
-		// chart.data.cols = _.filter(chart.data.cols, function(col) {
-		// return !_.contains(indexes, chart.data.cols.indexOf(col));
-		// });
-
-		var rows = chart.data.rows;
-		var cols = chart.data.cols;
-		var indexes = [];
-
-		for (var c = 1; c < cols.length; c++) {
-			var invalid = true;
-			for (var r = 0; r < rows.length; r++) {
-				invalid = invalid && rows[r]['c'][c]['v'] == -10000000;
-			}
-			if (invalid) {
-				indexes.push(c);
-			}
-		}
-
-		$log.log("Indexes", indexes);
-
-		// Filter Columns
-
-		chart.data.cols = _.filter(cols, function(c) {
-			return !_.contains(indexes, cols.indexOf(c));
-		});
-
-		_.each(rows, function(r) {
-			r['c'] = _.filter(r['c'], function(c) {
-				return !_.contains(indexes, r['c'].indexOf(c));
-			});
-		});
-
-		// Filter Rows
-		_.each(rows, function(r) {
-			_.each(r['c'], function(c) {
-				c['v'] = c['v'] == -10000000 ? 0 : c['v'];
-			});
-		});
-
-		$log.log("Chart", chart);
-	}
-
-	function buildColumnCols(data) {
-		var result = [ {
-			"id" : 'yearId',
-			"label" : 'Year',
-			"type" : "string",
-			"p" : {
-				"style" : "font-size:11px"
-			},
-		} ];
-
+		// Common Data
 		var categories = _.values(data.metadata.categories);
-		// Data categories
+
 		var dataCategories = categories.slice(1);
 
 		var tagCollections = _.map(dataCategories, function(cat) {
@@ -206,6 +98,9 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 
 		// Generates the combination of tags for each value
 		var tagResult = calculateTagColletionsByLevelCombination(tagCollections);
+
+		// Columns
+		var columns = [ 'Year' ];
 
 		// Generates columns' title
 		var titles = _.map(tagResult, function(tagCollection) {
@@ -222,18 +117,128 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 		});
 
 		// Calculate cols
-		result = result.concat(_.map(titles, function(title) {
-			return {
-				"id" : title.concat('Id'),
-				"label" : title,
-				"type" : "number",
-				"p" : {
-					"style" : "font-size:11px"
-				}
-			};
-		}));
+		columns = columns.concat(titles);
 
-		return result;
+		// Rows
+		var rows = [];
+
+		/**
+		 * Check this!
+		 */
+
+		// Patch for invalid configuration
+		// if (data.indicators.length < 1) {
+		// rows = [];
+		// }
+		var keys = _.map(tagResult, function(tagCollection) {
+			return _.pluck(tagCollection, '_id').join();
+		});
+
+		var valuesByYear = getValuesByYear(data);
+
+		var yearTags = _.values(data.metadata.tags[categories[0]._id]);
+
+		rows = _.map(yearTags, function(yrTag) {
+			return [ yrTag.name ].concat(_.map(keys, function(key) {
+				return (valuesByYear[yrTag._id] != null) ? // 
+				(valuesByYear[yrTag._id][key] != null ? // 
+				valuesByYear[yrTag._id][key].value : -10000000) : -10000000
+			}));
+		});
+
+		var chartDataArray = clearInvalidData(rows, columns);
+		// [ columns ].concat(rows)
+
+		var chartData = google.visualization.arrayToDataTable(chartDataArray);
+
+		$log.log("Before draw", new Date().getTime());
+
+		// Title
+		var title = "TITLE";
+
+		// Filter tags that are not TOTAL
+		var filteredTagCollection = _.reduce(dataCategories, function(result, cat) {
+			result = result.concat(_.values(data.metadata.tags[cat._id]));
+			return result;
+		}, []);
+
+		// Filter Tags that are alone in the category
+		filteredTagCollection = _.filter(filteredTagCollection, function(tag) {
+			return _.values(data.metadata.tags[tag._category]).length == 1;
+		});
+
+		title = _.pluck(filteredTagCollection, 'description').join(' ');
+
+		var options = {
+			title : title,
+			legend : {
+				position : 'bottom',
+				maxLines : 3
+			},
+			allowHtml : true,
+			height : 500,
+			width : 700
+		};
+
+		chart.draw(chartData, options);
+	}
+
+	function clearInvalidData(rows, cols) {
+
+		// $log.log('Rows', rows);
+		// $log.log('Cols', cols);
+
+		var indexes = [];
+
+		for (var c = 1; c < cols.length; c++) {
+			var invalid = true;
+			for (var r = 0; r < rows.length; r++) {
+				invalid = invalid && rows[r][c] == -10000000;
+			}
+			if (invalid) {
+				indexes.push(c);
+			}
+		}
+
+		$log.log("Indexes length", indexes.length);
+
+		// Filter Columns
+
+		cols = _.filter(cols, function(c) {
+			return !_.contains(indexes, cols.indexOf(c));
+		});
+
+		// Filter Rows
+		// rows = _.map(rows, function(r) {
+		// $log.log("Before filter", r.length);
+		// var result = _.filter(r, function(c) {
+		// return !_.contains(indexes, r.indexOf(c));
+		// });
+		// $log.log("After filter", result.length);
+		// return result;
+		// });
+
+		rows = _.map(rows, function(r) {
+			var i = 0;
+			var result = [];
+			_.each(r, function(c) {
+				if (!_.contains(indexes, i)) {
+					result.push(c);
+				}
+				i++;
+			});
+			return result;
+		});
+
+		$log.log("Filtered Rows", rows);
+
+		rows = _.map(rows, function(r) {
+			return _.map(r, function(c) {
+				return c == -10000000 ? 0 : c;
+			});
+		});
+
+		return [ cols ].concat(rows);
 	}
 
 	function calculateTagColletionsByLevelCombination(tagCollections) {
@@ -244,79 +249,6 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 				});
 			}), true);
 		}, [ [] ]);
-	}
-
-	function buildColumnRows(data) {
-
-		// Patch for invalid configuration
-		if (data.indicators.length < 1) {
-			return [];
-		}
-
-		var categories = _.values(data.metadata.categories);
-		// Data categories
-		var dataCategories = categories.slice(1);
-
-		var tagCollections = _.map(dataCategories, function(cat) {
-			return _.values(data.metadata.tags[cat._id]);
-		});
-
-		// Generates the combination of tags for each value
-		var tagResult = calculateTagColletionsByLevelCombination(tagCollections);
-
-		var keys = _.map(tagResult, function(tagCollection) {
-			return _.pluck(tagCollection, '_id').join();
-		});
-
-		var valuesByYear = getValuesByYear(data);
-
-		var yearTags = _.values(data.metadata.tags[categories[0]._id]);
-
-		return _.map(yearTags, function(yrTag) {
-			var result = [ {
-				"v" : yrTag.name,
-				"p" : {
-					"style" : "font-size:11px"
-				}
-			} ];
-
-			result = result.concat(_.map(keys, function(key) {
-				// $log.log("yrTag", yrTag, "key", key);
-				// $log.log("VbY", valuesByYear);
-				// $log.log("VbY Yr Id",
-				// valuesByYear[yrTag._id]);
-				return {
-					// "v" :
-					// valuesByYear[yrTag._id][key].value,
-
-					/**
-					 * Mega patch hack
-					 * 
-					 * It was working. Avoiding year error
-					 */
-
-					// "v" : (valuesByYear[yrTag._id][key] !=
-					// null ? //
-					// valuesByYear[yrTag._id][key].value :
-					// -10000000),
-					/**
-					 * End of working code
-					 */
-
-					"v" : (valuesByYear[yrTag._id] != null) ? // 
-					(valuesByYear[yrTag._id][key] != null ? // 
-					valuesByYear[yrTag._id][key].value : -10000000) : -10000000,
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				}
-			}));
-			// $log.log('Column row', result);
-			return {
-				"c" : result
-			};
-		});
-
 	}
 
 	function buildChartTitle(data) {
@@ -345,126 +277,129 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 	 * Description Table Chart
 	 */
 
-	function buildDescriptionTableChart(data) {
-		var chart = buildTableChart();
-		chart.data.cols = buildDescriptionTableCols(data);
-		chart.data.rows = buildDescriptionTableRows(data);
-		return chart;
-	}
+	function buildDescriptionTableChart(data, view) {
+		$log.info("Building Description Table");
 
-	function buildDescriptionTableCols(data) {
 		var categories = _.values(data.metadata.categories);
+		var dataTable = new google.visualization.DataTable();
+
 		// Data categories
 		var dataCategories = categories.slice(1);
-		var result = [ {
-			"id" : 'descriptionId',
-			"label" : 'Description',
-			"type" : "string",
-			"p" : {
-				"style" : "font-size:11px"
-			},
-		} ];
+
+		// Columns
+		dataTable.addColumn('string', 'Description');
+
 		// Year Tags
 		var yearCategory = categories[0];
 		var yearTags = _.values(data.metadata.tags[yearCategory._id]);
-		result = result.concat(buildYearCols(yearTags));
-		return result;
-	}
 
-	function buildDescriptionTableRows(data) {
-		var yearCat = _.values(data.metadata.categories)[0];
-		var yearTags = _.values(data.metadata.tags[yearCat._id]);
-		var yearValues = getValuesByKey(data);
-
-		return _.map(_.keys(yearValues), function(key) {
-			// Creates a row for each key
-			var values = [ {
-				"v" : _.pluck(yearValues[key].tags.slice(1).reverse(), 'description').join(' ').concat(' at ').concat(
-						yearValues[key].tags[0].description),
-				"p" : {
-					"style" : "font-size:11px"
-				}
-			} ].concat(_.map(yearTags, function(yrTag) {
-				return {
-					"v" : yearValues[key][yrTag.name],
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				};
-			}));
-			return {
-				"c" : values
-			};
+		_.each(yearTags, function(yearTag) {
+			dataTable.addColumn('number', yearTag.name);
 		});
+
+		// Rows
+		var yearValues = getValuesByKey(data);
+		var yearKeys = _.keys(yearValues);
+
+		dataTable.addRows(yearKeys.length);
+
+		var yearValues = getValuesByKey(data);
+		var i = 0;
+		_.each(_.keys(yearValues), function(key) {
+			var j = 0;
+			dataTable.setCell(i, j++, _.pluck(yearValues[key].tags.slice(1).reverse(), 'description').join(' ')
+					.concat(' at ').concat(yearValues[key].tags[0].description));
+			dataTable.setProperty(i, j - 1, "style", "white-space:nowrap;");
+			_.each(yearTags, function(yrTag) {
+				dataTable.setCell(i, j++, yearValues[key][yrTag.name]);
+				dataTable.setProperty(i, j - 1, "style", "white-space:nowrap;");
+			});
+			i++;
+		});
+
+		$log.log("Before draw", new Date().getTime());
+		var table = new google.visualization.Table(view);
+
+		table.draw(dataTable, {
+			showRowNumber : false,
+			width : '100%',
+			height : '100%',
+			page : 'enable',
+			pageSize : '20',
+			allowHtml : true
+		});
+
+		return table;
 	}
 
 	/**
 	 * Summary Table Chart
 	 */
 
-	function buildSummaryTableChart(data) {
-		var chart = buildTableChart();
-		chart.data.cols = buildSummaryTableCols(data);
-		chart.data.rows = buildSummaryTableRows(data);
-		return chart;
-	}
+	function buildSummaryTableChart(data, view) {
+		var categories = data.metadata.categories;
+		var dataTable = new google.visualization.DataTable();
 
-	function buildSummaryTableCols(data) {
+		// Columns
+
 		var categories = _.values(data.metadata.categories);
 		// Data categories
 		var dataCategories = categories.slice(1);
-		var result = _.map(dataCategories, function(category) {
-			return {
-				"id" : category.name,
-				"label" : category.name,
-				"type" : "string",
-				"p" : {
-					"style" : "font-size:11px"
-				},
-			};
+
+		_.each(dataCategories, function(category) {
+			dataTable.addColumn('string', category.name);
 		});
+
 		// Year Tags
 		var yearCategory = categories[0];
 		var yearTags = _.values(data.metadata.tags[yearCategory._id]);
-		result = result.concat(buildYearCols(yearTags));
-		return result;
-	}
 
-	function buildSummaryTableRows(data) {
-		var yearCat = _.values(data.metadata.categories)[0];
-		var yearTags = _.values(data.metadata.tags[yearCat._id]);
-		var yearValues = getValuesByKey(data);
-
-		return _.map(_.keys(yearValues), function(key) {
-			// Creates a row for each key
-			var values = _.map(yearValues[key].tags, function(tag) {
-				return {
-					"v" : tag.name,
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				}
-			}).concat(_.map(yearTags, function(yrTag) {
-				// $log.log("YearTag", yrTag, " value ",
-				// yearValues[key][yrTag.name]);
-				return {
-					"v" : yearValues[key][yrTag.name],
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				};
-			}));
-			return {
-				"c" : values
-			};
+		_.each(yearTags, function(yearTag) {
+			dataTable.addColumn('number', yearTag.name);
 		});
+
+		// Rows
+		var yearValues = getValuesByKey(data);
+		var yearKeys = _.keys(yearValues);
+
+		dataTable.addRows(yearKeys.length);
+
+		var i = 0;
+		_.each(yearKeys, function(key) {
+			// Creates a row for each key
+			var j = 0;
+			_.each(yearValues[key].tags, function(tag) {
+				dataTable.setCell(i, j++, tag.name);
+				dataTable.setProperty(i, j - 1, "style", "white-space:nowrap;");
+			});
+			_.each(yearTags, function(yrTag) {
+				dataTable.setCell(i, j++, yearValues[key][yrTag.name]);
+				dataTable.setProperty(i, j - 1, "style", "white-space:nowrap;");
+			});
+			i++;
+		});
+
+		$log.log("Before draw", new Date().getTime());
+		var table = new google.visualization.Table(view);
+
+		table.draw(dataTable, {
+			showRowNumber : false,
+			width : '100%',
+			height : '100%',
+			page : 'enable',
+			pageSize : '20',
+			allowHtml : true
+		});
+
+		return table;
+
 	}
 
 	/**
 	 * Full Table Chart
 	 */
 
-	function buildFullTableChart(data) {
+	function buildFullTableChart(data, view) {
 		var categories = data.metadata.categories;
 		var dataTable = new google.visualization.DataTable();
 
@@ -490,119 +425,28 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 			// return categoryIdOrder.indexOf(tag._category);
 			// });
 			_.each(indicator._tags, function(tag) {
-				dataTable.setCell(i, categoryIdOrder.indexOf(tag._category), tag.description);
+				var j = categoryIdOrder.indexOf(tag._category);
+				dataTable.setCell(i, j, tag.description);
+				dataTable.setProperty(i, j, "style", "white-space:nowrap;");
 			});
 			dataTable.setCell(i, indicator._tags.length, indicator.value);
+			dataTable.setProperty(i, indicator._tags.length, "style", "white-space:nowrap;");
 			i++;
 		});
 
-		return dataTable;
-		// var chart = buildTableChart();
-		// chart.data.cols = buildFullTableCols(data);
-		// chart.data.rows = buildFullTableRows(data);
-		// return chart;
-	}
+		$log.log("Before draw", new Date().getTime());
+		var table = new google.visualization.Table(view);
 
-	function buildFullTableCols(data) {
-		$log.error(' buildFullTable Should not be called!');
-		var categories = data.metadata.categories;
-		var result = _.map(_.values(categories), function(category) {
-			return {
-				"id" : category.name,
-				"label" : category.description,
-				"type" : "string",
-				"p" : {
-					"style" : "font-size:11px"
-				},
-			};
+		table.draw(dataTable, {
+			showRowNumber : false,
+			width : '100%',
+			height : '100%',
+			page : 'enable',
+			pageSize : '20',
+			allowHtml : true
 		});
-		// Force refresh
-		hack = hack.length == 0 ? ' ' : '';
-		result.push({
-			"id" : "value",
-			"label" : "Students" + hack,
-			"type" : "number",
-			"p" : {
-				"style" : "font-size:11px"
-			},
-		});
-		return result;
-	}
 
-	function buildFullTableRows(data) {
-		$log.error(' buildFullTableRows Should not be called!');
-		return _.map(data.indicators, function(indicator) {
-			// CategoryId order
-			var categoryIdOrder = _.pluck(data.metadata.categories, '_id');
-			// Filter tags by categoryId
-			var tags = _.filter(indicator._tags, function(tag) {
-				return data.metadata.categories[tag._category] != null;
-			});
-			// Sort tags by categoryId
-			tags = _.sortBy(tags, function(tag) {
-				return categoryIdOrder.indexOf(tag._category);
-			});
-			// Build Rows
-			var values = _.map(tags, function(tag) {
-				return {
-					"v" : tag.description,
-					"p" : {
-						"style" : "font-size:11px"
-					}
-				};
-			});
-			values.push({
-				"v" : indicator.value,
-				"p" : {
-					"style" : "font-size:11px"
-				}
-			});
-			return {
-				"c" : values
-			};
-		});
-	}
-
-	/**
-	 * Legend Chart
-	 */
-	function buildLegendChart() {
-		var chart = buildChart();
-		chart.options.legend = "bottom";
-		chart.options, legendMaxLines = 10;
-		chart.options.width = "100%";
-		chart.options.height = "350px";
-		return chart;
-	}
-
-	/**
-	 * Table Chart
-	 */
-
-	function buildTableChart() {
-		var chart = buildChart();
-		chart.type = 'Table';
-		chart.options.pageSize = 20;
-		chart.options.page = "enable";
-		chart.options.showRowNumber = false;
-		chart.options.sort = "enable";
-		chart.options.width = "100%";
-		chart.options.height = "100%";
-		return chart;
-	}
-
-	/**
-	 * Chart
-	 */
-
-	function buildChart() {
-		return {
-			"displayed" : true,
-			"data" : {},
-			"options" : {
-				"allowHtml" : "true",
-			}
-		};
+		return table;
 	}
 
 	/**
@@ -670,19 +514,6 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 			};
 		});
 		return yearValues;
-	}
-
-	function buildYearCols(yearTags) {
-		return _.map(yearTags, function(yearTag) {
-			return {
-				"id" : yearTag.name,
-				"label" : yearTag.name,
-				"type" : "number",
-				"p" : {
-					"style" : "font-size:11px"
-				}
-			}
-		});
 	}
 
 	return factory;
