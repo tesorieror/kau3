@@ -52,9 +52,9 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 
 		if (cat.name == 'SP' && result.length > 0) {
 			var ids = _.pluck(result[0]._tags, '_id');
-//			$log.log("Count: ", _.countBy(ids, function(id) {
-//				return id;
-//			}));
+			// $log.log("Count: ", _.countBy(ids, function(id) {
+			// return id;
+			// }));
 		}
 		return result;
 	}
@@ -62,6 +62,29 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 	$scope.updateDependencies = function(changedTag) {
 		$log.log("Categories length", $scope.categories.length);
 		// console.log("TAG", t);
+
+		/**
+		 * Unselect tags with dependencies that are not selected
+		 */
+
+		_.each($scope.categories, function(cat) {
+			_.each(cat._tags, function(tag) {
+				var deps = _.flatten(_.map(tag._dependencies, function(dep) {
+					return dep._tags;
+				}));
+
+				var filter = (deps.length == 0) || _.some(deps, function(dTag) {
+					return $scope.model[dTag._category][dTag._id];
+				})
+				$scope.model[tag._category][tag._id] = filter && $scope.model[tag._category][tag._id];
+
+			});
+		});
+
+		/**
+		 * Building grounps
+		 */
+
 		$scope.filteredTags = {};
 		_.each($scope.categories, function(cat) {
 			$scope.filteredTags[cat._id] = {};
@@ -69,7 +92,7 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 				if (tag._dependencies.length > 0) {
 					_.each(tag._dependencies, function(dep) {
 						var ok = _.all(dep._tags, function(t) {
-//							$log.log("Tag",t);
+							// $log.log("Tag",t);
 							return $scope.model[t._category][t._id];
 						});
 
@@ -114,15 +137,16 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 						};
 					}
 					$scope.filteredTags[cat._id][" "]._tags.push(tag);
-					if (cat.name == "SP") {						
-							$log.error("dependences == 0", tag);						
+					if (cat.name == "SP") {
+						$log.error("dependences == 0", tag);
 					}
 				}
 			});
 			// $log.log("CID",cat._id,$scope.filteredTags[cat._id]);
 			// $log.log("Filtered tags", $scope.filteredTags);
 		});
-//		$log.log("Filtered tags", $scope.filteredTags);
+		// $log.log("Filtered tags", $scope.filteredTags);
+
 	}
 
 	/**
