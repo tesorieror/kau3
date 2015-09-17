@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express');   
 var router = express.Router();
 var path = require('path');
 var _ = require('underscore');
@@ -15,7 +15,7 @@ function processParams(params) {
 	return _.map(_.values(params), function(param) {
 		return processParam(param);
 	});
-}
+}  
 
 /* GET tag category by name */
 // router.get('/:ys/:it/:ins/:ss/:gr/:na/:ge', function(req, res) {

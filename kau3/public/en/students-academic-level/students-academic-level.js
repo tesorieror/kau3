@@ -14,7 +14,8 @@ app.controller("StudentsAcademicLevelCtrl", function($scope, $log, $location, Mo
 			return tagCategoryNames.indexOf(cat.name);
 		});
 	});
-
+	
+	$scope.title = "Students by Academic Level";
+	
 	$log.log("activePath", $scope.activePath);
-
 });

@@ -1,6 +1,6 @@
 /**
  * Tag file
- */
+ */ 
 var path = require('path');
 var mongoose = require('mongoose');
 
@@ -15,7 +15,7 @@ var schema = mongoose.Schema({
 	} ],
 	amount : Number
 });
-
+    
 var Indicator;
 
 module.exports = Indicator = mongoose.model('Indicator', schema);
