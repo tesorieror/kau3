@@ -520,4 +520,85 @@
 		"category" : "IN",
 		"tag" : "HU"
 	} ] ]
+}, {
+	"name" : "ALAL",
+	"description" : "College Almjmta Aldawadmi",
+	"category" : "CC",
+	"order" : "59",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "KSU"
+	} ] ]
+}, {
+	"name" : "BDH",
+	"description" : "Bdharme community college",
+	"category" : "CC",
+	"order" : "60",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "UB"
+	} ] ]
+}, {
+	"name" : "LEI",
+	"description" : "Aflaj community college (Leila)",
+	"category" : "CC",
+	"order" : "61",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "KSU"
+	} ] ]
+}, {
+	"name" : "CCF",
+	"description" : "Community College Faculty",
+	"category" : "CC",
+	"order" : "62",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "KAU"
+	} ] ]
+}, {
+	"name" : "CCFG",
+	"description" : "Community College for Girls",
+	"category" : "CC",
+	"order" : "63",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "UN"
+	} ] ]
+}, {
+	"name" : "CCFB",
+	"description" : "Community College for Boys",
+	"category" : "CC",
+	"order" : "64",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "UN"
+	} ] ]
+}, {
+	"name" : "HMH",
+	"description" : "His mind hawks Community College",
+	"category" : "CC",
+	"order" : "65",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "QU"
+	} ] ]
+}, {
+	"name" : "BEN",
+	"description" : "Benin community college",
+	"category" : "CC",
+	"order" : "66",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "UN"
+	} ] ]
+}, {
+	"name" : "BDHG",
+	"description" : "Bdharme community college",
+	"category" : "CC",
+	"order" : "67",
+	"tags" : [ [ {
+		"category" : "IN",
+		"tag" : "RUG"
+	} ] ]
 } ]

@@ -154,7 +154,7 @@ router.get('/:ys/:it/:in/:cc/:pe/:ge', function(req, res) {
 	// console.log("idCollections", idCollections);
 	findIndicators(idCollections)//
 	.then(populateIndicatorTags)//
-	//.then(addInstitutionTypeTag)//
+	.then(addInstitutionTypeTag)//
 	.then(function(data) {
 		console.info("Request completed!");
 		// console.log(data);

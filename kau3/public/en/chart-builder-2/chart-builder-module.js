@@ -82,7 +82,7 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 		buildChart(data, new google.visualization.ColumnChart(view));
 	}
 
-	/*****************************************************************************
+	/**
 	 * Build generic chart
 	 */
 	function buildChart(data, chart) {
@@ -429,7 +429,12 @@ ChartBuilderModule.factory('ChartBuilderFactory', function($http, $q, $log) {
 				dataTable.setCell(i, j, tag.description);
 				dataTable.setProperty(i, j, "style", "white-space:nowrap;");
 			});
+			
+//			$log.log(indicator.value===232);
 			dataTable.setCell(i, indicator._tags.length, indicator.value);
+			
+			
+			
 			dataTable.setProperty(i, indicator._tags.length, "style", "white-space:nowrap;");
 			i++;
 		});

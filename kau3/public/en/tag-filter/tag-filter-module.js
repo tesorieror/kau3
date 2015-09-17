@@ -69,6 +69,7 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 				if (tag._dependencies.length > 0) {
 					_.each(tag._dependencies, function(dep) {
 						var ok = _.all(dep._tags, function(t) {
+//							$log.log("Tag",t);
 							return $scope.model[t._category][t._id];
 						});
 
