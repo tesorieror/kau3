@@ -2,7 +2,11 @@
  * App file
  */
 
+<<<<<<< HEAD
 var app = angular.module("app", [ "ui.bootstrap",// "googlechart",
+=======
+var app = angular.module("app", [ "ui.bootstrap", // "googlechart",
+>>>>>>> branch 'master' of https://github.com/tesorieror/kau3
 "ngRoute", 'angularSpinner', "ngAnimate", 'TagFilterModule', 'ChartBuilderModule', 'RTChartModule' ]);
 
 /**

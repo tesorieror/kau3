@@ -1,5 +1,5 @@
 /**
- * 
+ *  
  */
 var express = require('express');
 var router = express.Router();
@@ -255,7 +255,6 @@ router.get('/', function(req, res) {
 	function insertTags(data) {
 		console.log("Inserting tags");
 		var tags = _.map(plainTags, function(tag) {
-			// console.log("TAG", tag.name, "CAT", tag.category);
 			return q.nbind(TagCategory.findOne, TagCategory)({
 				name : tag.category
 			}).then(function(category) {
