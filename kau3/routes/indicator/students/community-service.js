@@ -22,7 +22,7 @@ function processParams(params) {
 }
 
 /* GET tag category by name */
-router.get('/:ys/:ccs/:pe/:ge', function(req, res) {
+router.get('/:ys/:it/:in/:ccs/:pe/:ge', function(req, res) {
 	var idCollections = processParams(req.params);
 	idCollections = _.filter(idCollections, function(idCollection) {
 		return idCollection.length > 0;
