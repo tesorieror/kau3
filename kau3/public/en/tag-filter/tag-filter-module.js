@@ -33,6 +33,11 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 		$scope.updateDependencies(null);
 	});
 
+	$scope.$watch("model", function(newValue, oldValue) {
+		$log.log("model changed!", newValue);
+		$scope.updateDependencies(null);
+	});
+
 	$scope.checkDependency = function(tag) {
 		var result = _.any(tag._dependencies, function(dep) {
 			return _.all(dep._tags, function(t) {
@@ -182,18 +187,21 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 			$scope.model[cat._id][t._id] = false;
 		});
 		$scope.model[cat._id][_.first(_.sortBy(cat._tags, 'order'))._id] = true;
+		$scope.updateDependencies(null);
 	};
 
 	$scope.unselectCategory = function(cat) {
 		_.each(cat._tags, function(t) {
 			$scope.model[cat._id][t._id] = false;
 		});
+		$scope.updateDependencies(null);
 	}
 
 	$scope.selectCategory = function(cat) {
 		_.each(cat._tags, function(t) {
 			$scope.model[cat._id][t._id] = true;
 		});
+		$scope.updateDependencies(null);
 	}
 
 });
