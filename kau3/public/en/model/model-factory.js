@@ -21,11 +21,18 @@ app.factory('ModelFactory', function($log, $http) {
 		return $http.get(path + filter);
 	}
 
+	function countIndicators(path, filter) {
+		$log.log("Counting Indicators for ", filter, "from", path);
+		return $http.get(path + filter);
+	}
+	
+	
 	/**
 	 * Public functions
 	 */
 	factory.getTagCategoriesForNames = getTagCategoriesForNames;
 	factory.getIndicators = getIndicators;
+	factory.countIndicators = countIndicators;
 
 	return factory;
 });

@@ -23,8 +23,8 @@ function processParams(params) {
 }
 
 /* GET tag category by name */
-// YR, SS, DS, GR, IN, IT, CO, SE, SP, NA, GE
-router.get('/:ys/:ss/:ds/:gr/:it/:in/:co/:se/:sp/:na/:ge', function(req, res) {
+// YR, SS, DS, SY, IN, IT, CO, SE, SP, NA, GE
+router.get('/:ys/:ss/:ds/:sy/:it/:in/:co/:se/:sp/:na/:ge', function(req, res) {
 	var idCollections = processParams(req.params);
 	idCollections = _.filter(idCollections, function(idCollection) {
 		return idCollection.length > 0;

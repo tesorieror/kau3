@@ -66,6 +66,14 @@ app
 								templateUrl : './students-freshmen-post-graduate-college-section-specialization/students-freshmen-post-graduate-college-section-specialization.html',
 								controller : 'StudentsFreshmenPostGraduateCollegeSectionSpecializationCtrl'
 							})
+							
+					.when(
+							'/students-freshmen-intermediate-diploma-college-section-specialization',
+							{
+								templateUrl : './students-freshmen-intermediate-diploma-college-section-specialization/students-freshmen-intermediate-diploma-college-section-specialization.html',
+								controller : 'StudentsFreshmenIntermediateDiplomaCollegeSectionSpecializationCtrl'
+							})
+							
 					.when(
 							'/informationNotAvailable',
 							{

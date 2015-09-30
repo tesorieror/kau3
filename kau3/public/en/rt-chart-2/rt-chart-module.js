@@ -19,7 +19,7 @@ RTChartModule.directive('rtChart', function() {
 });
 
 RTChartModule.controller('RTChartCtrl',
-		function($scope, $log, $q, $http, usSpinnerService, ModelFactory, ChartBuilderFactory) {
+		function($scope, $log, $q, $http, $modal, usSpinnerService, ModelFactory, ChartBuilderFactory) {
 			$log.info('Chart Controller Loaded!');
 			$log.info('TagCategoryNames', $scope.tagCategoryNames);
 
@@ -101,13 +101,14 @@ RTChartModule.controller('RTChartCtrl',
 				}, []);
 			}
 
-			$scope.applyFilter = function() {
+			function getIndicators(filterPath) {
+
 				usSpinnerService.spin('spinner-1');
-				var filterPath = getFilterPath();
 				ModelFactory.getIndicators($scope.path, filterPath)//
 				.then(function(res) {
 					var len = res.data.length;
 					$log.log(len + " values were retrieved!");
+					$log.log("DATA", res.data);
 
 					var start = new Date().getTime();
 
@@ -161,6 +162,49 @@ RTChartModule.controller('RTChartCtrl',
 					$scope.filterShow = false;
 
 				});
+
+			}
+
+			function openModal(data) {
+				var modalInstance = $modal.open({
+					animation : true,
+					templateUrl : 'rt-chart-2/error-modal.html',
+					controller : 'ErrorModalCtrl',
+					size : 'lg',
+					resolve : {
+						data : function() {
+							return data;
+						}
+					}
+				});
+				modalInstance.result.then(function() {
+					$log.info('Ok');
+					getIndicators();
+				}, function() {
+					$log.info('Cancelled');
+				});
+			}
+
+			$scope.applyFilter = function() {
+				function addCount(path) {
+					return path.substring(0, path.length - 1) + '_count/';
+				}
+				usSpinnerService.spin('spinner-1');
+				var filterPath = getFilterPath();
+				ModelFactory.countIndicators(addCount($scope.path), filterPath)//
+				.then(function(res) {
+					$log.log(res);
+					usSpinnerService.stop('spinner-1');
+					if (res.data.count > 1000) {
+						openModal(res.data);
+					} else {
+						getIndicators(filterPath);
+					}
+				}, function(err) {
+					$log.error(err);
+					usSpinnerService.stop('spinner-1');
+				});
+
 			}
 
 			function getFilterPath() {

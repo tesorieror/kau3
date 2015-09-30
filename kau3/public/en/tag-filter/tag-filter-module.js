@@ -87,7 +87,7 @@ TagFilterModule.controller('TagFilterCtrl', function($scope, $log) {
 		});
 
 		/**
-		 * Building grounps
+		 * Building groups
 		 */
 
 		$scope.filteredTags = {};

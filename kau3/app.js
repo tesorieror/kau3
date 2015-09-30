@@ -21,6 +21,10 @@ var indicatorStudentStaff = require('./routes/indicator/students/staff');
 var indicatorStudentFreshmenUndergraduate = require('./routes/indicator/students/freshmen-undergraduate');
 var indicatorStudentFreshmenIntermediate = require('./routes/indicator/students/freshmen-intermediate');
 var indicatorStudentFreshmenPostGraduateCollegeSectionSpecialization = require('./routes/indicator/students/freshmen-post-graduate-college-section-specialization');
+var indicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization = require('./routes/indicator/students/freshmen-intermediate-diploma-college-section-specialization');
+var countIndicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization = require('./routes/indicator/students/freshmen-intermediate-diploma-college-section-specialization_count');
+
+
 
 var app = express();
 
@@ -57,6 +61,13 @@ app.use('/data/students/freshmen-undergraduate/', indicatorStudentFreshmenUnderg
 app.use('/data/students/freshmen-intermediate/', indicatorStudentFreshmenIntermediate);
 app.use('/data/students/freshmen-post-graduate-college-section-specialization/',
 		indicatorStudentFreshmenPostGraduateCollegeSectionSpecialization);
+app.use('/data/students/freshmen-intermediate-diploma-college-section-specialization/',		     
+		indicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization);
+app.use('/data/students/freshmen-intermediate-diploma-college-section-specialization_count/',		     
+		countIndicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization);
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
