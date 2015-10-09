@@ -11,8 +11,8 @@ var TagCategory;
 var schema = mongoose.Schema({
 	name : String,
 	description : String,
-	_tags : [ {
-		type : mongoose.Schema.Types.ObjectId,
+	tags : [ {
+		type : String,
 		ref : Tag
 	} ]
 });

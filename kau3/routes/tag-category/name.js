@@ -6,7 +6,8 @@ var q = require('q');
 
 var TagCategory = require(path.join(__dirname, '../../model/tag-category'));
 var Tag = require(path.join(__dirname, '../../model/tag'));
-var TagDependency = require(path.join(__dirname, '../../model/tag-dependency'));
+// var TagDependency = require(path.join(__dirname,
+// '../../model/tag-dependency'));
 
 /* GET tag category by name */
 router.get('/:names', function(req, res) {
@@ -41,7 +42,7 @@ router.get('/:names', function(req, res) {
 	}
 
 	function populateTagDependencies(data) {
-//		console.log('populate tag dependences');
+		// console.log('populate tag dependences');
 		var categories = _.flatten(data);
 		var promises = [];
 		_.each(categories, function(cat) {

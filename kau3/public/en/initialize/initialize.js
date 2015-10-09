@@ -16,24 +16,54 @@ initApp.config([ '$httpProvider', function($httpProvider) {
 	$httpProvider.defaults.headers.get['If-Modified-Since'] = '0';
 } ]);
 
-initApp.controller("InitAppCtrl", function($scope, $log, $location, $http) {
+initApp.controller("InitAppCtrl", function($scope, $log, $location, $http, $interval) {
 	$log.info("Initialize Application Controller loaded!");
 
-	function initialize() {
-		$log.info("Initializing");
-		return $http.get('/initialize');
+	$scope.enableStart = true;
+
+	function check() {
+		if ($scope.enableStart)
+			return;
+		$log.info("Checking initialization");
+		return $http.get('/initialize/check').then(function(res) {
+			$scope.initState = res.data.state;
+			$scope.error = '';
+			if (res.data.state != 'PROCESSING') {
+				$scope.enableStart = true;
+			}
+			// $log.info(res);
+		}, function(err) {
+			$scope.initState = err.data.state;
+			$scope.error = err.data.message;
+			$log.error(err);
+		});
+	}
+
+	function start() {
+		$log.info("Initialization started");
+		return $http.get('/initialize/start').then(function(res) {
+			$scope.initState = res.data.state;
+			$scope.error = '';
+			$scope.enableStart = false;
+			// $log.info(res);
+		}, function(err) {
+			$scope.initState = err.data.state;
+			$scope.error = err.data.message;
+			$scope.enableStart = true;
+			$log.error(err);
+		});
 	}
 
 	$scope.initState = "NONE";
 
-	$scope.initialize = function() {
-		$scope.initState = "PROCESSING";
-		initialize().then(function(data) {
-			$scope.initState = "DONE";
-			$log.info(data);
-		}, function(err) {
-			$scope.initState = "ERROR";
-			$log.error(err);
-		});
+	$scope.check = function() {
+		check()
 	};
+
+	$scope.start = function() {
+		start()
+	};
+
+	$interval(check, 1000);
+
 });

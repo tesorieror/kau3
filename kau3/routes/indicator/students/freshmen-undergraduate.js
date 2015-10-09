@@ -1,5 +1,5 @@
 /**
- * Freshmen Undergraduate service 
+ * Freshmen Undergraduate service
  * 
  */
 
@@ -23,7 +23,7 @@ function processParams(params) {
 }
 
 /* GET tag category by name */
-// SS	DS	SY	IN	IT	NA	GE
+// SS DS SY IN IT NA GE
 router.get('/:ys/:ss/:ds/:sy/:in/:it/:na/:ge', function(req, res) {
 	var idCollections = processParams(req.params);
 	idCollections = _.filter(idCollections, function(idCollection) {

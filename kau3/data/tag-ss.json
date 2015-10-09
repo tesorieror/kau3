@@ -1,19 +1,16 @@
 [ {
-	"name" : "FR",
+	"category" : "SS",
+	"name" : "FRE",
 	"description" : "Freshmen",
-	"category" : "SS",
-	"order" : "1",
-	"tags" : []
+	"tags" : [ [] ]
 }, {
-	"name" : "EN",
+	"category" : "SS",
+	"name" : "ENR",
 	"description" : "Enrolled",
-	"category" : "SS",
-	"order" : "2",
-	"tags" : []
+	"tags" : [ [] ]
 }, {
-	"name" : "GR",
-	"description" : "Graduates of Previous Years",
 	"category" : "SS",
-	"order" : "3",
-	"tags" : []
+	"name" : "GRAPREYEA",
+	"description" : "Graduates of Previous Years",
+	"tags" : [ [] ]
 } ]

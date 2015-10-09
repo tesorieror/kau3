@@ -24,8 +24,6 @@ var indicatorStudentFreshmenPostGraduateCollegeSectionSpecialization = require('
 var indicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization = require('./routes/indicator/students/freshmen-intermediate-diploma-college-section-specialization');
 var countIndicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization = require('./routes/indicator/students/freshmen-intermediate-diploma-college-section-specialization_count');
 
-
-
 var app = express();
 
 // Database conneciton
@@ -61,13 +59,10 @@ app.use('/data/students/freshmen-undergraduate/', indicatorStudentFreshmenUnderg
 app.use('/data/students/freshmen-intermediate/', indicatorStudentFreshmenIntermediate);
 app.use('/data/students/freshmen-post-graduate-college-section-specialization/',
 		indicatorStudentFreshmenPostGraduateCollegeSectionSpecialization);
-app.use('/data/students/freshmen-intermediate-diploma-college-section-specialization/',		     
+app.use('/data/students/freshmen-intermediate-diploma-college-section-specialization/',
 		indicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization);
-app.use('/data/students/freshmen-intermediate-diploma-college-section-specialization_count/',		     
+app.use('/data/students/freshmen-intermediate-diploma-college-section-specialization_count/',
 		countIndicatorStudentFreshmenPostIntermediateDiplomaCollegeSectionSpecialization);
-
-
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -78,25 +73,52 @@ app.use(function(req, res, next) {
 
 // error handlers
 
-// app.set('env', 'development');
+app.set('env', 'development');
 
 // development error handler
 // will print stacktrace
+//
+// JADE
+//
+// if (app.get('env') === 'development') {
+// app.use(function(err, req, res, next) {
+// res.status(err.status || 500);
+// res.render('error', {
+// message : err.message,
+// error : err
+// });
+// });
+// }
+
+// production error handler
+// no stacktraces leaked to user
+//
+// JADE
+//
+// app.use(function(err, req, res, next) {
+// res.status(err.status || 500);
+// res.render('error', {
+// message : err.message,
+// error : {}
+// });
+// });
+
+// Normal
+
 if (app.get('env') === 'development') {
 	app.use(function(err, req, res, next) {
 		res.status(err.status || 500);
-		res.render('error', {
+		console.error('ERROR', err);
+		res.send({
 			message : err.message,
 			error : err
 		});
 	});
 }
 
-// production error handler
-// no stacktraces leaked to user
 app.use(function(err, req, res, next) {
 	res.status(err.status || 500);
-	res.render('error', {
+	res.send({
 		message : err.message,
 		error : {}
 	});

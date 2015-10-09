@@ -12,7 +12,7 @@ var mongoose = require('mongoose');
 var Tag = require(path.join(__dirname, '../../../model/tag'));
 var TagCategory = require(path.join(__dirname, '../../../model/tag-category'));
 var Indicator = require(path.join(__dirname, '../../../model/indicator'));
-var TagDependency = require(path.join(__dirname, '../../../model/tag-dependency'));
+//var TagDependency = require(path.join(__dirname, '../../../model/tag-dependency'));
 
 function processParams(params) {
 	console.log('processParams');
