@@ -90,6 +90,8 @@ router.get('/check', function(req, res) {
 
 router.get('/start', function(req, res) {
 
+	var DATADIR = '../data/';
+
 	// configResponse();
 	// var plainTagCategories;
 	// var plainTags = [];
@@ -99,8 +101,7 @@ router.get('/start', function(req, res) {
 	if (!state.isProcessing()) {
 		state.processing();
 		// setTimeout(state.done, 5000);
-		process()//
-		.then(c.log('[LOG]', true), c.error('[ERROR]'))//
+		process()//		
 		.then(state.done, state.error);
 		// removeAll()//
 		// .then(loadData)//
@@ -114,84 +115,293 @@ router.get('/start', function(req, res) {
 	}
 	sendStatus(res);
 
-	/*****************************************************************************
+	/***************************************************************************
 	 * Functions
 	 */
 
-	var DATA = '../data/';
-
-	/**
+	/***************************************************************************
 	 * Process
 	 */
 	function process() {
-		// Clean data
-		return clearDB() //
-		.then(listFiles) // 
-		.then(insert)//
+		return listFiles(DATADIR) //		
+		.then(processFiles)//
+		.then(c.log('[process] OK', false), c.error('[process] FAILED'))//
 		;
 	}
 
-	/**
-	 * ClearDB
-	 */
-	function clearDB() {
-		return q.all([ TagCategory.remove(), Tag.remove(), Indicator.remove() ])//
-		.then(c.log('[clearDB] OK', true),c.error('[clearDB] FAIL'));
+	function processFiles(files) {
+		return q.all([ processTagCategories(files), processTags(files),
+				processIndicators(files) ]);
 	}
 
 	/**
 	 * List files
 	 */
 	function listFiles() {
-		return fs.list(DATA)//
-		.then(function(files) {
-			params.files = files;
-			return params;
-		});
+		return fs.list(DATADIR)//
+		.then(c.log('[listFiles] OK', false), c.error('[listFiles] FAILED'));
 	}
-	/**
-	 * 
+
+	/***************************************************************************
+	 * Process Tag Categories
 	 */
-	function insert(params) {
-		return q.all([ insertTagCategories(params), insertTags(params), insertIndicators(params) ])//
-		;
+	function processTagCategories(files) {
+		// return TagCategory.remove() //
+		return q.nbind(TagCategory.remove, TagCategory)()//
+		.then(c.log('[removeTagCategories] OK', false),
+				c.error('[removeTagCategories] FAILED'))//
+		.then(function(result) {
+			return readFiles(filterTagCategoryFiles(files))//
+			.then(toJSON)//
+			.then(concatArrays)//					
+			.then(assignIds)//
+			.then(to1000arrays)//
+			.then(insertTagCategories);
+		})//
+		.then(c.log('[processTagCategories] OK', false),
+				c.error('[processTagCategories] FAILED'));
 	}
-	/**
-	 * 
-	 */
-	function insertTagCategories(params) {
-		var catFiles = _.filter(params.files, function(f) {
+
+	function filterTagCategoryFiles(files) {
+		return _.filter(files, function(f) {
 			return f.match(/^category-.+$/g);
 		});
-
-		var readPromises = _.map(catFiles, function(f) {
-			return fs.read(DATA + f).then(JSON.parse).then(assignId)//
-			.then(function(categories){
-				_.map()
-				return params;
-			});
-		});
-		
-		
-		return readPromises;
 	}
-	/**
-	 * 
+
+	function readFiles(files) {
+		return q.all(_.map(files, function(f) {
+			return fs.read(DATADIR + f);
+		}))//
+		.then(c.log('[readFiles] OK', false), c.error('[readFiles] FAILED'));
+	}
+
+	function concatArrays(arrayLists) {
+		// console.log('concatArrays arrayLists', arrayLists);
+		return [].concat.apply([], arrayLists);
+	}
+
+	function toJSON(contents) {
+		return _.map(contents, function(content) {
+			return JSON.parse(content);
+		});
+	}
+
+	function assignIds(objects) {
+		// console.log('assignIds objects', objects);
+		_.each(objects, function(object) {
+			// console.log('assignIds object.name', object.name);
+			var key = object.category + '-' + object.name;
+			object._id = key;
+		});
+		// console.log('assignIds objects', objects);
+		return objects;
+	}
+
+	function to1000arrays(array) {
+		// console.log('to1000arrays array', array);
+		var arrays = [];
+		while (array.length > 0) {
+			arrays.push(array.splice(0, 1000));
+		}
+		return arrays;
+	}
+
+	function insertTagCategories(arrays) {
+		// console.log('insertTagCategories arrays', arrays);
+		return q.all(
+				_.map(arrays, function(array) {
+					// return TagCategory.collection.insert(array);
+					return q.nbind(TagCategory.collection.insert,
+							TagCategory.collection)(array);
+
+				}))//
+		.then(c.log('[insertTagCategories] OK', false),
+				c.error('[insertTagCategories] FAILED'));
+	}
+
+	/***************************************************************************
+	 * Process tags
 	 */
-	function insertTags(params) {
-		return _.filter(params.files, function(f) {
+
+	function processTags(files) {
+		// return TagCategory.remove() //
+		return q.nbind(Tag.remove, Tag)()//
+		.then(c.log('[removeTags] OK', false),
+				c.error('[removeTagCats] FAILED'))//
+		.then(function(result) {
+			return readFiles(filterTagFiles(files))//
+			.then(toJSON)//
+			.then(concatArrays)//					
+			.then(assignIds)//
+			.then(to1000arrays)//
+			.then(insertTags);
+		})
+				//
+				.then(c.log('[processTags] OK', false),
+						c.error('[processTags] FAILED'));
+	}
+
+	function filterTagFiles(files) {
+		return _.filter(files, function(f) {
 			return f.match(/^tag-.+$/g);
 		});
 	}
-	/**
-	 * 
+
+	function insertTags(arrays) {
+		// console.log('insertTagCategories arrays', arrays);
+		return q.all(_.map(arrays, function(array) {
+			// return TagCategory.collection.insert(array);
+			return q.nbind(Tag.collection.insert, Tag.collection)(array);
+		}))//
+		.then(c.log('[insertTags] OK', false), c.error('[insertTags] FAILED'));
+	}
+
+	/***************************************************************************
+	 * Process indicators
 	 */
-	function insertIndicators(params) {
-		return _.filter(params.files, function(f) {
+
+	function processIndicators(files) {
+		// return TagCategory.remove() //
+		return q.nbind(Indicator.remove, Indicator)()//
+		.then(c.log('[processIndicators] OK', false),
+				c.error('[processIndicators] FAILED'))//
+		.then(function(result) {
+			return readFiles(filterIndicatorFiles(files))//
+			.then(toJSON)//
+			.then(concatArrays)//					
+			.then(assignIdsByTags)//
+			.then(to1000arrays)//
+			.then(insertIndicators);
+		}) //
+		.then(c.log('[processIndicators] OK', false),
+				c.error('[processIndicators] FAILED'));
+	}
+
+	function filterIndicatorFiles(files) {
+		return _.filter(files, function(f) {
 			return f.match(/^indicator-.+$/g);
 		});
 	}
 
+	function assignIdsByTags(objects) {
+		// console.log('assignIds objects', objects);
+		_.each(objects, function(object) {
+			// console.log('assignIds object.name', object.name);
+			// var key = _.zip(_.pluck(object.tags, 'category'),
+			// _.pluck(object.tags, 'name')).join('-');
+			var key = _.map(object.tags, function(tag) {
+				return tag.category + '-' + tag.name;
+			}).join('-');
+			object._id = key;
+		});
+		// console.log('assignIds objects', objects);
+		return objects;
+	}
+
+	function insertIndicators(arrays) {
+		// console.log('insertTagCategories arrays', arrays);
+		return q.all(_.map(arrays, function(array) {
+			// return TagCategory.collection.insert(array);
+			return q.nbind(Indicator.collection.insert, Indicator.collection)(array);
+		}))//
+		.then(c.log('[insertIndicators] OK', false),
+				c.error('[insertIndicators] FAILED'));
+	}
+
+	// /**
+	// * ClearDB
+	// */
+	// function clearDB() {
+	// return q.all(
+	// [ TagCategory.remove(), Tag.remove(),
+	// Indicator.remove() ])
+	// //
+	// .then(c.log('[clearDB] OK', false),
+	// c.error('[clearDB] FAILED'));
+	// }
+	// /**
+	// *
+	// */
+	// function filterTagFiles(files) {
+	// return _.filter(files, function(f) {
+	// return f.match(/^tag-.+$/g);
+	// });
+	// }
+	// /**
+	// *
+	// */
+	// function filterIndicatorFiles(files) {
+	// return _.filter(files, function(f) {
+	// return f.match(/^indicator-.+$/g);
+	// });
+	// }
+	//
+	// function readFiles(fileLists) {
+	// return _.map(fileLists, function(files) {
+	// return _.map(files, function(f) {
+	// return fs.read(DATA + f);
+	// });
+	// });
+	// }
+	//
+	// // var readPromises = _.map(catFiles, function(f) {
+	// // return fs.read(DATA + f).then(JSON.parse).then(assignId)//
+	// // .then(function(categories) {
+	// // _.map()
+	// // return params;
+	// // });
+	// // });
+	// //
+	// // return readPromises;
+	//
+	// /**
+	// * Insert files
+	// */
+	// function insert(files) {
+	// return q.all([ insertTagCategories(files), insertTags(files),
+	// insertIndicators(files) ]);
+	// }
+	// /**
+	// *
+	// */
+	// function insertTagCategories(files) {
+	// console.log('Tag Categories ', files);
+	// var catFiles = _.filter(files, function(f) {
+	// return f.match(/^category-.+$/g);
+	// });
+	//
+	// return catFiles;
+	// // var readPromises = _.map(catFiles, function(f) {
+	// // return fs.read(DATA + f).then(JSON.parse).then(assignId)//
+	// // .then(function(categories) {
+	// // _.map()
+	// // return params;
+	// // });
+	// // });
+	// //
+	// // return readPromises;
+	// }
+	// /**
+	// *
+	// */
+	// function insertTags(files) {
+	// console.log('Tags ', files);
+	// return _.filter(files, function(f) {
+	// return f.match(/^tag-.+$/g);
+	// });
+	// }
+	// /**
+	// *
+	// */
+	// function insertIndicators(files) {
+	// console.log('Indicators ', files);
+	// return _.filter(files, function(f) {
+	// return f.match(/^indicator-.+$/g);
+	// });
+	// }
+	/***************************************************************************
+	 * 
+	 */
 	// /**
 	// * Config response
 	// */
@@ -246,7 +456,8 @@ router.get('/start', function(req, res) {
 	//
 	// function removeAll(params) {
 	// console.log("Removing data");
-	// return q.all([ TagCategory.remove(), Tag.remove(), Indicator.remove() ]);
+	// return q.all([ TagCategory.remove(), Tag.remove(),
+	// Indicator.remove() ]);
 	// }
 	//
 	// function logError(msg) {
@@ -272,13 +483,13 @@ router.get('/start', function(req, res) {
 	//
 	// function loadJSONFile(file) {
 	// log("Loading " + file)();
-	// return q.nfbind(fs.readFile)(path.join(__dirname, file), 'utf-8')//
+	// return q.nfbind(fs.readFile)(path.join(__dirname, file),
+	// 'utf-8')//
 	// .then(log(file + " loaded!"), logError(file + " not loaded!"))//
 	// .then(log("Parsing " + file))//
 	// .then(JSON.parse)//
 	// .then(log(file + " parsed!"), logError(file + " parser error!"));
 	// }
-
 	// function loadData(data) {
 	// return q.all([
 	// /**
@@ -485,13 +696,11 @@ router.get('/start', function(req, res) {
 	// });
 	//
 	// }
-
 	// function insertTagCategories(data) {
 	// console.log("Inserting tag categories");
 	// return q.nbind(TagCategory.collection.insert,
 	// TagCategory.collection)(plainTagCategories);
 	// }
-
 	// function insertTags(data) {
 	// // console.log("Inserting tags", plainTags);
 	// var tags = _.map(plainTags, function(tag) {
@@ -523,12 +732,12 @@ router.get('/start', function(req, res) {
 	// }));
 	// });
 	// }
-
 	// function updateTagDependencies(data) {
 	// console.log("Updating tags");
 	// return q.all(_.map(plainTags, function(plainTag) {
 	// // console.log("PlainTag", plainTag);
-	// tagDictionary[plainTag.category][plainTag.name]._dependencies = [];
+	// tagDictionary[plainTag.category][plainTag.name]._dependencies =
+	// [];
 	// return q.all(_.map(plainTag.tags, function(dependency) {
 	// // console.log("Dep", dependency);
 	// return new TagDependency({
@@ -544,7 +753,8 @@ router.get('/start', function(req, res) {
 	// });
 	// })).then(function(deps) {
 	// return
-	// tagDictionary[plainTag.category][plainTag.name].save().then(function(tag) {
+	// tagDictionary[plainTag.category][plainTag.name].save().then(function(tag)
+	// {
 	// return tag;
 	// }, function(err) {
 	// console.error(plainTag.category, plainTag.name);
@@ -603,7 +813,8 @@ router.get('/start', function(req, res) {
 	// arrays.push(indicators.splice(0, 1000));
 	// }
 	// return (q.all(_.map(arrays, function(a) {
-	// return q.nbind(Indicator.collection.insert, Indicator.collection)(a);
+	// return q.nbind(Indicator.collection.insert,
+	// Indicator.collection)(a);
 	// })));
 	// }
 	//
@@ -630,7 +841,6 @@ router.get('/start', function(req, res) {
 	// console.log(param);
 	// return param;
 	// }
-
 });
 
 module.exports = router;

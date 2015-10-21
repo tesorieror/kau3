@@ -23,8 +23,10 @@ function processParams(params) {
 }
 
 /* GET tag category by name */
-// YR, SS, DS, SY, IN, IT, CO, SE, SP, NA, GE
-router.get('/:ys/:ss/:ds/:sy/:it/:in/:co/:se/:sp/:na/:ge', function(req, res) {
+
+// YR, SS, DS, IT, IN, CO, SE, SP, SSYS, NA,GE
+
+router.get('/:ys/:ss/:ds/:it/:in/:co/:se/:sp/:ssys/:na/:ge', function(req, res) {
 	var idCollections = processParams(req.params);
 	idCollections = _.filter(idCollections, function(idCollection) {
 		return idCollection.length > 0;
@@ -41,7 +43,7 @@ router.get('/:ys/:ss/:ds/:sy/:it/:in/:co/:se/:sp/:na/:ge', function(req, res) {
 			};
 		})
 	}).then(function(data) {
-		return q.nbind(Tag.populate, Tag)(data, '_tags');
+		return q.nbind(Tag.populate, Tag)(data, 'tags');
 	})//
 	.then(function(data) {
 		res.status(200).send(data).end();
