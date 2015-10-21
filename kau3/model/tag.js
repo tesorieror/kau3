@@ -19,8 +19,8 @@ var schema = mongoose.Schema({
 	},
 	dependencies : [ {
 		tags : [ {
-			type : String,
-			ref : 'TagDependency'
+			tag : String,
+			ref : 'Tag'
 		} ]
 	} ]
 });
